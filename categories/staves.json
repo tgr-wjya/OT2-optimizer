@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Spiritlord's Staff",
+    "physAtk": 160,
+    "elemAtk": 320,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover SP equivalent to 1% of the damage dealt.",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Staff in Chest in Seat of the Water Sprite)"
+  },
+  {
+    "name": "Battle-Tested Staff",
+    "physAtk": 200,
+    "elemAtk": 400,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's speed.",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Roque in Oresrush] (Partitio's story completed)\nNPC<Drop 2%> [Cleric (10*) in Canalbrine]"
+  },
+  {
+    "name": "Lost Tribe's Staff",
+    "physAtk": 190,
+    "elemAtk": 381,
+    "bonus1": "Phys. Def. -102",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Infernal Castle]"
+  },
+  {
+    "name": "Forbidden Staff",
+    "physAtk": -210,
+    "elemAtk": 342,
+    "bonus1": "Elem. Def. -120",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Young Man in Crackridge]"
+  },
+  {
+    "name": "Sunshadow Staff",
+    "physAtk": 171,
+    "elemAtk": 335,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of light- and dark-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Hidden Item> [Boy in Western Gravell Wilds]"
+  },
+  {
+    "name": "Staff of Carnage",
+    "physAtk": 174,
+    "elemAtk": 330,
+    "bonus1": "Evasion +102",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [The Treasures of Ku] (Hikari's story completed)"
+  },
+  {
+    "name": "Diamond Rod",
+    "physAtk": 179,
+    "elemAtk": 325,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Gravell (*)]"
+  },
+  {
+    "name": "Great Sage's Staff",
+    "physAtk": 162,
+    "elemAtk": 324,
+    "bonus1": "Speed +108",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [The Lost Isle]"
+  },
+  {
+    "name": "Bellowing Baton",
+    "physAtk": 160,
+    "elemAtk": 322,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [La'mani in New Delsta: Theater] (Agnea's story completed)"
+  },
+  {
+    "name": "Sacred Flame Staff",
+    "physAtk": 160,
+    "elemAtk": 319,
+    "bonus1": "Elem. Def. +94",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail (*)]"
+  },
+  {
+    "name": "Rough-Hewn Rod",
+    "physAtk": 177,
+    "elemAtk": 315,
+    "bonus1": "Speed -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Gravell]"
+  },
+  {
+    "name": "Abyssal Rod",
+    "physAtk": 152,
+    "elemAtk": 304,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Duskruin Shrine: Depths]"
+  },
+  {
+    "name": "Hallowed Rod",
+    "physAtk": 152,
+    "elemAtk": 304,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of light-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Rifted Rock] (Temenos chapter 4)"
+  },
+  {
+    "name": "Ancient Staff",
+    "physAtk": 154,
+    "elemAtk": 294,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village]"
+  },
+  {
+    "name": "Yggdrasil Staff",
+    "physAtk": 146,
+    "elemAtk": 293,
+    "bonus1": "Evasion +86",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Psychic Staff",
+    "physAtk": 152,
+    "elemAtk": 214,
+    "bonus1": "Elem. Def. +88",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Cathedral Window Repair]"
+  },
+  {
+    "name": "Wisdom Wand",
+    "physAtk": 97,
+    "elemAtk": 195,
+    "bonus1": "Speed +59",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise (*)]"
+  },
+  {
+    "name": "Chef's Ladle",
+    "physAtk": 146,
+    "elemAtk": 194,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to confuse target.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Devilishily Delicious Dish]"
+  },
+  {
+    "name": "Quartz Rod",
+    "physAtk": 96,
+    "elemAtk": 192,
+    "bonus1": "Elem. Def. +57",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Fortune Wand",
+    "physAtk": 92,
+    "elemAtk": 185,
+    "bonus1": "Speed +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu (*)], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Sapphire Rod",
+    "physAtk": 61,
+    "elemAtk": 123,
+    "bonus1": "Elem. Def. +36",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise]"
+  },
+  {
+    "name": "Jade Staff",
+    "physAtk": 58,
+    "elemAtk": 116,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of light-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Fellsun Ruins] (Temenos' ch.3)"
+  },
+  {
+    "name": "Magus Wand",
+    "physAtk": 56,
+    "elemAtk": 112,
+    "bonus1": "Speed +33",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Oak Staff",
+    "physAtk": 53,
+    "elemAtk": 105,
+    "bonus1": "Evasion +31",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta (*)], [Winterbloom]"
+  },
+  {
+    "name": "Magic Breaker",
+    "physAtk": 198,
+    "elemAtk": 102,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+    "maxOwnable": 1,
+    "availability": "Chest [Forbidden Shrine] (Temenos' ch.3)"
+  },
+  {
+    "name": "Aegis Mace",
+    "physAtk": 143,
+    "elemAtk": 85,
+    "bonus1": "Critical +60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Conjurer's Staff",
+    "physAtk": 36,
+    "elemAtk": 77,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Mage Wand",
+    "physAtk": 32,
+    "elemAtk": 64,
+    "bonus1": "Speed +16",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch (*)], [Conning Creek]"
+  },
+  {
+    "name": "Rod of Wisdom",
+    "physAtk": 31,
+    "elemAtk": 62,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise]"
+  },
+  {
+    "name": "Lapis Rod",
+    "physAtk": 29,
+    "elemAtk": 59,
+    "bonus1": "Elem. Def. +14",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale]"
+  },
+  {
+    "name": "Light Wand",
+    "physAtk": 27,
+    "elemAtk": 54,
+    "bonus1": "Speed +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Beasting Village], [Canalbrine]"
+  },
+  {
+    "name": "Thunder Mace",
+    "physAtk": 60,
+    "elemAtk": 40,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Lair of the Usurper]"
+  },
+  {
+    "name": "Stone Rod",
+    "physAtk": 11,
+    "elemAtk": 24,
+    "bonus1": "Elem. Def. +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch]"
+  },
+  {
+    "name": "Wooden Staff",
+    "physAtk": 11,
+    "elemAtk": 23,
+    "bonus1": "Evasion +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Flamechurch], [Canalbrine]"
+  },
+  {
+    "name": "Mace",
+    "physAtk": 43,
+    "elemAtk": 21,
+    "bonus1": "Critical +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine]"
+  },
+  {
+    "name": "Sinner's Staff",
+    "physAtk": 5,
+    "elemAtk": 14,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Prison: Underground Passage]"
+  },
+  {
+    "name": "Pilgrim Rod",
+    "physAtk": 9,
+    "elemAtk": 10,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Cathedral Cellars]"
+  },
+  {
+    "name": "Charm Rod",
+    "physAtk": 6,
+    "elemAtk": 11,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Flamechurch]"
+  },
+  {
+    "name": "Staff of Judgment",
+    "physAtk": 3,
+    "elemAtk": 5,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Temenos' starting equipment"
+  },
+  {
+    "name": "Stick",
+    "physAtk": 3,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Beastling in Beasting Village or Nameless Village]\nOsvald's starting equipment"
+  },
+  {
+    "name": "Giant's Club",
+    "physAtk": 328,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of physical skills. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Ivory Ravine]"
+  },
+  {
+    "name": "Morning Star",
+    "physAtk": 190,
+    "elemAtk": null,
+    "bonus1": "Critical +55",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's speed.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters], [Guard in Conning Creek]"
+  },
+  {
+    "name": "Flail",
+    "physAtk": 124,
+    "elemAtk": null,
+    "bonus1": "Accuracy -50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Crackridge]"
+  }
+]

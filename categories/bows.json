@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Hunter's Bow",
+    "physAtk": 312,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce a random attribute.",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Bow in Chest in Sinking Ruins behind Behemoth mini-boss)"
+  },
+  {
+    "name": "Battle-Tested Bow",
+    "physAtk": 390,
+    "elemAtk": null,
+    "bonus1": "Critical +120",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)\nNPC<Drop 2%> [Tutor (9*) in New Delsta]"
+  },
+  {
+    "name": "Lost Tribe's Bow",
+    "physAtk": 371,
+    "elemAtk": null,
+    "bonus1": "Accuracy -103",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to poison target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Curious Nest] (Behind Tyrannodrake mini-boss)"
+  },
+  {
+    "name": "Exorcising Bow",
+    "physAtk": 339,
+    "elemAtk": null,
+    "bonus1": "Speed +110",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Elderly Soldier in Timberain Castle: Town Square]"
+  },
+  {
+    "name": "Floyd's Neo Bow",
+    "physAtk": 338,
+    "elemAtk": null,
+    "bonus1": "Accuracy +120",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 1,
+    "availability": "Quest [Floyd and Thurston's Next Chapter] (Partitio's story completed)"
+  },
+  {
+    "name": "Befuddling Greatbow",
+    "physAtk": 337,
+    "elemAtk": null,
+    "bonus1": "Evasion +105",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to confuse target.",
+    "maxOwnable": 1,
+    "availability": "Quest [Shirlutto's Next Chapter] (Temenos's story completed)"
+  },
+  {
+    "name": "Forbidden Bow",
+    "physAtk": 315,
+    "elemAtk": null,
+    "bonus1": "Critical +70",
+    "bonus2": "Evasion -120",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Nameless Village] (Guarded by Beastling (7*))"
+  },
+  {
+    "name": "Bow of Carnage",
+    "physAtk": 313,
+    "elemAtk": null,
+    "bonus1": "Speed +70",
+    "bonus2": "Critical +70",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Enshrouded King in Castle Ku) (Hikari's ch.5)"
+  },
+  {
+    "name": "Protector's Bow",
+    "physAtk": 310,
+    "elemAtk": null,
+    "bonus1": "Evasion +96",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village (*)]"
+  },
+  {
+    "name": "Art of Archery",
+    "physAtk": 297,
+    "elemAtk": null,
+    "bonus1": "Accuracy +115",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills (*)]"
+  },
+  {
+    "name": "Leviathan Greatbow",
+    "physAtk": 296,
+    "elemAtk": null,
+    "bonus1": "Critical +89",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [On the Water] (Behind Scourge of the Sea mini-boss)"
+  },
+  {
+    "name": "Tornado Bow",
+    "physAtk": 295,
+    "elemAtk": null,
+    "bonus1": "Speed +90",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Stormy Cape] (Ochette's story completed)"
+  },
+  {
+    "name": "Mechanical Bow",
+    "physAtk": 294,
+    "elemAtk": null,
+    "bonus1": "Accuracy +93",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+    "maxOwnable": 1,
+    "availability": "Chest [The Roque company: East Tower]"
+  },
+  {
+    "name": "Evening Mist",
+    "physAtk": 293,
+    "elemAtk": 325,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Ivory Ravine]"
+  },
+  {
+    "name": "Master's Greatbow",
+    "physAtk": 288,
+    "elemAtk": null,
+    "bonus1": "Critical +88",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island]"
+  },
+  {
+    "name": "Ancient Bow",
+    "physAtk": 286,
+    "elemAtk": null,
+    "bonus1": "Speed +87",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village]"
+  },
+  {
+    "name": "King of Beasts",
+    "physAtk": 282,
+    "elemAtk": null,
+    "bonus1": "Evasion +90",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Black Bow",
+    "physAtk": 281,
+    "elemAtk": null,
+    "bonus1": "Critical +145",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Grotesque Monster in Tombs of the Wardenbeasts] (Extra stories)"
+  },
+  {
+    "name": "Engagement Bow",
+    "physAtk": 197,
+    "elemAtk": null,
+    "bonus1": "Speed +64",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 1,
+    "availability": "Chest [Montwise] (Guarded by Former Champion (6*))"
+  },
+  {
+    "name": "Absolute Zero Bow",
+    "physAtk": 187,
+    "elemAtk": 158,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Sacred Peak Altahe]"
+  },
+  {
+    "name": "Sniper's Bow",
+    "physAtk": 186,
+    "elemAtk": null,
+    "bonus1": "Accuracy +56",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Expert's Bow",
+    "physAtk": 183,
+    "elemAtk": null,
+    "bonus1": "Speed +57",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Raging Beast",
+    "physAtk": 179,
+    "elemAtk": null,
+    "bonus1": "Evasion +56",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 4,
+    "availability": "Chest [Southern Stormhail Snows], [Cavern of Waves]\nNPC<Item> [Hunter in Merry Hills], [Beastling Hunter in Western Tropu'hopu Traverse]"
+  },
+  {
+    "name": "Marksman's Bow",
+    "physAtk": 118,
+    "elemAtk": null,
+    "bonus1": "Speed +35",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Battle Bow",
+    "physAtk": 114,
+    "elemAtk": null,
+    "bonus1": "Accuracy +34",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank]"
+  },
+  {
+    "name": "Knight's Greatbow",
+    "physAtk": 109,
+    "elemAtk": null,
+    "bonus1": "Critical +34",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu (*)]"
+  },
+  {
+    "name": "Cupid's Bow",
+    "physAtk": 104,
+    "elemAtk": null,
+    "bonus1": "Accuracy +32",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to confuse target.",
+    "maxOwnable": 1,
+    "availability": "Quest [Pearl Hunt]"
+  },
+  {
+    "name": "Steel Bow",
+    "physAtk": 80,
+    "elemAtk": null,
+    "bonus1": "Accuracy +22",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush (*)]"
+  },
+  {
+    "name": "Soldier's Bow",
+    "physAtk": 67,
+    "elemAtk": null,
+    "bonus1": "Critical +18",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank]"
+  },
+  {
+    "name": "Mirage Bow",
+    "physAtk": 63,
+    "elemAtk": 45,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+    "maxOwnable": 1,
+    "availability": "Chest [Southern Clockbank Highroad]"
+  },
+  {
+    "name": "Sailor's Bow",
+    "physAtk": 60,
+    "elemAtk": null,
+    "bonus1": "Speed +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Conning Creek]"
+  },
+  {
+    "name": "Assault Bow",
+    "physAtk": 58,
+    "elemAtk": null,
+    "bonus1": "Accuracy +14",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Cropdale]"
+  },
+  {
+    "name": "Tenacious Bow",
+    "physAtk": 57,
+    "elemAtk": null,
+    "bonus1": "Critical +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Woman in Cropdale]"
+  },
+  {
+    "name": "Shadow Bow",
+    "physAtk": 55,
+    "elemAtk": 55,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Borderfall]"
+  },
+  {
+    "name": "Guard's Greatbow",
+    "physAtk": 53,
+    "elemAtk": null,
+    "bonus1": "Critical +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Conning Creek (*)]"
+  },
+  {
+    "name": "Traveler's Bow",
+    "physAtk": 47,
+    "elemAtk": null,
+    "bonus1": "Speed +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Canalbrine], [Besting Village (Jerky)]"
+  },
+  {
+    "name": "Giant Bow",
+    "physAtk": 24,
+    "elemAtk": null,
+    "bonus1": "Critical +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Composite Bow",
+    "physAtk": 22,
+    "elemAtk": null,
+    "bonus1": "Accuracy +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village]"
+  },
+  {
+    "name": "Beastling's Bow",
+    "physAtk": 20,
+    "elemAtk": null,
+    "bonus1": "Evasion +4",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (Jerky)]"
+  },
+  {
+    "name": "Shortbow",
+    "physAtk": 11,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Bow",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Ochette's starting equipment"
+  },
+  {
+    "name": "Handmade Bow",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Partitio's starting equipment"
+  }
+]

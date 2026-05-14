@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Warlord's Spear",
+    "physAtk": 310,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover BP when defeating an enemy.",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Polearm in a chest from Timberain Castle: Town Square)"
+  },
+  {
+    "name": "Battle-Tested Spear",
+    "physAtk": 390,
+    "elemAtk": null,
+    "bonus1": "Critical +120",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Benkei in Castle Ku] (Hikari's story completed)\nNPC<Drop 2%> [Townsperson (8*) in Sai]"
+  },
+  {
+    "name": "Lost Tribe's Spear",
+    "physAtk": 386,
+    "elemAtk": null,
+    "bonus1": "Speed -101",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to put target to sleep.",
+    "maxOwnable": 1,
+    "availability": "Chest [Shipwreck of the Empress]"
+  },
+  {
+    "name": "Gravity Lance",
+    "physAtk": 375,
+    "elemAtk": null,
+    "bonus1": "Accuracy -75",
+    "bonus2": "Evasion -90",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island (*)]"
+  },
+  {
+    "name": "Spear of Strength",
+    "physAtk": 338,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Guaranteed critical hit.",
+    "maxOwnable": 1,
+    "availability": "Quest [The Strongest] (Hikari's story completed)"
+  },
+  {
+    "name": "Tornado Glaive",
+    "physAtk": 337,
+    "elemAtk": null,
+    "bonus1": "Evasion +105",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Curious Nest] (Guarded by Tyrannodrake mini-boss)"
+  },
+  {
+    "name": "Forbidden Spear",
+    "physAtk": 320,
+    "elemAtk": null,
+    "bonus1": "Speed -120",
+    "bonus2": "Evasion +50",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Townsperson in Sai: East District]"
+  },
+  {
+    "name": "Fire Dragon's Glaive",
+    "physAtk": 318,
+    "elemAtk": null,
+    "bonus1": "Evasion +95",
+    "bonus2": null,
+    "effect": "Equip effect: Raises Potency of fire-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Decaying Temple]"
+  },
+  {
+    "name": "Monster Bone Spear",
+    "physAtk": 315,
+    "elemAtk": null,
+    "bonus1": "Accuracy -65",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Obsidian Lance",
+    "physAtk": 311,
+    "elemAtk": null,
+    "bonus1": "Critical +97",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku (*)]"
+  },
+  {
+    "name": "Seraphim Spear",
+    "physAtk": 296,
+    "elemAtk": null,
+    "bonus1": "Speed +96",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [Old Clock Tower]"
+  },
+  {
+    "name": "Venom Lance",
+    "physAtk": 292,
+    "elemAtk": null,
+    "bonus1": "Critical +89",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to poison target.",
+    "maxOwnable": 1,
+    "availability": "Chest [The Roque Company: West Tower]"
+  },
+  {
+    "name": "Well-Worn Pole",
+    "physAtk": 289,
+    "elemAtk": 330,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+    "maxOwnable": 1,
+    "availability": "Quest [Lady Clarissa's Next Chapter] (Osvald's & Ochette's story completed)"
+  },
+  {
+    "name": "Crimson Spear",
+    "physAtk": 288,
+    "elemAtk": null,
+    "bonus1": "Critical +90",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku]"
+  },
+  {
+    "name": "Hyperion Spear",
+    "physAtk": 286,
+    "elemAtk": null,
+    "bonus1": "Speed +88",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Rare Metal Glaive",
+    "physAtk": 284,
+    "elemAtk": null,
+    "bonus1": "Evasion +82",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island]"
+  },
+  {
+    "name": "Sea God's Spear",
+    "physAtk": 224,
+    "elemAtk": null,
+    "bonus1": "Accuracy +91",
+    "bonus2": null,
+    "effect": "Attack effect: Deal 1 additional attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [Sinking Ruins]"
+  },
+  {
+    "name": "Nightmare Glaive",
+    "physAtk": 210,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to put target to sleep.",
+    "maxOwnable": 1,
+    "availability": "Chest [Castle Mei: East Tower]"
+  },
+  {
+    "name": "Clan Mei Spear",
+    "physAtk": 187,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's speed.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Clan Mei Soldier in Stormhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+  },
+  {
+    "name": "Paladin's Lance",
+    "physAtk": 184,
+    "elemAtk": null,
+    "bonus1": "Critical +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Lightning Glaive",
+    "physAtk": 182,
+    "elemAtk": null,
+    "bonus1": "Evasion +56",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai (*)], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Scorched Bone Spear",
+    "physAtk": 132,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Quicksand Gaol]"
+  },
+  {
+    "name": "Heavy Bone Spear",
+    "physAtk": 125,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu (*)]"
+  },
+  {
+    "name": "Matching Trident",
+    "physAtk": 114,
+    "elemAtk": null,
+    "bonus1": "Critical +35",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Waiting Woman in Northern Conning Creek Coast]\nChest [Northern Conning Creek Coast] (Guarded by Waiting Woman (5*))"
+  },
+  {
+    "name": "Soldier's Spear",
+    "physAtk": 111,
+    "elemAtk": null,
+    "bonus1": "Speed +34",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom], [Clockbank]"
+  },
+  {
+    "name": "Fuscina",
+    "physAtk": 106,
+    "elemAtk": null,
+    "bonus1": "Accuracy +20",
+    "bonus2": "Critical +20",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena (*)]"
+  },
+  {
+    "name": "Master Harpoon",
+    "physAtk": 103,
+    "elemAtk": null,
+    "bonus1": "Accuracy +31",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine (*)]"
+  },
+  {
+    "name": "Vanguard's Javelin",
+    "physAtk": 71,
+    "elemAtk": null,
+    "bonus1": "Speed +41",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Scholar in Montwise: Library]"
+  },
+  {
+    "name": "Gluttonous Glaive",
+    "physAtk": 69,
+    "elemAtk": null,
+    "bonus1": "Accuracy -40",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 1,
+    "availability": "Quest [Culinary Cunning]"
+  },
+  {
+    "name": "Slashing Glaive",
+    "physAtk": 68,
+    "elemAtk": null,
+    "bonus1": "Evasion +18",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Steel Lance",
+    "physAtk": 63,
+    "elemAtk": null,
+    "bonus1": "Critical +16",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank]"
+  },
+  {
+    "name": "Sandstorm Spear",
+    "physAtk": 58,
+    "elemAtk": null,
+    "bonus1": "Speed +17",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu (*)], [Black Market]"
+  },
+  {
+    "name": "Spear of Sleep",
+    "physAtk": 57,
+    "elemAtk": 57,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to put target to sleep.",
+    "maxOwnable": 1,
+    "availability": "Mini-Boss<Drop> [Monarch in Starfall Spring]"
+  },
+  {
+    "name": "War Glaive",
+    "physAtk": 49,
+    "elemAtk": null,
+    "bonus1": "Evasion +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu], [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Memorial Harpoon",
+    "physAtk": 38,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's speed.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Merchant in Canalbrine]"
+  },
+  {
+    "name": "Bone Spear",
+    "physAtk": 28,
+    "elemAtk": null,
+    "bonus1": "Accuracy -18",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Lance",
+    "physAtk": 24,
+    "elemAtk": null,
+    "bonus1": "Critical +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta]"
+  },
+  {
+    "name": "Long Spear",
+    "physAtk": 22,
+    "elemAtk": null,
+    "bonus1": "Speed +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu]"
+  },
+  {
+    "name": "Spear",
+    "physAtk": 11,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Desert Spear",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Hikari's starting equipment\nNPC<Item> [Boy in Ku: Castle Town]"
+  },
+  {
+    "name": "Handmade Spear",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Partitio's starting equipment"
+  }
+]

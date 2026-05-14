@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Conqueror's Sword",
+    "physAtk": 200,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Raise Physical attack by 250 against broken foes.",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Sword from sidequest The Sword in the Stone)"
+  },
+  {
+    "name": "Serpent Slayer",
+    "physAtk": 420,
+    "elemAtk": null,
+    "bonus1": "Accuracy -75",
+    "bonus2": "Critical -150",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Infernal Castle]"
+  },
+  {
+    "name": "Battle-Tested Blade",
+    "physAtk": 400,
+    "elemAtk": null,
+    "bonus1": "Critical +120",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of physical skills. (+30%)",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)\nNPC<Drop 2%> [Young Man (10*) in Tropu'hopu]"
+  },
+  {
+    "name": "Lost Tribe's Blade",
+    "physAtk": 386,
+    "elemAtk": null,
+    "bonus1": "Phys. Def. -101",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "Mini-Boss<Drop> [Battle-Worn Shark in On the Water]"
+  },
+  {
+    "name": "Eclipse Edge",
+    "physAtk": 352,
+    "elemAtk": null,
+    "bonus1": "Accuracy -75",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Captain Kaldena in Rifted Rock] (Temenos chapter 4)"
+  },
+  {
+    "name": "Sword of Oaths",
+    "physAtk": 349,
+    "elemAtk": null,
+    "bonus1": "Evasion +104",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+    "maxOwnable": 1,
+    "availability": "Quest [Ort's Next Chapter] (Temenos' story completed)"
+  },
+  {
+    "name": "Divine Splendor",
+    "physAtk": 345,
+    "elemAtk": null,
+    "bonus1": "Speed +110",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ku Officer in Castle Ku]"
+  },
+  {
+    "name": "Expert's Obsidian Edge",
+    "physAtk": 343,
+    "elemAtk": null,
+    "bonus1": "Accuracy +105",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Arrogant Warrior in Southern Ku Sands], [Tough Warrior in Southern Ku Sands]"
+  },
+  {
+    "name": "Giant's Blade",
+    "physAtk": 323,
+    "elemAtk": null,
+    "bonus1": "Accuracy -65",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Forbidden Blade",
+    "physAtk": 322,
+    "elemAtk": null,
+    "bonus1": "Speed +77",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to raise target's physical attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [Forsaken Graveyard] (Guarded by Devourer of Dreams mini-boss)"
+  },
+  {
+    "name": "Skypiercer",
+    "physAtk": 320,
+    "elemAtk": null,
+    "bonus1": "Speed +50",
+    "bonus2": "Critical +50",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku (*)]"
+  },
+  {
+    "name": "Sanctum Sword",
+    "physAtk": 319,
+    "elemAtk": null,
+    "bonus1": "Speed +98",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail (*)]"
+  },
+  {
+    "name": "Keepsake Sword",
+    "physAtk": 312,
+    "elemAtk": null,
+    "bonus1": "Critical +86",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's evasion.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Young Warrior in Sai] (Sidequest: Sword Hunter in the Decaying Temple)"
+  },
+  {
+    "name": "Hypno Sword",
+    "physAtk": 310,
+    "elemAtk": null,
+    "bonus1": "Evasion +90",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to put target to sleep.",
+    "maxOwnable": 1,
+    "availability": "Chest [Southern Timberain Trail]"
+  },
+  {
+    "name": "Evil Slayer",
+    "physAtk": 305,
+    "elemAtk": null,
+    "bonus1": "Accuracy +52",
+    "bonus2": "Critical +52",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Gladiator in Montwise: Underground Arena]"
+  },
+  {
+    "name": "Starsplitter",
+    "physAtk": 296,
+    "elemAtk": null,
+    "bonus1": "Critical +91",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+    "maxOwnable": 1,
+    "availability": "Chest [Western Gravell Wilds]"
+  },
+  {
+    "name": "Ogre's Bane",
+    "physAtk": 294,
+    "elemAtk": null,
+    "bonus1": "Critical +88",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku]"
+  },
+  {
+    "name": "Bastard Sword",
+    "physAtk": 292,
+    "elemAtk": null,
+    "bonus1": "Accuracy +87",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Lostseed (*)]"
+  },
+  {
+    "name": "Great Blade",
+    "physAtk": 205,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai (*)]"
+  },
+  {
+    "name": "Guardian's Iceblade",
+    "physAtk": 203,
+    "elemAtk": null,
+    "bonus1": "Evasion +41",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Glacis in Sacred Peak Altahe] (Ochette chapter 2: Glacis's Route)"
+  },
+  {
+    "name": "Bloodsucker",
+    "physAtk": 199,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+  },
+  {
+    "name": "Soulsucker",
+    "physAtk": 199,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover SP equivalent to 1% of the damage dealt.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+  },
+  {
+    "name": "Aegis Sword",
+    "physAtk": 197,
+    "elemAtk": null,
+    "bonus1": "Speed +59",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Master Rod",
+    "physAtk": 196,
+    "elemAtk": null,
+    "bonus1": "Speed +57",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's speed.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Devilishily Delicious Dish]"
+  },
+  {
+    "name": "Firestarter",
+    "physAtk": 195,
+    "elemAtk": 298,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Eastern Ku Sands]"
+  },
+  {
+    "name": "Clan Mei Sword",
+    "physAtk": 192,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Clan Mei Soldier in Sotrmhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+  },
+  {
+    "name": "Stonesplitter",
+    "physAtk": 184,
+    "elemAtk": null,
+    "bonus1": "Critical +56",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store] (Partitio's Ch.3 completed)"
+  },
+  {
+    "name": "Enchanted Edge",
+    "physAtk": 183,
+    "elemAtk": 140,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge (*)]"
+  },
+  {
+    "name": "Crescent Saber",
+    "physAtk": 123,
+    "elemAtk": null,
+    "bonus1": "Accuracy +36",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Reaper's Blade",
+    "physAtk": 119,
+    "elemAtk": null,
+    "bonus1": "Accuracy +34",
+    "bonus2": null,
+    "effect": "Atteck effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Elderly Man in Clockbank]"
+  },
+  {
+    "name": "Quartz Blade",
+    "physAtk": 118,
+    "elemAtk": 70,
+    "bonus1": "Accuracy -55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Sandflow Pass] (Guarded by Soldier 4*)"
+  },
+  {
+    "name": "Warrior's Sword",
+    "physAtk": 117,
+    "elemAtk": null,
+    "bonus1": "Speed +35",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena (*)]"
+  },
+  {
+    "name": "Little Crow",
+    "physAtk": 112,
+    "elemAtk": null,
+    "bonus1": "Critical +34",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Refined Sword",
+    "physAtk": 107,
+    "elemAtk": null,
+    "bonus1": "Speed +32",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Heavy Blade",
+    "physAtk": 80,
+    "elemAtk": null,
+    "bonus1": "Accuracy -55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush (*)], [Clockbank]"
+  },
+  {
+    "name": "Champion's Sword",
+    "physAtk": 70,
+    "elemAtk": null,
+    "bonus1": "Accuracy +18",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena (*)]"
+  },
+  {
+    "name": "Heretic's Greatsword",
+    "physAtk": 69,
+    "elemAtk": null,
+    "bonus1": "Accuracy -40",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest: [Ruffians's Hideout]"
+  },
+  {
+    "name": "Magic Eater",
+    "physAtk": 68,
+    "elemAtk": null,
+    "bonus1": "Evasion +17",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+    "maxOwnable": 1,
+    "availability": "Chest: [Northern Wellgrove Trail]"
+  },
+  {
+    "name": "Silver Sword",
+    "physAtk": 59,
+    "elemAtk": null,
+    "bonus1": "Speed +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Guard's Saber",
+    "physAtk": 54,
+    "elemAtk": null,
+    "bonus1": "Accuracy +12",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Conning Creek (*)]"
+  },
+  {
+    "name": "Spirit Scimitar",
+    "physAtk": 52,
+    "elemAtk": 25,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale]"
+  },
+  {
+    "name": "Broadsword",
+    "physAtk": 48,
+    "elemAtk": null,
+    "bonus1": "Speed +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Canalbrine], [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Iron Blade",
+    "physAtk": 30,
+    "elemAtk": null,
+    "bonus1": "Accuracy -20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Beasting Village]"
+  },
+  {
+    "name": "Nameless Sword",
+    "physAtk": 23,
+    "elemAtk": null,
+    "bonus1": "Critical +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Ryu]"
+  },
+  {
+    "name": "Long Sword",
+    "physAtk": 12,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu]"
+  },
+  {
+    "name": "Knight's Sword",
+    "physAtk": 12,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Crick (Temenos' chapter 1)"
+  },
+  {
+    "name": "Sword of the Sands",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Ritsu (Hikari's chapter 1)"
+  },
+  {
+    "name": "Rotted Sword",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+  },
+  {
+    "name": "Desert Blade",
+    "physAtk": 5,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Hikari's starting equipment\nNPC<Item> [Novice Warrior in Southern Ku Sands]"
+  },
+  {
+    "name": "Thief's Sword",
+    "physAtk": 4,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Throné's starting equipment"
+  }
+]

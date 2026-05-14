@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Lionheart's Axe",
+    "physAtk": 320,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Raises max HP during battle.",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Axe in Quicksand Gaol, guarded by Lord of Sands mini-boss)"
+  },
+  {
+    "name": "Battle-Tested Axe",
+    "physAtk": 400,
+    "elemAtk": 250,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of lightning- and ice-based attacks. (+30%)",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)\nNPC<Drop 2%> [Villager (8*) in Cape Cold]"
+  },
+  {
+    "name": "Lost Tribe's Axe",
+    "physAtk": 381,
+    "elemAtk": null,
+    "bonus1": "Critical -102",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to confuse target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Ivory Ravine]"
+  },
+  {
+    "name": "Reaper's Sickle",
+    "physAtk": 366,
+    "elemAtk": null,
+    "bonus1": "Accuracy -66",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Mysterious Box]"
+  },
+  {
+    "name": "Hero's Axe",
+    "physAtk": 340,
+    "elemAtk": null,
+    "bonus1": "Critical +102",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Soldier in Timberain]"
+  },
+  {
+    "name": "Forbidden Axe",
+    "physAtk": 324,
+    "elemAtk": null,
+    "bonus1": "Accuracy +80",
+    "bonus2": "Critical -120",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [House Wellows Manor]"
+  },
+  {
+    "name": "Flayer's Admonishment",
+    "physAtk": 323,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+    "maxOwnable": 1,
+    "availability": "Chest [Stormhail: Sacred Guard Headquarters] (Guarded by Sanctum Knight (7*))"
+  },
+  {
+    "name": "Royal Guard's Hatchet",
+    "physAtk": 319,
+    "elemAtk": null,
+    "bonus1": "Speed +97",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain (*)]"
+  },
+  {
+    "name": "Axe of the Conqueror",
+    "physAtk": 306,
+    "elemAtk": null,
+    "bonus1": "Critical +90",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Stormy Cape] (Ochette's story completed)"
+  },
+  {
+    "name": "Cleaver of Destruction",
+    "physAtk": 304,
+    "elemAtk": null,
+    "bonus1": "Accuracy +91",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Beastling in Nameless Village]\nChest [Timberain Castle]"
+  },
+  {
+    "name": "Stupefying Stone Axe",
+    "physAtk": 297,
+    "elemAtk": null,
+    "bonus1": "Speed +91",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to confuse target.",
+    "maxOwnable": 2,
+    "availability": "Quest [Ghormf!]\nNPC<Item> [Beastling in Beasting Village]"
+  },
+  {
+    "name": "Icy Axe",
+    "physAtk": 295,
+    "elemAtk": 198,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Mercenary in Stormhail: Castle Mei]"
+  },
+  {
+    "name": "Imperial Axe",
+    "physAtk": 293,
+    "elemAtk": null,
+    "bonus1": "Accuracy +89",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain]"
+  },
+  {
+    "name": "Frontier Axe",
+    "physAtk": 290,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (*)]"
+  },
+  {
+    "name": "Contaminated Iron Ingot",
+    "physAtk": 289,
+    "elemAtk": null,
+    "bonus1": "Phys. Def. -60",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to poison target.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Factory Worker in Roque Island]"
+  },
+  {
+    "name": "Double Tomahawk",
+    "physAtk": 230,
+    "elemAtk": 264,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Deal 1 additional attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [On the Water]"
+  },
+  {
+    "name": "Guardian's Great Axe",
+    "physAtk": 204,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": "Critical +55",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Tera in Bed of the Titan] (Ochette ch.2)"
+  },
+  {
+    "name": "Dark Slasher",
+    "physAtk": 197,
+    "elemAtk": null,
+    "bonus1": "Critical +58",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of dark based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Forsaken Graveyard]"
+  },
+  {
+    "name": "Pirate's Axe",
+    "physAtk": 195,
+    "elemAtk": null,
+    "bonus1": "Critical +57",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai (*)], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Platinum Hatchet",
+    "physAtk": 194,
+    "elemAtk": null,
+    "bonus1": "Speed +58",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Platinum Hatchet]"
+  },
+  {
+    "name": "Quartz Axe",
+    "physAtk": 187,
+    "elemAtk": 154,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+    "maxOwnable": 1,
+    "availability": "Chest [Nameless Isle]"
+  },
+  {
+    "name": "Grand Cleaver",
+    "physAtk": 186,
+    "elemAtk": null,
+    "bonus1": "Critical +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge (*)]"
+  },
+  {
+    "name": "Bone Cleaver",
+    "physAtk": 128,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Guardian's Axe",
+    "physAtk": 123,
+    "elemAtk": null,
+    "bonus1": "Accuracy +36",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Guillotine's Blade",
+    "physAtk": 119,
+    "elemAtk": null,
+    "bonus1": "Accuracy +20",
+    "bonus2": "Critical +20",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank (*)]"
+  },
+  {
+    "name": "Silver Hatchet",
+    "physAtk": 112,
+    "elemAtk": null,
+    "bonus1": "Speed +32",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (*)], [Winterbloom]"
+  },
+  {
+    "name": "Frost Axe",
+    "physAtk": 110,
+    "elemAtk": null,
+    "bonus1": "Speed +30",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Abandoned Waterway] (Guarded by Carnivorous Plant mini-boss)"
+  },
+  {
+    "name": "Rock Cleaver",
+    "physAtk": 108,
+    "elemAtk": null,
+    "bonus1": "Critical +31",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Axe of Avarice",
+    "physAtk": 107,
+    "elemAtk": null,
+    "bonus1": "Phys. Def. +20",
+    "bonus2": "Elem. Def. +20",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Captain Stenvar in Guard Outpost] (Osvald ch.3)"
+  },
+  {
+    "name": "Helmcleaver",
+    "physAtk": 71,
+    "elemAtk": null,
+    "bonus1": "Accuracy -45",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+    "maxOwnable": 1,
+    "availability": "Chest [Northern Conning Creek Coast]"
+  },
+  {
+    "name": "Strong Axe",
+    "physAtk": 70,
+    "elemAtk": null,
+    "bonus1": "Accuracy +18",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom]"
+  },
+  {
+    "name": "Poisoned Hatchet",
+    "physAtk": 61,
+    "elemAtk": 55,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to poison target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Sand Lion's Den]"
+  },
+  {
+    "name": "Battle Hatchet",
+    "physAtk": 59,
+    "elemAtk": null,
+    "bonus1": "Speed +14",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Guard's Great Axe",
+    "physAtk": 54,
+    "elemAtk": null,
+    "bonus1": "Critical +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Conning Creek]"
+  },
+  {
+    "name": "Iron Axe",
+    "physAtk": 48,
+    "elemAtk": null,
+    "bonus1": "Accuracy +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village], [Ryu]"
+  },
+  {
+    "name": "War Axe",
+    "physAtk": 26,
+    "elemAtk": null,
+    "bonus1": "Accuracy +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Canalbrine]"
+  },
+  {
+    "name": "Woodcutter's Great Axe",
+    "physAtk": 24,
+    "elemAtk": null,
+    "bonus1": "Critical +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village]"
+  },
+  {
+    "name": "Beastling's Hatchet",
+    "physAtk": 23,
+    "elemAtk": null,
+    "bonus1": "Speed +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (Jerky)]"
+  },
+  {
+    "name": "Handaxe",
+    "physAtk": 12,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village], [Canalbrine]"
+  },
+  {
+    "name": "Woodcutter's Axe",
+    "physAtk": 10,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Gus (Agnea's chapter 1)"
+  },
+  {
+    "name": "Rotted Axe",
+    "physAtk": 7,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+  },
+  {
+    "name": "Demolition Axe",
+    "physAtk": 6,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Ochette's starting equipment"
+  },
+  {
+    "name": "Small Axe",
+    "physAtk": 6,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Elderly Woman's Son in Forest Path]\nCastti's starting equipment"
+  },
+  {
+    "name": "Snake Fang",
+    "physAtk": 6,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Scaracci (Throné's chapter 1)"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Spurning Ribbon",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Wards off all enemy encounters.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Gate Between Worlds]"
+  },
+  {
+    "name": "Alluring Ribbon",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises the chances of encountering enemies.",
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Gloomy Hunter in Eastern Wellgrove Trail]\nQuest [Lingering Love]"
+  },
+  {
+    "name": "EXP Augmentor",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Receive additional EXP. (+50%)",
+    "maxOwnable": 1,
+    "availability": "Chest [On the Water]"
+  },
+  {
+    "name": "JP Augmentor",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Receive additional JP. (+50%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Cavern of Waves]"
+  },
+  {
+    "name": "Brooch of Joy",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Receive additional EXP and JP. (+50% / +50%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Melia in Winterbloom] (Castti's story completed)"
+  },
+  {
+    "name": "Cait Powder",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises the chances of encountering caits.",
+    "maxOwnable": 2,
+    "availability": "Quest [My Beloved Catharine]\nChest [Tropu'hopu] (Guarded by Cat Connoisseur (6*))"
+  },
+  {
+    "name": "Octopuff Pot",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises the chances of encountering octopuffs.",
+    "maxOwnable": 3,
+    "availability": "Quest [Will Research for Money]\nChest [Lighthouse Island]\nNPC<Item> [Fisherman in Conning Creek]"
+  },
+  {
+    "name": "Dragon's Scarf",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover SP after performing an action. (+6 SP)",
+    "maxOwnable": 3,
+    "availability": "Quest [Utterly Exhausted!]\nChest [??? (Gate of Finis)]\nNPC<Item> [Coda in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+  },
+  {
+    "name": "Beastly Scarf",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover HP after performing an action. (+100 HP)",
+    "maxOwnable": 3,
+    "availability": "Quest [Useless Fruit]\nChest [On the Water]\nNPC<Item> [Rico in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+  },
+  {
+    "name": "Warding Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Become less readily targeted by foes.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Scholar in Crackridge]"
+  },
+  {
+    "name": "Divine Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents petrification.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Beastling in Nameless Village]"
+  },
+  {
+    "name": "Melia's Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover HP and SP after performing an action.\n(+300 HP / +10 SP)",
+    "maxOwnable": 1,
+    "availability": "Quest [Melia's Next Chapter] (Castti's story completed)"
+  },
+  {
+    "name": "Enfeebling Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Extends duration of inflicted enfeebling effects by 1 turn.",
+    "maxOwnable": 1,
+    "availability": "Chest [Unfinished Tunnel]"
+  },
+  {
+    "name": "Prosperity Charm",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Receive additional leaves ($) at the end of battle. (+10%)\n(equip both for +20%)",
+    "maxOwnable": 2,
+    "availability": "Quest [The Soused Nobleman]\nChest [The Roque Company: Factory]"
+  },
+  {
+    "name": "Charm of Compassion",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover more HP and SP when healed. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Quest [Through a Child's Eyes]"
+  },
+  {
+    "name": "Blessing in Disguise",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Turns negative values on other equipment into positive values.",
+    "maxOwnable": 2,
+    "availability": "Chest [Seat of the Water Sprite], [The Lost Isle]"
+  },
+  {
+    "name": "Finisher's Claws",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises damage dealt by critical hits. (+50%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Nameless Isle]"
+  },
+  {
+    "name": "Stone of Truth",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Grants permanent spell intensity boost at start of battle.",
+    "maxOwnable": 1,
+    "availability": "Chest [Infernal Castle] (Behind Deadwolf mini-boss)"
+  },
+  {
+    "name": "Fang of Ferocity",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises damage dealt by boosted attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Curious Nest] (Behind Tyrannodrake mini-boss)"
+  },
+  {
+    "name": "Gale Feather",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +120",
+    "bonus2": null,
+    "effect": "Equip effect: Raises speed and evasion at start of battle.",
+    "maxOwnable": 1,
+    "availability": "Mini-Boss<Drop> [Heavenwing in Old Clocktower]"
+  },
+  {
+    "name": "Eye of Calamity",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces physical attack and elemental attack at start of battle.",
+    "maxOwnable": 1,
+    "availability": "Mini-Boss<Drop> [Deep One in Ivory Ravine]"
+  },
+  {
+    "name": "Victory Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises physical attack at start of battle.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Gambling Man]"
+  },
+  {
+    "name": "Hand-Sewn Gloves",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises elemental defense at start of battle.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Girl in Stormhail]"
+  },
+  {
+    "name": "Foreign Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +35",
+    "bonus2": null,
+    "effect": "Equip effect: Raises critical rate at start of battle.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Traveler in Clockbank]"
+  },
+  {
+    "name": "Alpione's Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +1200",
+    "bonus2": null,
+    "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+    "maxOwnable": 1,
+    "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+  },
+  {
+    "name": "Librarian's Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +120",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Procuring Peculiar Tomes]"
+  },
+  {
+    "name": "Champion's Belt",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +100",
+    "bonus2": null,
+    "effect": "Equip effect: Prevents surprise attacks from enemies.",
+    "maxOwnable": 99,
+    "availability": "Boss<drop 100%> [Yurinas in Montwise: Underground Arena]"
+  },
+  {
+    "name": "Mikka's Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +100",
+    "bonus2": "Speed +100",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Mikka's Next Chapter] (Hikari & Agnea's Crossed Paths completed)"
+  },
+  {
+    "name": "Laila's Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +100",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Laila's Next Chapter] (Agnea & Temenos' story completed)"
+  },
+  {
+    "name": "Sisters' Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +100",
+    "bonus2": "Critical +100",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [The Missing Girl]"
+  },
+  {
+    "name": "Jade Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +100",
+    "bonus2": "Max. Sp +10",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Islander in Tropu'hopu: Floating Theater]"
+  },
+  {
+    "name": "Shadowsage Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +40",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)"
+  },
+  {
+    "name": "Rosary of Redemption",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Lostseed]"
+  },
+  {
+    "name": "Coat of Arms",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [From the Far Reaches of Hell]"
+  },
+  {
+    "name": "Blazon of Protection",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market]"
+  },
+  {
+    "name": "Scarlet Stone of Protection",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover SP after performing an action. (+4 SP)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)"
+  },
+  {
+    "name": "Crescent Moon Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +15",
+    "bonus2": "Evasion +15",
+    "effect": null,
+    "maxOwnable": 4,
+    "availability": "NPC<Item> [Elderly Man, Woman, Young Man and Elderly Woman all in Crackridge]"
+  },
+  {
+    "name": "Moonshell Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +35",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Islander in Tropu'hopu], [Young Man in Tropu'hopu]"
+  },
+  {
+    "name": "Moonshell Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +35",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Islander in Tropu'hopu], [Girl in Tropu'hopu (Night: Floating Theater)]"
+  },
+  {
+    "name": "Physical Belt",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "Quest [Stage Actors]\nChest [New Delsta: Game Parlor] (Guarded by Safe Keeper (8*))\nNPC<Item> [Mercenary in Gravell]"
+  },
+  {
+    "name": "Mental Belt",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "Quest [A Forced Hand]\nChest [Southern Nameless Village Traverse]\nNPC<Item> [Cleric in Stormhail: Sacred Guard Headquarters]"
+  },
+  {
+    "name": "Mighty Belt",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Cavern of the Moon and Sun]\nNPC<Item> [Factory Worker in Clockbank: Industrial District]"
+  },
+  {
+    "name": "Elemental Augmentor",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Shrine of Ul'sterra]\nNPC<Item> [Townsperson in Sai: East District]"
+  },
+  {
+    "name": "Guardian Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Abandoned Traverse]\nNPC<Item> [Sanctum Knight in Stormhail]"
+  },
+  {
+    "name": "Elemental Ward",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Mount Liphia]\nNPC<Item> [Scholar in Merry Hills: Shrine Entrance]"
+  },
+  {
+    "name": "Empowering Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +1000",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+  },
+  {
+    "name": "Stimulating Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Nameless Village]\nNPC<Item> [Apprentice Dancer in Wellgrove]"
+  },
+  {
+    "name": "Protective Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "Chest [Timberain]\nNPC<Item> [Treasurer in Castle Ku: Entrance]\nNPC<Hidden Item> [Cleric in Ku: Castle Town]"
+  },
+  {
+    "name": "Unerring Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Northern Montwise Pass]\nNPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+  },
+  {
+    "name": "Enlightening Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Roque Island: Anchorage]\nNPC<Item> [Thief in Clockbank: Industrial District]"
+  },
+  {
+    "name": "Sprightly Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Lostseed]\nNPC<Item> [Elderly Soldier in Timberain Castle: Town Square]"
+  },
+  {
+    "name": "Critical Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Duskruin Shrine]\nNPC<Item> [Soldier in Timberain]"
+  },
+  {
+    "name": "Empowering Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +500",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store], [Timberain]"
+  },
+  {
+    "name": "Stimulating Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Gravell]"
+  },
+  {
+    "name": "Protective Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills]"
+  },
+  {
+    "name": "Unerring Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store], [Stormhail]"
+  },
+  {
+    "name": "Enlightening Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village]"
+  },
+  {
+    "name": "Sprightly Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku]"
+  },
+  {
+    "name": "Critical Bracelet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island]"
+  },
+  {
+    "name": "Empowering Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +200",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale (*)], [Black Market], [Sai]"
+  },
+  {
+    "name": "Stimulating Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale (*)], [Montwise]"
+  },
+  {
+    "name": "Protective Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch (*)], [Crackridge]"
+  },
+  {
+    "name": "Unerring Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Clockbank]"
+  },
+  {
+    "name": "Enlightening Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom]"
+  },
+  {
+    "name": "Sprightly Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Critical Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Conning Creek]"
+  },
+  {
+    "name": "Falcon Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +10",
+    "bonus2": "Evasion +10",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market]"
+  },
+  {
+    "name": "Empowering Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village]"
+  },
+  {
+    "name": "Stimulating Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Protective Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechuch]"
+  },
+  {
+    "name": "Unerring Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta]"
+  },
+  {
+    "name": "Enlightening Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Evasion +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold]"
+  },
+  {
+    "name": "Sprightly Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Speed +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu]"
+  },
+  {
+    "name": "Critical Earring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Critical +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine]"
+  },
+  {
+    "name": "Ancient Necklace",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +30",
+    "bonus2": "Max. SP +10",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Prison: Underground Passage]"
+  },
+  {
+    "name": "Wargod's Talisman",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu], [Black Market]"
+  },
+  {
+    "name": "Silver Locket",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush], [Black Market]"
+  },
+  {
+    "name": "Angel's Ring",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. SP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market]"
+  },
+  {
+    "name": "Traveler's Charm",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Max. HP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village], [Canalbrine]"
+  },
+  {
+    "name": "Tattered Shoes",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Sai: East District] (Guarded by Caretaker (6*))"
+  },
+  {
+    "name": "Inferno Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces fire damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Old Clock Tower]\nNPC<Item> [Villager in Gravell]"
+  },
+  {
+    "name": "Blizzard Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces ice damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Infernal Castle]\nNPC<Item> [Sanctum Knight in Stormhail]"
+  },
+  {
+    "name": "Tempest Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces wind damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Dragonridge]\nNPC<Item> [Woman in Merry Hills]"
+  },
+  {
+    "name": "Thunderstorm Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces lightning damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Castle Mei: East Tower]\nNPC<Item> [Arms Merchant in Stormhail]"
+  },
+  {
+    "name": "Void Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces dark damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Rifted Rock]\nNPC<Item> [Diviner in Wellgrove]"
+  },
+  {
+    "name": "Gleaming Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Greatly reduces light damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Forbidden Shrine]\nNPC<Item> [Designer in Merry Hills: Shrine Entrance]"
+  },
+  {
+    "name": "Fire Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces fire damage.",
+    "maxOwnable": 4,
+    "availability": "Chest [Path to the Bed of the Titan]\nNPC<Item> [Pilgrim in Flamechurch: Cathedral], [Merchant in Wellgrove: Department Store],\n[Dancer in Crackridge]"
+  },
+  {
+    "name": "Ice Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces ice damage.",
+    "maxOwnable": 2,
+    "availability": "Chest [Sacred Peak Altahe]\nNPC<Item> [Woman in Canalbrine]"
+  },
+  {
+    "name": "Wind Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces wind damage.",
+    "maxOwnable": 3,
+    "availability": "Chest [Southern Cropdale Trail]\nNPC<Item> [Griff in Sandflow Pass (Castti's story completed)], [Official in Castle Ku: Entrance]"
+  },
+  {
+    "name": "Lightning Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces lightning damage.",
+    "maxOwnable": 4,
+    "availability": "Chest [Theater: Backstage]\nNPC<Item> [Greg in Winterbloom (Castti's story completed)], [Librarian in Montwise: Library]\nNPC<Hidden Item> [Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+  },
+  {
+    "name": "Dark Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces dark damage.",
+    "maxOwnable": 4,
+    "availability": "Chest [Sacred Guard Ship]\nNPC<Item> [Cleric in Flamechurch: Cathedral], [Sanctum Knight in Borderfall],\n[Elderly Guard in Wellgrove or Mother's Garden: Orphanage (Throné's story completed)]"
+  },
+  {
+    "name": "Light Amulet",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces light damage.",
+    "maxOwnable": 3,
+    "availability": "Chest [Secret Forest]\nNPC<Item> [Traveler in Merry Hills: Shrine Entrance], [Stage Director in Tropu'hopu: Floating Theater]"
+  },
+  {
+    "name": "Antidote Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents poison.",
+    "maxOwnable": 2,
+    "availability": "Chest [Abandoned Waterway]\nNPC<Item> [Townsperson in Clockbank]"
+  },
+  {
+    "name": "Wakeful Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents sleep.",
+    "maxOwnable": 3,
+    "availability": "Chest [Starfall Spring]\nNPC<Item> [Guard in Clockbank: Industrial District]\nNPC<Hidden Item> [Thief in Winterbloom: Thieves' Quarter]"
+  },
+  {
+    "name": "Articulate Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents silence.",
+    "maxOwnable": 3,
+    "availability": "Chest [Sinking Ruins]\nNPC<Item> [Scholar in Montwise Library]\nNPC<Hidden Item> [Woman in Merry Hills]"
+  },
+  {
+    "name": "Bright Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents Blindness.",
+    "maxOwnable": 2,
+    "availability": "Chest [Quicksand Gaol]\nNPC<Item> [Boy in Gravell]"
+  },
+  {
+    "name": "Calming Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents terror.",
+    "maxOwnable": 3,
+    "availability": "Chest [Mother's Garden]\nNPC<Item> [Soldier in Sai]\nNPC<Hidden Item> [Factory Worker in Clockbank]"
+  },
+  {
+    "name": "Clarity Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents confusion.",
+    "maxOwnable": 2,
+    "availability": "Chest [Unfinished Tunnel]\nNPC<Item> [Employee in Roque Island: Anchorage]"
+  },
+  {
+    "name": "Conscious Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents unconsciousness.",
+    "maxOwnable": 3,
+    "availability": "Chest [Nameless Isle]\nNPC<Item> [Soldier in Sai]\nNPC<Hidden Item> [Soldier in Timberain]"
+  },
+  {
+    "name": "Vivifying Stone",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents instant death.",
+    "maxOwnable": 2,
+    "availability": "Chest [Forsaken Graveyard]\nNPC<Item> [Woman in Winterbloom: Thieves' Quarter]"
+  }
+]

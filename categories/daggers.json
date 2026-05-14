@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Dancer's Blade",
+    "physAtk": 300,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to afflict target with poison, blindness, confusion, or sleep",
+    "maxOwnable": 1,
+    "availability": "Quest [In Search of the Divine Weapons] (Rusty Dagger in a chest in Shipwreck of the Empress)"
+  },
+  {
+    "name": "Battle-Tested Dagger",
+    "physAtk": 380,
+    "elemAtk": null,
+    "bonus1": "Evasion +120",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Plukk in Winterbloom: Thieves' Quarter] (Castti's story & Melia's Next Chapter sidequest completed)\nNPC<Drop 2%> [Elderly Man (9*) in Clockbank]"
+  },
+  {
+    "name": "Lost Tribe's Dagger",
+    "physAtk": 362,
+    "elemAtk": null,
+    "bonus1": "Speed -103",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 1,
+    "availability": "Chest [The Lost Isle]"
+  },
+  {
+    "name": "Tonfa",
+    "physAtk": 329,
+    "elemAtk": null,
+    "bonus1": "Accuracy +102",
+    "bonus2": null,
+    "effect": "Equip effect: Slim chance to counterattack.",
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Tyran the Seeker in Five-Tiered Tower: Third Floor]"
+  },
+  {
+    "name": "Vengeful Knife",
+    "physAtk": 325,
+    "elemAtk": null,
+    "bonus1": "Speed +109",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to put target to sleep.",
+    "maxOwnable": 1,
+    "availability": "Quest [Mira and the Elderly Guard's Next Chapter] (Throné's story completed)"
+  },
+  {
+    "name": "Ruinous Dagger",
+    "physAtk": 317,
+    "elemAtk": null,
+    "bonus1": "Accuracy -75",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Lostseed Castle: Upper Level]"
+  },
+  {
+    "name": "Diamond Dagger",
+    "physAtk": 315,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Gravell (*)]"
+  },
+  {
+    "name": "Dagger in the Rough",
+    "physAtk": 305,
+    "elemAtk": null,
+    "bonus1": "Accuracy -65",
+    "bonus2": "Critical -30",
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Gravell]"
+  },
+  {
+    "name": "Mooneater",
+    "physAtk": 285,
+    "elemAtk": 349,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of fire- and wind-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+  },
+  {
+    "name": "Forbidden Dagger",
+    "physAtk": 305,
+    "elemAtk": 295,
+    "bonus1": "Phys Def. -120",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [New Delsta: Game Parlor] (Garded by Safe Keeper (8*))"
+  },
+  {
+    "name": "Lockpick",
+    "physAtk": 304,
+    "elemAtk": null,
+    "bonus1": "Evasion +94",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Girl in Winterbloom: Thieves' Quarter]"
+  },
+  {
+    "name": "Bloodstained Knife",
+    "physAtk": 290,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+    "maxOwnable": 1,
+    "availability": "Chest [Shrine of Ul'sterra]"
+  },
+  {
+    "name": "Breaker's Blade",
+    "physAtk": 289,
+    "elemAtk": null,
+    "bonus1": "Critical +115",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills (*)]"
+  },
+  {
+    "name": "Ornate Dagger",
+    "physAtk": 281,
+    "elemAtk": null,
+    "bonus1": "Accuracy +91",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills]"
+  },
+  {
+    "name": "Dagger of Seclusion",
+    "physAtk": 279,
+    "elemAtk": null,
+    "bonus1": "Evasion +88",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Lostseed (*)]"
+  },
+  {
+    "name": "Assassin's Dagger",
+    "physAtk": 278,
+    "elemAtk": null,
+    "bonus1": "Speed +90",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Mysterious Dagger",
+    "physAtk": 266,
+    "elemAtk": 266,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+    "maxOwnable": 1,
+    "availability": "Chest [Tranquil Grotto]"
+  },
+  {
+    "name": "Champion Seeker",
+    "physAtk": 180,
+    "elemAtk": null,
+    "bonus1": "Accuracy +58",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena (*)]"
+  },
+  {
+    "name": "Marietta",
+    "physAtk": 179,
+    "elemAtk": null,
+    "bonus1": "Evasion +56",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to instantly kill target.",
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Father in Abandoned Church] (Throne ch.3)"
+  },
+  {
+    "name": "Piercing Dagger",
+    "physAtk": 176,
+    "elemAtk": null,
+    "bonus1": "Speed +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom (*)]"
+  },
+  {
+    "name": "Doombreaker",
+    "physAtk": 174,
+    "elemAtk": null,
+    "bonus1": "Critical +56",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai (*)], [Wellgrove], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Wind Whisperer",
+    "physAtk": 172,
+    "elemAtk": 163,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "Chest [Dragonridge]"
+  },
+  {
+    "name": "Poison Dagger",
+    "physAtk": 162,
+    "elemAtk": null,
+    "bonus1": "Critical +58",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to poison target.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Thief in Winterbloom: Thieves' Quarter]"
+  },
+  {
+    "name": "Moonfang",
+    "physAtk": 141,
+    "elemAtk": null,
+    "bonus1": "Speed +75",
+    "bonus2": null,
+    "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage]"
+  },
+  {
+    "name": "Obsidian Dagger",
+    "physAtk": 122,
+    "elemAtk": null,
+    "bonus1": "Accuracy -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Black Dagger",
+    "physAtk": 118,
+    "elemAtk": null,
+    "bonus1": "Speed +55",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to blind target.",
+    "maxOwnable": 1,
+    "availability": "Chest [Abandoned Church]"
+  },
+  {
+    "name": "Stealthy Knife",
+    "physAtk": 117,
+    "elemAtk": null,
+    "bonus1": "Evasion +37",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Drifting Dagger",
+    "physAtk": 111,
+    "elemAtk": null,
+    "bonus1": "Accuracy +28",
+    "bonus2": "Critical +28",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Boss<Drop> [Plukk in Winterbloom: Thieves' Quarter] (Castti ch.2)"
+  },
+  {
+    "name": "Stinging Dagger",
+    "physAtk": 107,
+    "elemAtk": null,
+    "bonus1": "Speed +34",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom], [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Jade Dagger",
+    "physAtk": 101,
+    "elemAtk": null,
+    "bonus1": "Evasion +31",
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+    "maxOwnable": 1,
+    "availability": "Quest [The Washed-Up Letter]"
+  },
+  {
+    "name": "Magus Knife",
+    "physAtk": 97,
+    "elemAtk": 93,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta (*)], [Tropu'hopu]"
+  },
+  {
+    "name": "Crystal Dagger",
+    "physAtk": 72,
+    "elemAtk": null,
+    "bonus1": "Accuracy -50",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Swordbreaker",
+    "physAtk": 62,
+    "elemAtk": null,
+    "bonus1": "Critical +16",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Smuggler in Crackridge Harbor: Anchorage]\nNPC<Hidden Item> [Man in Clockbank: Industrial District]"
+  },
+  {
+    "name": "Quartz Dagger",
+    "physAtk": 60,
+    "elemAtk": 58,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+    "maxOwnable": 99,
+    "availability": "Store [Black Market]"
+  },
+  {
+    "name": "Falcon Knife",
+    "physAtk": 57,
+    "elemAtk": null,
+    "bonus1": "Evasion +14",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom]"
+  },
+  {
+    "name": "Handbreaker",
+    "physAtk": 52,
+    "elemAtk": null,
+    "bonus1": "Critical +13",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta]"
+  },
+  {
+    "name": "Kukri",
+    "physAtk": 46,
+    "elemAtk": null,
+    "bonus1": "Accuracy +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Beasting Village], [Oresrush]"
+  },
+  {
+    "name": "Needle Dagger",
+    "physAtk": 25,
+    "elemAtk": null,
+    "bonus1": "Speed +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch]"
+  },
+  {
+    "name": "Bronze Knife",
+    "physAtk": 22,
+    "elemAtk": null,
+    "bonus1": "Evasion +5",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Cropdale]"
+  },
+  {
+    "name": "Dagger",
+    "physAtk": 11,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale]"
+  },
+  {
+    "name": "Silver-Plated Knife",
+    "physAtk": 7,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Iteam> [Giff in Oresrush]"
+  },
+  {
+    "name": "Thief's Dagger",
+    "physAtk": 6,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Throné's starting equipment"
+  },
+  {
+    "name": "Snakebite",
+    "physAtk": 4,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Boss<Steal> [Fake Snake (Parent&Child)] (Throné's ch.4)"
+  },
+  {
+    "name": "Fruit Knife",
+    "physAtk": 4,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Tavern Cook in New Delsta]\nAgnea's starting equipment"
+  },
+  {
+    "name": "Sharp Stone",
+    "physAtk": 3,
+    "elemAtk": null,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Cooking Enthusiast in Beasting Village], [Man in Orerush: Foundry]"
+  }
+]

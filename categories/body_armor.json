@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Cursed Armor",
+    "physAtk": 222,
+    "elemAtk": 222,
+    "bonus1": "Speed -66",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [House Wellows Manor]"
+  },
+  {
+    "name": "Dragon Mail",
+    "physAtk": 195,
+    "elemAtk": 105,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces fire damage.",
+    "maxOwnable": 1,
+    "availability": "Chest [Deserted Highroad]"
+  },
+  {
+    "name": "Desert Plate",
+    "physAtk": 183,
+    "elemAtk": 110,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku]"
+  },
+  {
+    "name": "Sublime Ornamental Armor",
+    "physAtk": 180,
+    "elemAtk": 180,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces fire, ice, lightning, and wind damage.",
+    "maxOwnable": 1,
+    "availability": "Chest [On the Water] (Behind Scourge of the Sea mini-boss)"
+  },
+  {
+    "name": "Vest of Joy",
+    "physAtk": 170,
+    "elemAtk": 170,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises resistance to poison, sleep, confusion, blindness, silence, terror, and unconsciousness.",
+    "maxOwnable": 1,
+    "availability": "Quest [A Young Girl's Wish]"
+  },
+  {
+    "name": "Imperial Armor",
+    "physAtk": 162,
+    "elemAtk": 132,
+    "bonus1": "Max. HP +600",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain]"
+  },
+  {
+    "name": "Royal Guard's Mail",
+    "physAtk": 160,
+    "elemAtk": 160,
+    "bonus1": "Max. HP +750",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain (*)]"
+  },
+  {
+    "name": "Star's Gown",
+    "physAtk": 155,
+    "elemAtk": 180,
+    "bonus1": "Evasion +80",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Dolcinaea] (Agnea's story completed)"
+  },
+  {
+    "name": "Quartz Robe",
+    "physAtk": 146,
+    "elemAtk": 149,
+    "bonus1": "Max. SP +60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village]"
+  },
+  {
+    "name": "Quick Cloak",
+    "physAtk": 132,
+    "elemAtk": 162,
+    "bonus1": "Speed +65",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island], [Gravell]"
+  },
+  {
+    "name": "Blessed Vestments",
+    "physAtk": 130,
+    "elemAtk": 215,
+    "bonus1": "Elem. Atk. +74",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Judge in Timberain]\nNPC<Drop 5%> [Judge (10*) in Timberain]"
+  },
+  {
+    "name": "Resplendent Costume",
+    "physAtk": 130,
+    "elemAtk": 169,
+    "bonus1": "Evasion +78",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Shrine of Ul'sterra]"
+  },
+  {
+    "name": "Butler's Tailcoat",
+    "physAtk": 128,
+    "elemAtk": 192,
+    "bonus1": "Critical +75",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Misha's Next Chapter] (Partitio's story completed)"
+  },
+  {
+    "name": "Lightning Armor",
+    "physAtk": 124,
+    "elemAtk": 67,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces lightning damage.",
+    "maxOwnable": 1,
+    "availability": "Chest [Southern Stormhail Snows]"
+  },
+  {
+    "name": "Conjurer's Raiment",
+    "physAtk": 121,
+    "elemAtk": 220,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover HP after performing an action. (+200 HP)",
+    "maxOwnable": 1,
+    "availability": "Quest [A Tower of Trials]"
+  },
+  {
+    "name": "Ornate Costume",
+    "physAtk": 118,
+    "elemAtk": 176,
+    "bonus1": "Evasion +63",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills]"
+  },
+  {
+    "name": "Antique Coat",
+    "physAtk": 115,
+    "elemAtk": 184,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents poison.",
+    "maxOwnable": 1,
+    "availability": "Chest [Path to the Duskruin Shrine]"
+  },
+  {
+    "name": "Protector's Vestments",
+    "physAtk": 112,
+    "elemAtk": 208,
+    "bonus1": "Speed +69",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village (*)]"
+  },
+  {
+    "name": "Platinum Mail",
+    "physAtk": 109,
+    "elemAtk": 89,
+    "bonus1": "Max. HP +400",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Knight's Armor",
+    "physAtk": 99,
+    "elemAtk": 65,
+    "bonus1": "Max. HP +300",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Desert Armor",
+    "physAtk": 96,
+    "elemAtk": 96,
+    "bonus1": "Speed +41",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Ku Soldier in Ku: Castle Town], [Ku Soldier in Castle Ku]"
+  },
+  {
+    "name": "Mage's Robe",
+    "physAtk": 74,
+    "elemAtk": 112,
+    "bonus1": "Elem. Atk. +41",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise]"
+  },
+  {
+    "name": "White Wolf Scarf",
+    "physAtk": 73,
+    "elemAtk": 89,
+    "bonus1": "Evasion +56",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)"
+  },
+  {
+    "name": "Bone Mail",
+    "physAtk": 70,
+    "elemAtk": 47,
+    "bonus1": "Critical +23",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Chest [Sandflow Pass (Guarded by Soldier (4*)], [Western Crackridge Wilds]"
+  },
+  {
+    "name": "Acrobat's Mantle",
+    "physAtk": 65,
+    "elemAtk": 120,
+    "bonus1": "Speed +40",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom (*)], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Nimble Mantle",
+    "physAtk": 65,
+    "elemAtk": 53,
+    "bonus1": "Speed +22",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank]"
+  },
+  {
+    "name": "Denim Work Clothes",
+    "physAtk": 63,
+    "elemAtk": 63,
+    "bonus1": "Critical +25",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank (*)]"
+  },
+  {
+    "name": "Dojo Hakama",
+    "physAtk": 59,
+    "elemAtk": 59,
+    "bonus1": "Evasion +23",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Dyed Clothes",
+    "physAtk": 50,
+    "elemAtk": 75,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces light and dark damage.",
+    "maxOwnable": 1,
+    "availability": "Quest [Useless Fruit]"
+  },
+  {
+    "name": "Elemental Robe",
+    "physAtk": 48,
+    "elemAtk": 73,
+    "bonus1": "Max. SP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+  },
+  {
+    "name": "Falcon Coat",
+    "physAtk": 44,
+    "elemAtk": 83,
+    "bonus1": "Evasion +26",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom]"
+  },
+  {
+    "name": "Gorgeous Sari",
+    "physAtk": 42,
+    "elemAtk": 79,
+    "bonus1": "Speed +27",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "NPC<Item> [Artisan in Tropu'hopu: Floating Theater], [Apprentice Dancer in Wellgrove]"
+  },
+  {
+    "name": "Iron Mail",
+    "physAtk": 42,
+    "elemAtk": 28,
+    "bonus1": "Max. HP +100",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom], [Clockbank], [Sai]"
+  },
+  {
+    "name": "Guard's Armor",
+    "physAtk": 40,
+    "elemAtk": 24,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Conning Creek (*)]"
+  },
+  {
+    "name": "Beastling Battle Armor",
+    "physAtk": 37,
+    "elemAtk": 33,
+    "bonus1": "Critical +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (Jerky)]"
+  },
+  {
+    "name": "Sailor's Vest",
+    "physAtk": 36,
+    "elemAtk": 30,
+    "bonus1": "Evasion +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+  },
+  {
+    "name": "Wind Robe",
+    "physAtk": 33,
+    "elemAtk": 36,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces wind damage.",
+    "maxOwnable": 1,
+    "availability": "Chest [Ruffians's Hideout] (Behind Ruffian fight]"
+  },
+  {
+    "name": "Copper Breastplate",
+    "physAtk": 31,
+    "elemAtk": 21,
+    "bonus1": "Evasion +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu]"
+  },
+  {
+    "name": "Hunting Attire",
+    "physAtk": 29,
+    "elemAtk": 32,
+    "bonus1": "Critical +8",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (Jerky)]"
+  },
+  {
+    "name": "Quality Vest",
+    "physAtk": 28,
+    "elemAtk": 36,
+    "bonus1": "Speed +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Garud in Cropdale]"
+  },
+  {
+    "name": "Fur Robe",
+    "physAtk": 28,
+    "elemAtk": 34,
+    "bonus1": "Elem. Atk. +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold (*)]"
+  },
+  {
+    "name": "Pilgrim's Robe",
+    "physAtk": 27,
+    "elemAtk": 33,
+    "bonus1": "Max. SP +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch]"
+  },
+  {
+    "name": "Simple Costume",
+    "physAtk": 26,
+    "elemAtk": 39,
+    "bonus1": "Evasion +16",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Theater: Backstage]"
+  },
+  {
+    "name": "Feather Mantle",
+    "physAtk": 26,
+    "elemAtk": 38,
+    "bonus1": "Speed +10",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise]"
+  },
+  {
+    "name": "Champion's Garb",
+    "physAtk": 26,
+    "elemAtk": 27,
+    "bonus1": "Critical +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Charm Robe",
+    "physAtk": 25,
+    "elemAtk": 46,
+    "bonus1": "Elem. Atk. +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Traveler's Mantle",
+    "physAtk": 24,
+    "elemAtk": 36,
+    "bonus1": "Speed +7",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+  },
+  {
+    "name": "Sanctum Knight's Armor",
+    "physAtk": 20,
+    "elemAtk": 5,
+    "bonus1": "Max. HP +100",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Crick (Temenos' chapter 1)"
+  },
+  {
+    "name": "Fur Armor",
+    "physAtk": 19,
+    "elemAtk": 14,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [New Delsta], [Canalbrine], [Ryu], [Oresrush]"
+  },
+  {
+    "name": "Old Armor",
+    "physAtk": 18,
+    "elemAtk": 13,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Lostseed]"
+  },
+  {
+    "name": "Worker's Jacket",
+    "physAtk": 8,
+    "elemAtk": 8,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "NPC<Item> [Clock Tower Technician in Clockbank], [Townsperson in Oresrush],\n[Supervisor in Orerush (Partitio's ch.1 exclusive)]"
+  },
+  {
+    "name": "Desert Attire",
+    "physAtk": 8,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Hikari's starting equipment"
+  },
+  {
+    "name": "Frog Membrane",
+    "physAtk": 7,
+    "elemAtk": 5,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Ochette's starting equipment"
+  },
+  {
+    "name": "Tough Waistcoat",
+    "physAtk": 7,
+    "elemAtk": 5,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Partitio's starting equipment"
+  },
+  {
+    "name": "Prisoner's Clothes",
+    "physAtk": 6,
+    "elemAtk": 3,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Osvald's starting equipment"
+  },
+  {
+    "name": "Black Attire",
+    "physAtk": 6,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Throné's starting equipment"
+  },
+  {
+    "name": "Robe",
+    "physAtk": 5,
+    "elemAtk": 10,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Temenos' starting equipment"
+  },
+  {
+    "name": "Tattered Dress",
+    "physAtk": 4,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Sai: East District] (Guarded by Caretaker (6*)]"
+  },
+  {
+    "name": "Apothecary's Attire",
+    "physAtk": 4,
+    "elemAtk": 6,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Castti's starting equipment"
+  },
+  {
+    "name": "Villager's Clothes",
+    "physAtk": 4,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Agnea's starting equipment"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Cursed Helm",
+    "physAtk": 88,
+    "elemAtk": 88,
+    "bonus1": "Max. Sp -66",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Lostseed] (Guarded by Hollow Vessel which moves at dawn)"
+  },
+  {
+    "name": "Mechanical Top Hat",
+    "physAtk": 75,
+    "elemAtk": 62,
+    "bonus1": "Accuracy +65",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [A Genius Inventor]"
+  },
+  {
+    "name": "Imperial Helm",
+    "physAtk": 71,
+    "elemAtk": 59,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain]"
+  },
+  {
+    "name": "Dragon's Helm",
+    "physAtk": 69,
+    "elemAtk": 53,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents unconsciousness.",
+    "maxOwnable": 1,
+    "availability": "Chest [Timberain Castle: Roof] (Castti's ch.4)"
+  },
+  {
+    "name": "Gimmick Goggles",
+    "physAtk": 65,
+    "elemAtk": 43,
+    "bonus1": "Evasion +59",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island]"
+  },
+  {
+    "name": "Royal Guard's Helm",
+    "physAtk": 64,
+    "elemAtk": 64,
+    "bonus1": "Critical +58",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Timberain (*)]"
+  },
+  {
+    "name": "Great Helm",
+    "physAtk": 59,
+    "elemAtk": 59,
+    "bonus1": "Speed +49",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail], [Ku], [Gravell]"
+  },
+  {
+    "name": "Art of Disguise",
+    "physAtk": 58,
+    "elemAtk": 70,
+    "bonus1": "Max. SP +90",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills (*)]"
+  },
+  {
+    "name": "Mermaid Circlet",
+    "physAtk": 55,
+    "elemAtk": 82,
+    "bonus1": "Elem. Atk. +65",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Hermes in Merry Hill: Shrine Entrance or Canalbrine] (Temenos and Agnea's story completed)"
+  },
+  {
+    "name": "Dazzling Tiara",
+    "physAtk": 54,
+    "elemAtk": 65,
+    "bonus1": "Speed +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills]"
+  },
+  {
+    "name": "Gaudy Hat",
+    "physAtk": 53,
+    "elemAtk": 53,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Become more readily targeted by foes.",
+    "maxOwnable": 1,
+    "availability": "Quest [Reaaching for the Stars]"
+  },
+  {
+    "name": "Cloth Headband",
+    "physAtk": 52,
+    "elemAtk": 54,
+    "bonus1": "Speed +60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Boy in Ku: Castle Town]"
+  },
+  {
+    "name": "Forgotten Hat",
+    "physAtk": 51,
+    "elemAtk": 67,
+    "bonus1": "Max. SP +60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Lostseed (*)]"
+  },
+  {
+    "name": "Antique Ceremonial Mask",
+    "physAtk": 49,
+    "elemAtk": 73,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover SP after performing an action. (+6 SP)",
+    "maxOwnable": 1,
+    "availability": "Chest [Wandering Wood] (Temenos' ch.4)"
+  },
+  {
+    "name": "Lighthouse Keeper's Bandana",
+    "physAtk": 46,
+    "elemAtk": 58,
+    "bonus1": "Critical +54",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Lighthouse Restoration]"
+  },
+  {
+    "name": "Platinum Helm",
+    "physAtk": 43,
+    "elemAtk": 35,
+    "bonus1": "Max. HP +300",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Ancient Circlet",
+    "physAtk": 41,
+    "elemAtk": 77,
+    "bonus1": "Elem. Atk. +55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village]"
+  },
+  {
+    "name": "Soldier's Hat",
+    "physAtk": 38,
+    "elemAtk": 38,
+    "bonus1": "Speed +36",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ku Soldier in Castle Ku: Entrance]"
+  },
+  {
+    "name": "Fighter's Headband",
+    "physAtk": 37,
+    "elemAtk": 37,
+    "bonus1": "Max. HP +150",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Knight's Helm",
+    "physAtk": 35,
+    "elemAtk": 29,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail]"
+  },
+  {
+    "name": "Starlight Hat",
+    "physAtk": 33,
+    "elemAtk": 41,
+    "bonus1": "Max. SP +40",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Horned Helm",
+    "physAtk": 31,
+    "elemAtk": 25,
+    "bonus1": "Max. HP +100",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Winterbloom], [Wellgrove], [Wellgrove: Department Store]"
+  },
+  {
+    "name": "Worker's Helmet",
+    "physAtk": 30,
+    "elemAtk": 26,
+    "bonus1": "Critical +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank (*)]"
+  },
+  {
+    "name": "Hasty Helm",
+    "physAtk": 30,
+    "elemAtk": 24,
+    "bonus1": "Speed +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank]"
+  },
+  {
+    "name": "Silent Bandana",
+    "physAtk": 26,
+    "elemAtk": 33,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents terror.",
+    "maxOwnable": 1,
+    "availability": "Chest [Road to Mother's Garden]"
+  },
+  {
+    "name": "Black Cap",
+    "physAtk": 25,
+    "elemAtk": 31,
+    "bonus1": "Evasion +22",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom (*)]"
+  },
+  {
+    "name": "Gelid Helm",
+    "physAtk": 21,
+    "elemAtk": 18,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Reduces ice damage.",
+    "maxOwnable": 99,
+    "availability": "Store [Black Market]"
+  },
+  {
+    "name": "Skull Helm",
+    "physAtk": 20,
+    "elemAtk": 36,
+    "bonus1": "Elem. Atk. +22",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Crackridge]"
+  },
+  {
+    "name": "Cassius",
+    "physAtk": 20,
+    "elemAtk": 14,
+    "bonus1": "Critical +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Battle Bandana",
+    "physAtk": 19,
+    "elemAtk": 19,
+    "bonus1": "Evasion +11",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Sai]"
+  },
+  {
+    "name": "Guard's Helm",
+    "physAtk": 19,
+    "elemAtk": 16,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Conning Creek (*)]"
+  },
+  {
+    "name": "Bronze Helm",
+    "physAtk": 18,
+    "elemAtk": 15,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Canalbrine], [Ryu]"
+  },
+  {
+    "name": "Guard's Hat",
+    "physAtk": 17,
+    "elemAtk": 21,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents silence.",
+    "maxOwnable": 1,
+    "availability": "Chest [Guard Outpost] (Osvald's ch.3)"
+  },
+  {
+    "name": "Headgear",
+    "physAtk": 15,
+    "elemAtk": 19,
+    "bonus1": "Evasion +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+  },
+  {
+    "name": "Fur Cap",
+    "physAtk": 15,
+    "elemAtk": 17,
+    "bonus1": "Max. HP +40",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold (*)]"
+  },
+  {
+    "name": "Hide Hood",
+    "physAtk": 15,
+    "elemAtk": 15,
+    "bonus1": "Evasion +8",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village (Jerky)]"
+  },
+  {
+    "name": "Silver Hairpiece",
+    "physAtk": 14,
+    "elemAtk": 22,
+    "bonus1": "Max. SP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta], [Winterbloom], [Clockbank]"
+  },
+  {
+    "name": "Peddler's Feathered Cap",
+    "physAtk": 14,
+    "elemAtk": 20,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents sleep.",
+    "maxOwnable": 1,
+    "availability": "Quest [Ruffians' Redoubt]"
+  },
+  {
+    "name": "Feathered Hat",
+    "physAtk": 14,
+    "elemAtk": 17,
+    "bonus1": "Speed +7",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Beasting Village], [Oresrush]"
+  },
+  {
+    "name": "Pointed Hat",
+    "physAtk": 12,
+    "elemAtk": 22,
+    "bonus1": "Elem. Atk. +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch], [Montwise]"
+  },
+  {
+    "name": "Festival Garland",
+    "physAtk": 12,
+    "elemAtk": 18,
+    "bonus1": "Max. SP +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cropdale]"
+  },
+  {
+    "name": "Sanctum Knight's Helm",
+    "physAtk": 10,
+    "elemAtk": 5,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Crick (Temenos' chapter 1)"
+  },
+  {
+    "name": "Leather Helm",
+    "physAtk": 8,
+    "elemAtk": 8,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [New Delsta], [Beasting Village], [Ryu]"
+  },
+  {
+    "name": "Cloth Hood",
+    "physAtk": 4,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Carpenter in Oresrush] (Partitio ch.1 exclusive)\nStore [Prison: Underground Passage] (Osvald ch.1 exclusive)"
+  },
+  {
+    "name": "Gray Helm",
+    "physAtk": 4,
+    "elemAtk": 2,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Hikari's starting equipment"
+  },
+  {
+    "name": "Black Hood",
+    "physAtk": 4,
+    "elemAtk": 2,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Throné's starting equipment"
+  },
+  {
+    "name": "Leather Hat",
+    "physAtk": 2,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 4,
+    "availability": "NPC<Item> [Factory Worker]\nTemenos, Ochette and Castti's starting equipment"
+  },
+  {
+    "name": "Ordinary Hat",
+    "physAtk": 2,
+    "elemAtk": 3,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 2,
+    "availability": "Agnea and Partitio's starting equipment"
+  }
+]

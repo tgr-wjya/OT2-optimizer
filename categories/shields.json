@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Cursed Shield",
+    "physAtk": 133,
+    "elemAtk": 133,
+    "bonus1": "Evasion -66",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Shipwreck of the Empress]"
+  },
+  {
+    "name": "Battle-Tested Shield",
+    "physAtk": 120,
+    "elemAtk": 120,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover HP and SP after performing an action. (+200 HP / +8 SP)",
+    "maxOwnable": 99,
+    "availability": "NPC<Item> [Veronica in New Delsta] (Agnea's story completed)\nNPC<Drop 2%> [Guard (9*) in Montwise]"
+  },
+  {
+    "name": "Forbidden Shield",
+    "physAtk": 118,
+    "elemAtk": 103,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises the chances of encountering enemies.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Merchant in Western Crackridge Wilds]"
+  },
+  {
+    "name": "Wise King's Shield",
+    "physAtk": 110,
+    "elemAtk": 110,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Raises physical defense at start of battle.",
+    "maxOwnable": 1,
+    "availability": "Quest [Retired Blacksmith]"
+  },
+  {
+    "name": "Shield of Strength",
+    "physAtk": 108,
+    "elemAtk": 108,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Guaranteed critical hit when taking damage.",
+    "maxOwnable": 1,
+    "availability": "Quest [The Strongest] (Hikari's story completed)"
+  },
+  {
+    "name": "Giant Shield",
+    "physAtk": 105,
+    "elemAtk": 103,
+    "bonus1": "Speed -60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Roque Island (*)]"
+  },
+  {
+    "name": "Aegis Shield",
+    "physAtk": 104,
+    "elemAtk": 61,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Stormhail], [Nameless Village], [Timberain]"
+  },
+  {
+    "name": "Protector's Shield",
+    "physAtk": 96,
+    "elemAtk": 98,
+    "bonus1": "Critical +49",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Nameless Village (*)]"
+  },
+  {
+    "name": "Adamantine Buckler",
+    "physAtk": 95,
+    "elemAtk": 81,
+    "bonus1": "Evasion +48",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ku], [Gravell]"
+  },
+  {
+    "name": "Sun Shield",
+    "physAtk": 91,
+    "elemAtk": 91,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover HP after performing an action. (+100 HP)",
+    "maxOwnable": 1,
+    "availability": "Chest [Western Merry Hills Pass]"
+  },
+  {
+    "name": "Quartz Shield",
+    "physAtk": 87,
+    "elemAtk": 105,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents blindness.",
+    "maxOwnable": 1,
+    "availability": "Chest [Gravell]"
+  },
+  {
+    "name": "Swift Shield",
+    "physAtk": 79,
+    "elemAtk": 97,
+    "bonus1": "Speed +47",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Merry Hills], [Roque Island]"
+  },
+  {
+    "name": "Heavy Greatshield",
+    "physAtk": 76,
+    "elemAtk": 76,
+    "bonus1": "Evasion -55",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store], [Stormhail]"
+  },
+  {
+    "name": "Diamond Shield",
+    "physAtk": 72,
+    "elemAtk": 69,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents instant death.",
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+  },
+  {
+    "name": "Platinum Shield",
+    "physAtk": 65,
+    "elemAtk": 53,
+    "bonus1": "Max. HP +400",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove: Department Store (*)]"
+  },
+  {
+    "name": "Master's Shield",
+    "physAtk": 58,
+    "elemAtk": 58,
+    "bonus1": "Speed +31",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Ku Soldier in Castle Ku: Entrance]"
+  },
+  {
+    "name": "Shield of Serenity",
+    "physAtk": 52,
+    "elemAtk": 64,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Prevents confusion.",
+    "maxOwnable": 1,
+    "availability": "Chest [Sunken Maw]"
+  },
+  {
+    "name": "Spiked Shield",
+    "physAtk": 44,
+    "elemAtk": 32,
+    "bonus1": "Critical +17",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Clockbank], [Sai]"
+  },
+  {
+    "name": "Plate Buckler",
+    "physAtk": 43,
+    "elemAtk": 35,
+    "bonus1": "Evasion +19",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+  },
+  {
+    "name": "Silver Shield",
+    "physAtk": 42,
+    "elemAtk": 34,
+    "bonus1": "Max. HP +150",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom]"
+  },
+  {
+    "name": "Tattered Sacred Shield",
+    "physAtk": 35,
+    "elemAtk": 35,
+    "bonus1": "Max. Sp +20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "NPC<Item> [Thief in Winterbloom: Thieves' Quarter]"
+  },
+  {
+    "name": "Crested Greatshield",
+    "physAtk": 31,
+    "elemAtk": 31,
+    "bonus1": "Evasion -30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu], [Black Market], [Clockbank], [Sai]"
+  },
+  {
+    "name": "Feather Shield",
+    "physAtk": 27,
+    "elemAtk": 31,
+    "bonus1": "Speed +26",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Black Market], [Montwise: Underground Arena]"
+  },
+  {
+    "name": "Shell Buckler",
+    "physAtk": 26,
+    "elemAtk": 22,
+    "bonus1": "Evasion +9",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Tropu'hopu]"
+  },
+  {
+    "name": "Guard's Shield",
+    "physAtk": 25,
+    "elemAtk": 21,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Conning Creek (*)]"
+  },
+  {
+    "name": "Sturdy Shield",
+    "physAtk": 25,
+    "elemAtk": 25,
+    "bonus1": "Evasion -20",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Canalbrine]"
+  },
+  {
+    "name": "Iron Shield",
+    "physAtk": 24,
+    "elemAtk": 20,
+    "bonus1": "Max. HP +60",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Winterbloom], [Conning Creek]"
+  },
+  {
+    "name": "Rabbit Shield",
+    "physAtk": 23,
+    "elemAtk": 22,
+    "bonus1": "Speed +15",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Chest [Cavern of the Sea God] (Ochette ch.2)"
+  },
+  {
+    "name": "Weathered Treasure Shield",
+    "physAtk": 20,
+    "elemAtk": 24,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": "Equip effect: Recover SP after performing an action. (+3 SP)",
+    "maxOwnable": 1,
+    "availability": "Chest [Lair of the Usurper]"
+  },
+  {
+    "name": "Kite Shield",
+    "physAtk": 20,
+    "elemAtk": 18,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Ryu]"
+  },
+  {
+    "name": "Bronze Shield",
+    "physAtk": 17,
+    "elemAtk": 16,
+    "bonus1": "Max. HP +30",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Oresrush]"
+  },
+  {
+    "name": "Leather Buckler",
+    "physAtk": 16,
+    "elemAtk": 20,
+    "bonus1": "Evasion +7",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [New Delsta]"
+  },
+  {
+    "name": "Round Shield",
+    "physAtk": 15,
+    "elemAtk": 21,
+    "bonus1": "Speed +6",
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Cape Cold], [Beasting Village]"
+  },
+  {
+    "name": "Buckler",
+    "physAtk": 11,
+    "elemAtk": 9,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 99,
+    "availability": "Store [Flamechurch], [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+  },
+  {
+    "name": "Resplendent Shield",
+    "physAtk": 10,
+    "elemAtk": 10,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 0,
+    "availability": "Exclusive to Crick (Temenos' chapter 1)"
+  },
+  {
+    "name": "Gray Shield",
+    "physAtk": 6,
+    "elemAtk": 3,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Hikari's starting equipment"
+  },
+  {
+    "name": "Small Shield",
+    "physAtk": 5,
+    "elemAtk": 3,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 3,
+    "availability": "Temenos, Throné and Castti's starting equipment"
+  },
+  {
+    "name": "Wooden Shield",
+    "physAtk": 4,
+    "elemAtk": 4,
+    "bonus1": null,
+    "bonus2": null,
+    "effect": null,
+    "maxOwnable": 4,
+    "availability": "NPC<Item> [Supervisor in Oresrush] (Partitio ch.1 exclusive)\nOchette, Agnea and Partitio's starting equipment"
+  },
+  {
+    "name": "Bodyguard's Vantage",
+    "physAtk": null,
+    "elemAtk": null,
+    "bonus1": "Accuracy +80",
+    "bonus2": "Critical +60",
+    "effect": null,
+    "maxOwnable": 1,
+    "availability": "Quest [Veronica's Next Chapter] (Agnea's story completed)"
+  }
+]
