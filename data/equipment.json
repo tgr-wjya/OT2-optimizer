@@ -1,0 +1,5142 @@
+{
+  "Swords": [
+    {
+      "name": "Conqueror's Sword",
+      "physAtk": 200,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Raise Physical attack by 250 against broken foes.",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Sword from sidequest The Sword in the Stone)"
+    },
+    {
+      "name": "Serpent Slayer",
+      "physAtk": 420,
+      "elemAtk": null,
+      "bonus1": "Accuracy -75",
+      "bonus2": "Critical -150",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Infernal Castle]"
+    },
+    {
+      "name": "Battle-Tested Blade",
+      "physAtk": 400,
+      "elemAtk": null,
+      "bonus1": "Critical +120",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of physical skills. (+30%)",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)\nNPC<Drop 2%> [Young Man (10*) in Tropu'hopu]"
+    },
+    {
+      "name": "Lost Tribe's Blade",
+      "physAtk": 386,
+      "elemAtk": null,
+      "bonus1": "Phys. Def. -101",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "Mini-Boss<Drop> [Battle-Worn Shark in On the Water]"
+    },
+    {
+      "name": "Eclipse Edge",
+      "physAtk": 352,
+      "elemAtk": null,
+      "bonus1": "Accuracy -75",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Captain Kaldena in Rifted Rock] (Temenos chapter 4)"
+    },
+    {
+      "name": "Sword of Oaths",
+      "physAtk": 349,
+      "elemAtk": null,
+      "bonus1": "Evasion +104",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+      "maxOwnable": 1,
+      "availability": "Quest [Ort's Next Chapter] (Temenos' story completed)"
+    },
+    {
+      "name": "Divine Splendor",
+      "physAtk": 345,
+      "elemAtk": null,
+      "bonus1": "Speed +110",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ku Officer in Castle Ku]"
+    },
+    {
+      "name": "Expert's Obsidian Edge",
+      "physAtk": 343,
+      "elemAtk": null,
+      "bonus1": "Accuracy +105",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Arrogant Warrior in Southern Ku Sands], [Tough Warrior in Southern Ku Sands]"
+    },
+    {
+      "name": "Giant's Blade",
+      "physAtk": 323,
+      "elemAtk": null,
+      "bonus1": "Accuracy -65",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Forbidden Blade",
+      "physAtk": 322,
+      "elemAtk": null,
+      "bonus1": "Speed +77",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to raise target's physical attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [Forsaken Graveyard] (Guarded by Devourer of Dreams mini-boss)"
+    },
+    {
+      "name": "Skypiercer",
+      "physAtk": 320,
+      "elemAtk": null,
+      "bonus1": "Speed +50",
+      "bonus2": "Critical +50",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku (*)]"
+    },
+    {
+      "name": "Sanctum Sword",
+      "physAtk": 319,
+      "elemAtk": null,
+      "bonus1": "Speed +98",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail (*)]"
+    },
+    {
+      "name": "Keepsake Sword",
+      "physAtk": 312,
+      "elemAtk": null,
+      "bonus1": "Critical +86",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Young Warrior in Sai] (Sidequest: Sword Hunter in the Decaying Temple)"
+    },
+    {
+      "name": "Hypno Sword",
+      "physAtk": 310,
+      "elemAtk": null,
+      "bonus1": "Evasion +90",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to put target to sleep.",
+      "maxOwnable": 1,
+      "availability": "Chest [Southern Timberain Trail]"
+    },
+    {
+      "name": "Evil Slayer",
+      "physAtk": 305,
+      "elemAtk": null,
+      "bonus1": "Accuracy +52",
+      "bonus2": "Critical +52",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Gladiator in Montwise: Underground Arena]"
+    },
+    {
+      "name": "Starsplitter",
+      "physAtk": 296,
+      "elemAtk": null,
+      "bonus1": "Critical +91",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+      "maxOwnable": 1,
+      "availability": "Chest [Western Gravell Wilds]"
+    },
+    {
+      "name": "Ogre's Bane",
+      "physAtk": 294,
+      "elemAtk": null,
+      "bonus1": "Critical +88",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku]"
+    },
+    {
+      "name": "Bastard Sword",
+      "physAtk": 292,
+      "elemAtk": null,
+      "bonus1": "Accuracy +87",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Lostseed (*)]"
+    },
+    {
+      "name": "Great Blade",
+      "physAtk": 205,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai (*)]"
+    },
+    {
+      "name": "Guardian's Iceblade",
+      "physAtk": 203,
+      "elemAtk": null,
+      "bonus1": "Evasion +41",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Glacis in Sacred Peak Altahe] (Ochette chapter 2: Glacis's Route)"
+    },
+    {
+      "name": "Bloodsucker",
+      "physAtk": 199,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+    },
+    {
+      "name": "Soulsucker",
+      "physAtk": 199,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover SP equivalent to 1% of the damage dealt.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+    },
+    {
+      "name": "Aegis Sword",
+      "physAtk": 197,
+      "elemAtk": null,
+      "bonus1": "Speed +59",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Master Rod",
+      "physAtk": 196,
+      "elemAtk": null,
+      "bonus1": "Speed +57",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's speed.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Devilishily Delicious Dish]"
+    },
+    {
+      "name": "Firestarter",
+      "physAtk": 195,
+      "elemAtk": 298,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Eastern Ku Sands]"
+    },
+    {
+      "name": "Clan Mei Sword",
+      "physAtk": 192,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Clan Mei Soldier in Sotrmhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+    },
+    {
+      "name": "Stonesplitter",
+      "physAtk": 184,
+      "elemAtk": null,
+      "bonus1": "Critical +56",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store] (Partitio's Ch.3 completed)"
+    },
+    {
+      "name": "Enchanted Edge",
+      "physAtk": 183,
+      "elemAtk": 140,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge (*)]"
+    },
+    {
+      "name": "Crescent Saber",
+      "physAtk": 123,
+      "elemAtk": null,
+      "bonus1": "Accuracy +36",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Reaper's Blade",
+      "physAtk": 119,
+      "elemAtk": null,
+      "bonus1": "Accuracy +34",
+      "bonus2": null,
+      "effect": "Atteck effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Elderly Man in Clockbank]"
+    },
+    {
+      "name": "Quartz Blade",
+      "physAtk": 118,
+      "elemAtk": 70,
+      "bonus1": "Accuracy -55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Sandflow Pass] (Guarded by Soldier 4*)"
+    },
+    {
+      "name": "Warrior's Sword",
+      "physAtk": 117,
+      "elemAtk": null,
+      "bonus1": "Speed +35",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena (*)]"
+    },
+    {
+      "name": "Little Crow",
+      "physAtk": 112,
+      "elemAtk": null,
+      "bonus1": "Critical +34",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Refined Sword",
+      "physAtk": 107,
+      "elemAtk": null,
+      "bonus1": "Speed +32",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Heavy Blade",
+      "physAtk": 80,
+      "elemAtk": null,
+      "bonus1": "Accuracy -55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush (*)], [Clockbank]"
+    },
+    {
+      "name": "Champion's Sword",
+      "physAtk": 70,
+      "elemAtk": null,
+      "bonus1": "Accuracy +18",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena (*)]"
+    },
+    {
+      "name": "Heretic's Greatsword",
+      "physAtk": 69,
+      "elemAtk": null,
+      "bonus1": "Accuracy -40",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest: [Ruffians's Hideout]"
+    },
+    {
+      "name": "Magic Eater",
+      "physAtk": 68,
+      "elemAtk": null,
+      "bonus1": "Evasion +17",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+      "maxOwnable": 1,
+      "availability": "Chest: [Northern Wellgrove Trail]"
+    },
+    {
+      "name": "Silver Sword",
+      "physAtk": 59,
+      "elemAtk": null,
+      "bonus1": "Speed +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Guard's Saber",
+      "physAtk": 54,
+      "elemAtk": null,
+      "bonus1": "Accuracy +12",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Conning Creek (*)]"
+    },
+    {
+      "name": "Spirit Scimitar",
+      "physAtk": 52,
+      "elemAtk": 25,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale]"
+    },
+    {
+      "name": "Broadsword",
+      "physAtk": 48,
+      "elemAtk": null,
+      "bonus1": "Speed +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Canalbrine], [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Iron Blade",
+      "physAtk": 30,
+      "elemAtk": null,
+      "bonus1": "Accuracy -20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Beasting Village]"
+    },
+    {
+      "name": "Nameless Sword",
+      "physAtk": 23,
+      "elemAtk": null,
+      "bonus1": "Critical +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Ryu]"
+    },
+    {
+      "name": "Long Sword",
+      "physAtk": 12,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu]"
+    },
+    {
+      "name": "Knight's Sword",
+      "physAtk": 12,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Crick (Temenos' chapter 1)"
+    },
+    {
+      "name": "Sword of the Sands",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Ritsu (Hikari's chapter 1)"
+    },
+    {
+      "name": "Rotted Sword",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+    },
+    {
+      "name": "Desert Blade",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Hikari's starting equipment\nNPC<Item> [Novice Warrior in Southern Ku Sands]"
+    },
+    {
+      "name": "Thief's Sword",
+      "physAtk": 4,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Throné's starting equipment"
+    }
+  ],
+  "Polearms": [
+    {
+      "name": "Warlord's Spear",
+      "physAtk": 310,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover BP when defeating an enemy.",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Polearm in a chest from Timberain Castle: Town Square)"
+    },
+    {
+      "name": "Battle-Tested Spear",
+      "physAtk": 390,
+      "elemAtk": null,
+      "bonus1": "Critical +120",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Benkei in Castle Ku] (Hikari's story completed)\nNPC<Drop 2%> [Townsperson (8*) in Sai]"
+    },
+    {
+      "name": "Lost Tribe's Spear",
+      "physAtk": 386,
+      "elemAtk": null,
+      "bonus1": "Speed -101",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to put target to sleep.",
+      "maxOwnable": 1,
+      "availability": "Chest [Shipwreck of the Empress]"
+    },
+    {
+      "name": "Gravity Lance",
+      "physAtk": 375,
+      "elemAtk": null,
+      "bonus1": "Accuracy -75",
+      "bonus2": "Evasion -90",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island (*)]"
+    },
+    {
+      "name": "Spear of Strength",
+      "physAtk": 338,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Guaranteed critical hit.",
+      "maxOwnable": 1,
+      "availability": "Quest [The Strongest] (Hikari's story completed)"
+    },
+    {
+      "name": "Tornado Glaive",
+      "physAtk": 337,
+      "elemAtk": null,
+      "bonus1": "Evasion +105",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Curious Nest] (Guarded by Tyrannodrake mini-boss)"
+    },
+    {
+      "name": "Forbidden Spear",
+      "physAtk": 320,
+      "elemAtk": null,
+      "bonus1": "Speed -120",
+      "bonus2": "Evasion +50",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Townsperson in Sai: East District]"
+    },
+    {
+      "name": "Fire Dragon's Glaive",
+      "physAtk": 318,
+      "elemAtk": null,
+      "bonus1": "Evasion +95",
+      "bonus2": null,
+      "effect": "Equip effect: Raises Potency of fire-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Decaying Temple]"
+    },
+    {
+      "name": "Monster Bone Spear",
+      "physAtk": 315,
+      "elemAtk": null,
+      "bonus1": "Accuracy -65",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Obsidian Lance",
+      "physAtk": 311,
+      "elemAtk": null,
+      "bonus1": "Critical +97",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku (*)]"
+    },
+    {
+      "name": "Seraphim Spear",
+      "physAtk": 296,
+      "elemAtk": null,
+      "bonus1": "Speed +96",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [Old Clock Tower]"
+    },
+    {
+      "name": "Venom Lance",
+      "physAtk": 292,
+      "elemAtk": null,
+      "bonus1": "Critical +89",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to poison target.",
+      "maxOwnable": 1,
+      "availability": "Chest [The Roque Company: West Tower]"
+    },
+    {
+      "name": "Well-Worn Pole",
+      "physAtk": 289,
+      "elemAtk": 330,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+      "maxOwnable": 1,
+      "availability": "Quest [Lady Clarissa's Next Chapter] (Osvald's & Ochette's story completed)"
+    },
+    {
+      "name": "Crimson Spear",
+      "physAtk": 288,
+      "elemAtk": null,
+      "bonus1": "Critical +90",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku]"
+    },
+    {
+      "name": "Hyperion Spear",
+      "physAtk": 286,
+      "elemAtk": null,
+      "bonus1": "Speed +88",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Rare Metal Glaive",
+      "physAtk": 284,
+      "elemAtk": null,
+      "bonus1": "Evasion +82",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island]"
+    },
+    {
+      "name": "Sea God's Spear",
+      "physAtk": 224,
+      "elemAtk": null,
+      "bonus1": "Accuracy +91",
+      "bonus2": null,
+      "effect": "Attack effect: Deal 1 additional attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [Sinking Ruins]"
+    },
+    {
+      "name": "Nightmare Glaive",
+      "physAtk": 210,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to put target to sleep.",
+      "maxOwnable": 1,
+      "availability": "Chest [Castle Mei: East Tower]"
+    },
+    {
+      "name": "Clan Mei Spear",
+      "physAtk": 187,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's speed.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Clan Mei Soldier in Stormhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+    },
+    {
+      "name": "Paladin's Lance",
+      "physAtk": 184,
+      "elemAtk": null,
+      "bonus1": "Critical +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Lightning Glaive",
+      "physAtk": 182,
+      "elemAtk": null,
+      "bonus1": "Evasion +56",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai (*)], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Scorched Bone Spear",
+      "physAtk": 132,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Quicksand Gaol]"
+    },
+    {
+      "name": "Heavy Bone Spear",
+      "physAtk": 125,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu (*)]"
+    },
+    {
+      "name": "Matching Trident",
+      "physAtk": 114,
+      "elemAtk": null,
+      "bonus1": "Critical +35",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Waiting Woman in Northern Conning Creek Coast]\nChest [Northern Conning Creek Coast] (Guarded by Waiting Woman (5*))"
+    },
+    {
+      "name": "Soldier's Spear",
+      "physAtk": 111,
+      "elemAtk": null,
+      "bonus1": "Speed +34",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom], [Clockbank]"
+    },
+    {
+      "name": "Fuscina",
+      "physAtk": 106,
+      "elemAtk": null,
+      "bonus1": "Accuracy +20",
+      "bonus2": "Critical +20",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena (*)]"
+    },
+    {
+      "name": "Master Harpoon",
+      "physAtk": 103,
+      "elemAtk": null,
+      "bonus1": "Accuracy +31",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine (*)]"
+    },
+    {
+      "name": "Vanguard's Javelin",
+      "physAtk": 71,
+      "elemAtk": null,
+      "bonus1": "Speed +41",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Scholar in Montwise: Library]"
+    },
+    {
+      "name": "Gluttonous Glaive",
+      "physAtk": 69,
+      "elemAtk": null,
+      "bonus1": "Accuracy -40",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 1,
+      "availability": "Quest [Culinary Cunning]"
+    },
+    {
+      "name": "Slashing Glaive",
+      "physAtk": 68,
+      "elemAtk": null,
+      "bonus1": "Evasion +18",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Steel Lance",
+      "physAtk": 63,
+      "elemAtk": null,
+      "bonus1": "Critical +16",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank]"
+    },
+    {
+      "name": "Sandstorm Spear",
+      "physAtk": 58,
+      "elemAtk": null,
+      "bonus1": "Speed +17",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu (*)], [Black Market]"
+    },
+    {
+      "name": "Spear of Sleep",
+      "physAtk": 57,
+      "elemAtk": 57,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to put target to sleep.",
+      "maxOwnable": 1,
+      "availability": "Mini-Boss<Drop> [Monarch in Starfall Spring]"
+    },
+    {
+      "name": "War Glaive",
+      "physAtk": 49,
+      "elemAtk": null,
+      "bonus1": "Evasion +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu], [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Memorial Harpoon",
+      "physAtk": 38,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's speed.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Merchant in Canalbrine]"
+    },
+    {
+      "name": "Bone Spear",
+      "physAtk": 28,
+      "elemAtk": null,
+      "bonus1": "Accuracy -18",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Lance",
+      "physAtk": 24,
+      "elemAtk": null,
+      "bonus1": "Critical +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta]"
+    },
+    {
+      "name": "Long Spear",
+      "physAtk": 22,
+      "elemAtk": null,
+      "bonus1": "Speed +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu]"
+    },
+    {
+      "name": "Spear",
+      "physAtk": 11,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Desert Spear",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Hikari's starting equipment\nNPC<Item> [Boy in Ku: Castle Town]"
+    },
+    {
+      "name": "Handmade Spear",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Partitio's starting equipment"
+    }
+  ],
+  "Daggers": [
+    {
+      "name": "Dancer's Blade",
+      "physAtk": 300,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to afflict target with poison, blindness, confusion, or sleep",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Dagger in a chest in Shipwreck of the Empress)"
+    },
+    {
+      "name": "Battle-Tested Dagger",
+      "physAtk": 380,
+      "elemAtk": null,
+      "bonus1": "Evasion +120",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Plukk in Winterbloom: Thieves' Quarter] (Castti's story & Melia's Next Chapter sidequest completed)\nNPC<Drop 2%> [Elderly Man (9*) in Clockbank]"
+    },
+    {
+      "name": "Lost Tribe's Dagger",
+      "physAtk": 362,
+      "elemAtk": null,
+      "bonus1": "Speed -103",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 1,
+      "availability": "Chest [The Lost Isle]"
+    },
+    {
+      "name": "Tonfa",
+      "physAtk": 329,
+      "elemAtk": null,
+      "bonus1": "Accuracy +102",
+      "bonus2": null,
+      "effect": "Equip effect: Slim chance to counterattack.",
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Tyran the Seeker in Five-Tiered Tower: Third Floor]"
+    },
+    {
+      "name": "Vengeful Knife",
+      "physAtk": 325,
+      "elemAtk": null,
+      "bonus1": "Speed +109",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to put target to sleep.",
+      "maxOwnable": 1,
+      "availability": "Quest [Mira and the Elderly Guard's Next Chapter] (Throné's story completed)"
+    },
+    {
+      "name": "Ruinous Dagger",
+      "physAtk": 317,
+      "elemAtk": null,
+      "bonus1": "Accuracy -75",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Lostseed Castle: Upper Level]"
+    },
+    {
+      "name": "Diamond Dagger",
+      "physAtk": 315,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Gravell (*)]"
+    },
+    {
+      "name": "Dagger in the Rough",
+      "physAtk": 305,
+      "elemAtk": null,
+      "bonus1": "Accuracy -65",
+      "bonus2": "Critical -30",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Gravell]"
+    },
+    {
+      "name": "Mooneater",
+      "physAtk": 285,
+      "elemAtk": 349,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of fire- and wind-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+    },
+    {
+      "name": "Forbidden Dagger",
+      "physAtk": 305,
+      "elemAtk": 295,
+      "bonus1": "Phys Def. -120",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [New Delsta: Game Parlor] (Garded by Safe Keeper (8*))"
+    },
+    {
+      "name": "Lockpick",
+      "physAtk": 304,
+      "elemAtk": null,
+      "bonus1": "Evasion +94",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Girl in Winterbloom: Thieves' Quarter]"
+    },
+    {
+      "name": "Bloodstained Knife",
+      "physAtk": 290,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+      "maxOwnable": 1,
+      "availability": "Chest [Shrine of Ul'sterra]"
+    },
+    {
+      "name": "Breaker's Blade",
+      "physAtk": 289,
+      "elemAtk": null,
+      "bonus1": "Critical +115",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills (*)]"
+    },
+    {
+      "name": "Ornate Dagger",
+      "physAtk": 281,
+      "elemAtk": null,
+      "bonus1": "Accuracy +91",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills]"
+    },
+    {
+      "name": "Dagger of Seclusion",
+      "physAtk": 279,
+      "elemAtk": null,
+      "bonus1": "Evasion +88",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Lostseed (*)]"
+    },
+    {
+      "name": "Assassin's Dagger",
+      "physAtk": 278,
+      "elemAtk": null,
+      "bonus1": "Speed +90",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Mysterious Dagger",
+      "physAtk": 266,
+      "elemAtk": 266,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+      "maxOwnable": 1,
+      "availability": "Chest [Tranquil Grotto]"
+    },
+    {
+      "name": "Champion Seeker",
+      "physAtk": 180,
+      "elemAtk": null,
+      "bonus1": "Accuracy +58",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena (*)]"
+    },
+    {
+      "name": "Marietta",
+      "physAtk": 179,
+      "elemAtk": null,
+      "bonus1": "Evasion +56",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Father in Abandoned Church] (Throne ch.3)"
+    },
+    {
+      "name": "Piercing Dagger",
+      "physAtk": 176,
+      "elemAtk": null,
+      "bonus1": "Speed +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom (*)]"
+    },
+    {
+      "name": "Doombreaker",
+      "physAtk": 174,
+      "elemAtk": null,
+      "bonus1": "Critical +56",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai (*)], [Wellgrove], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Wind Whisperer",
+      "physAtk": 172,
+      "elemAtk": 163,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Dragonridge]"
+    },
+    {
+      "name": "Poison Dagger",
+      "physAtk": 162,
+      "elemAtk": null,
+      "bonus1": "Critical +58",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to poison target.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Thief in Winterbloom: Thieves' Quarter]"
+    },
+    {
+      "name": "Moonfang",
+      "physAtk": 141,
+      "elemAtk": null,
+      "bonus1": "Speed +75",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of fire-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage]"
+    },
+    {
+      "name": "Obsidian Dagger",
+      "physAtk": 122,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Black Dagger",
+      "physAtk": 118,
+      "elemAtk": null,
+      "bonus1": "Speed +55",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Abandoned Church]"
+    },
+    {
+      "name": "Stealthy Knife",
+      "physAtk": 117,
+      "elemAtk": null,
+      "bonus1": "Evasion +37",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Drifting Dagger",
+      "physAtk": 111,
+      "elemAtk": null,
+      "bonus1": "Accuracy +28",
+      "bonus2": "Critical +28",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Plukk in Winterbloom: Thieves' Quarter] (Castti ch.2)"
+    },
+    {
+      "name": "Stinging Dagger",
+      "physAtk": 107,
+      "elemAtk": null,
+      "bonus1": "Speed +34",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom], [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Jade Dagger",
+      "physAtk": 101,
+      "elemAtk": null,
+      "bonus1": "Evasion +31",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+      "maxOwnable": 1,
+      "availability": "Quest [The Washed-Up Letter]"
+    },
+    {
+      "name": "Magus Knife",
+      "physAtk": 97,
+      "elemAtk": 93,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta (*)], [Tropu'hopu]"
+    },
+    {
+      "name": "Crystal Dagger",
+      "physAtk": 72,
+      "elemAtk": null,
+      "bonus1": "Accuracy -50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Swordbreaker",
+      "physAtk": 62,
+      "elemAtk": null,
+      "bonus1": "Critical +16",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Smuggler in Crackridge Harbor: Anchorage]\nNPC<Hidden Item> [Man in Clockbank: Industrial District]"
+    },
+    {
+      "name": "Quartz Dagger",
+      "physAtk": 60,
+      "elemAtk": 58,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+      "maxOwnable": 99,
+      "availability": "Store [Black Market]"
+    },
+    {
+      "name": "Falcon Knife",
+      "physAtk": 57,
+      "elemAtk": null,
+      "bonus1": "Evasion +14",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom]"
+    },
+    {
+      "name": "Handbreaker",
+      "physAtk": 52,
+      "elemAtk": null,
+      "bonus1": "Critical +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta]"
+    },
+    {
+      "name": "Kukri",
+      "physAtk": 46,
+      "elemAtk": null,
+      "bonus1": "Accuracy +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Beasting Village], [Oresrush]"
+    },
+    {
+      "name": "Needle Dagger",
+      "physAtk": 25,
+      "elemAtk": null,
+      "bonus1": "Speed +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch]"
+    },
+    {
+      "name": "Bronze Knife",
+      "physAtk": 22,
+      "elemAtk": null,
+      "bonus1": "Evasion +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Cropdale]"
+    },
+    {
+      "name": "Dagger",
+      "physAtk": 11,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale]"
+    },
+    {
+      "name": "Silver-Plated Knife",
+      "physAtk": 7,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Iteam> [Giff in Oresrush]"
+    },
+    {
+      "name": "Thief's Dagger",
+      "physAtk": 6,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Throné's starting equipment"
+    },
+    {
+      "name": "Snakebite",
+      "physAtk": 4,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Boss<Steal> [Fake Snake (Parent&Child)] (Throné's ch.4)"
+    },
+    {
+      "name": "Fruit Knife",
+      "physAtk": 4,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Tavern Cook in New Delsta]\nAgnea's starting equipment"
+    },
+    {
+      "name": "Sharp Stone",
+      "physAtk": 3,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Cooking Enthusiast in Beasting Village], [Man in Orerush: Foundry]"
+    }
+  ],
+  "Axes": [
+    {
+      "name": "Lionheart's Axe",
+      "physAtk": 320,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Raises max HP during battle.",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Axe in Quicksand Gaol, guarded by Lord of Sands mini-boss)"
+    },
+    {
+      "name": "Battle-Tested Axe",
+      "physAtk": 400,
+      "elemAtk": 250,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of lightning- and ice-based attacks. (+30%)",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)\nNPC<Drop 2%> [Villager (8*) in Cape Cold]"
+    },
+    {
+      "name": "Lost Tribe's Axe",
+      "physAtk": 381,
+      "elemAtk": null,
+      "bonus1": "Critical -102",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to confuse target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Ivory Ravine]"
+    },
+    {
+      "name": "Reaper's Sickle",
+      "physAtk": 366,
+      "elemAtk": null,
+      "bonus1": "Accuracy -66",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Mysterious Box]"
+    },
+    {
+      "name": "Hero's Axe",
+      "physAtk": 340,
+      "elemAtk": null,
+      "bonus1": "Critical +102",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Soldier in Timberain]"
+    },
+    {
+      "name": "Forbidden Axe",
+      "physAtk": 324,
+      "elemAtk": null,
+      "bonus1": "Accuracy +80",
+      "bonus2": "Critical -120",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [House Wellows Manor]"
+    },
+    {
+      "name": "Flayer's Admonishment",
+      "physAtk": 323,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover HP equivalent to 25% of the damage dealt.",
+      "maxOwnable": 1,
+      "availability": "Chest [Stormhail: Sacred Guard Headquarters] (Guarded by Sanctum Knight (7*))"
+    },
+    {
+      "name": "Royal Guard's Hatchet",
+      "physAtk": 319,
+      "elemAtk": null,
+      "bonus1": "Speed +97",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain (*)]"
+    },
+    {
+      "name": "Axe of the Conqueror",
+      "physAtk": 306,
+      "elemAtk": null,
+      "bonus1": "Critical +90",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Stormy Cape] (Ochette's story completed)"
+    },
+    {
+      "name": "Cleaver of Destruction",
+      "physAtk": 304,
+      "elemAtk": null,
+      "bonus1": "Accuracy +91",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Beastling in Nameless Village]\nChest [Timberain Castle]"
+    },
+    {
+      "name": "Stupefying Stone Axe",
+      "physAtk": 297,
+      "elemAtk": null,
+      "bonus1": "Speed +91",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to confuse target.",
+      "maxOwnable": 2,
+      "availability": "Quest [Ghormf!]\nNPC<Item> [Beastling in Beasting Village]"
+    },
+    {
+      "name": "Icy Axe",
+      "physAtk": 295,
+      "elemAtk": 198,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Mercenary in Stormhail: Castle Mei]"
+    },
+    {
+      "name": "Imperial Axe",
+      "physAtk": 293,
+      "elemAtk": null,
+      "bonus1": "Accuracy +89",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain]"
+    },
+    {
+      "name": "Frontier Axe",
+      "physAtk": 290,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (*)]"
+    },
+    {
+      "name": "Contaminated Iron Ingot",
+      "physAtk": 289,
+      "elemAtk": null,
+      "bonus1": "Phys. Def. -60",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to poison target.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Factory Worker in Roque Island]"
+    },
+    {
+      "name": "Double Tomahawk",
+      "physAtk": 230,
+      "elemAtk": 264,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Deal 1 additional attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [On the Water]"
+    },
+    {
+      "name": "Guardian's Great Axe",
+      "physAtk": 204,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": "Critical +55",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Tera in Bed of the Titan] (Ochette ch.2)"
+    },
+    {
+      "name": "Dark Slasher",
+      "physAtk": 197,
+      "elemAtk": null,
+      "bonus1": "Critical +58",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of dark based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Forsaken Graveyard]"
+    },
+    {
+      "name": "Pirate's Axe",
+      "physAtk": 195,
+      "elemAtk": null,
+      "bonus1": "Critical +57",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai (*)], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Platinum Hatchet",
+      "physAtk": 194,
+      "elemAtk": null,
+      "bonus1": "Speed +58",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Platinum Hatchet]"
+    },
+    {
+      "name": "Quartz Axe",
+      "physAtk": 187,
+      "elemAtk": 154,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [Nameless Isle]"
+    },
+    {
+      "name": "Grand Cleaver",
+      "physAtk": 186,
+      "elemAtk": null,
+      "bonus1": "Critical +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge (*)]"
+    },
+    {
+      "name": "Bone Cleaver",
+      "physAtk": 128,
+      "elemAtk": null,
+      "bonus1": "Accuracy -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Guardian's Axe",
+      "physAtk": 123,
+      "elemAtk": null,
+      "bonus1": "Accuracy +36",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Guillotine's Blade",
+      "physAtk": 119,
+      "elemAtk": null,
+      "bonus1": "Accuracy +20",
+      "bonus2": "Critical +20",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank (*)]"
+    },
+    {
+      "name": "Silver Hatchet",
+      "physAtk": 112,
+      "elemAtk": null,
+      "bonus1": "Speed +32",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (*)], [Winterbloom]"
+    },
+    {
+      "name": "Frost Axe",
+      "physAtk": 110,
+      "elemAtk": null,
+      "bonus1": "Speed +30",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Abandoned Waterway] (Guarded by Carnivorous Plant mini-boss)"
+    },
+    {
+      "name": "Rock Cleaver",
+      "physAtk": 108,
+      "elemAtk": null,
+      "bonus1": "Critical +31",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Axe of Avarice",
+      "physAtk": 107,
+      "elemAtk": null,
+      "bonus1": "Phys. Def. +20",
+      "bonus2": "Elem. Def. +20",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Captain Stenvar in Guard Outpost] (Osvald ch.3)"
+    },
+    {
+      "name": "Helmcleaver",
+      "physAtk": 71,
+      "elemAtk": null,
+      "bonus1": "Accuracy -45",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+      "maxOwnable": 1,
+      "availability": "Chest [Northern Conning Creek Coast]"
+    },
+    {
+      "name": "Strong Axe",
+      "physAtk": 70,
+      "elemAtk": null,
+      "bonus1": "Accuracy +18",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom]"
+    },
+    {
+      "name": "Poisoned Hatchet",
+      "physAtk": 61,
+      "elemAtk": 55,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to poison target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Sand Lion's Den]"
+    },
+    {
+      "name": "Battle Hatchet",
+      "physAtk": 59,
+      "elemAtk": null,
+      "bonus1": "Speed +14",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Guard's Great Axe",
+      "physAtk": 54,
+      "elemAtk": null,
+      "bonus1": "Critical +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Conning Creek]"
+    },
+    {
+      "name": "Iron Axe",
+      "physAtk": 48,
+      "elemAtk": null,
+      "bonus1": "Accuracy +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village], [Ryu]"
+    },
+    {
+      "name": "War Axe",
+      "physAtk": 26,
+      "elemAtk": null,
+      "bonus1": "Accuracy +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Canalbrine]"
+    },
+    {
+      "name": "Woodcutter's Great Axe",
+      "physAtk": 24,
+      "elemAtk": null,
+      "bonus1": "Critical +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village]"
+    },
+    {
+      "name": "Beastling's Hatchet",
+      "physAtk": 23,
+      "elemAtk": null,
+      "bonus1": "Speed +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (Jerky)]"
+    },
+    {
+      "name": "Handaxe",
+      "physAtk": 12,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village], [Canalbrine]"
+    },
+    {
+      "name": "Woodcutter's Axe",
+      "physAtk": 10,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Gus (Agnea's chapter 1)"
+    },
+    {
+      "name": "Rotted Axe",
+      "physAtk": 7,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ruined Vessel in Lostseed]"
+    },
+    {
+      "name": "Demolition Axe",
+      "physAtk": 6,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Ochette's starting equipment"
+    },
+    {
+      "name": "Small Axe",
+      "physAtk": 6,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Elderly Woman's Son in Forest Path]\nCastti's starting equipment"
+    },
+    {
+      "name": "Snake Fang",
+      "physAtk": 6,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Scaracci (Throné's chapter 1)"
+    }
+  ],
+  "Bows": [
+    {
+      "name": "Hunter's Bow",
+      "physAtk": 312,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce a random attribute.",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Bow in Chest in Sinking Ruins behind Behemoth mini-boss)"
+    },
+    {
+      "name": "Battle-Tested Bow",
+      "physAtk": 390,
+      "elemAtk": null,
+      "bonus1": "Critical +120",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)\nNPC<Drop 2%> [Tutor (9*) in New Delsta]"
+    },
+    {
+      "name": "Lost Tribe's Bow",
+      "physAtk": 371,
+      "elemAtk": null,
+      "bonus1": "Accuracy -103",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to poison target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Curious Nest] (Behind Tyrannodrake mini-boss)"
+    },
+    {
+      "name": "Exorcising Bow",
+      "physAtk": 339,
+      "elemAtk": null,
+      "bonus1": "Speed +110",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental attack.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Elderly Soldier in Timberain Castle: Town Square]"
+    },
+    {
+      "name": "Floyd's Neo Bow",
+      "physAtk": 338,
+      "elemAtk": null,
+      "bonus1": "Accuracy +120",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 1,
+      "availability": "Quest [Floyd and Thurston's Next Chapter] (Partitio's story completed)"
+    },
+    {
+      "name": "Befuddling Greatbow",
+      "physAtk": 337,
+      "elemAtk": null,
+      "bonus1": "Evasion +105",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to confuse target.",
+      "maxOwnable": 1,
+      "availability": "Quest [Shirlutto's Next Chapter] (Temenos's story completed)"
+    },
+    {
+      "name": "Forbidden Bow",
+      "physAtk": 315,
+      "elemAtk": null,
+      "bonus1": "Critical +70",
+      "bonus2": "Evasion -120",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Nameless Village] (Guarded by Beastling (7*))"
+    },
+    {
+      "name": "Bow of Carnage",
+      "physAtk": 313,
+      "elemAtk": null,
+      "bonus1": "Speed +70",
+      "bonus2": "Critical +70",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Enshrouded King in Castle Ku) (Hikari's ch.5)"
+    },
+    {
+      "name": "Protector's Bow",
+      "physAtk": 310,
+      "elemAtk": null,
+      "bonus1": "Evasion +96",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village (*)]"
+    },
+    {
+      "name": "Art of Archery",
+      "physAtk": 297,
+      "elemAtk": null,
+      "bonus1": "Accuracy +115",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills (*)]"
+    },
+    {
+      "name": "Leviathan Greatbow",
+      "physAtk": 296,
+      "elemAtk": null,
+      "bonus1": "Critical +89",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's physical attack.",
+      "maxOwnable": 1,
+      "availability": "Chest [On the Water] (Behind Scourge of the Sea mini-boss)"
+    },
+    {
+      "name": "Tornado Bow",
+      "physAtk": 295,
+      "elemAtk": null,
+      "bonus1": "Speed +90",
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of wind-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Stormy Cape] (Ochette's story completed)"
+    },
+    {
+      "name": "Mechanical Bow",
+      "physAtk": 294,
+      "elemAtk": null,
+      "bonus1": "Accuracy +93",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+      "maxOwnable": 1,
+      "availability": "Chest [The Roque company: East Tower]"
+    },
+    {
+      "name": "Evening Mist",
+      "physAtk": 293,
+      "elemAtk": 325,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Ivory Ravine]"
+    },
+    {
+      "name": "Master's Greatbow",
+      "physAtk": 288,
+      "elemAtk": null,
+      "bonus1": "Critical +88",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island]"
+    },
+    {
+      "name": "Ancient Bow",
+      "physAtk": 286,
+      "elemAtk": null,
+      "bonus1": "Speed +87",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village]"
+    },
+    {
+      "name": "King of Beasts",
+      "physAtk": 282,
+      "elemAtk": null,
+      "bonus1": "Evasion +90",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Black Bow",
+      "physAtk": 281,
+      "elemAtk": null,
+      "bonus1": "Critical +145",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to instantly kill target.",
+      "maxOwnable": 1,
+      "availability": "Boss<Drop> [Grotesque Monster in Tombs of the Wardenbeasts] (Extra stories)"
+    },
+    {
+      "name": "Engagement Bow",
+      "physAtk": 197,
+      "elemAtk": null,
+      "bonus1": "Speed +64",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 1,
+      "availability": "Chest [Montwise] (Guarded by Former Champion (6*))"
+    },
+    {
+      "name": "Absolute Zero Bow",
+      "physAtk": 187,
+      "elemAtk": 158,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of ice-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Sacred Peak Altahe]"
+    },
+    {
+      "name": "Sniper's Bow",
+      "physAtk": 186,
+      "elemAtk": null,
+      "bonus1": "Accuracy +56",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Expert's Bow",
+      "physAtk": 183,
+      "elemAtk": null,
+      "bonus1": "Speed +57",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Raging Beast",
+      "physAtk": 179,
+      "elemAtk": null,
+      "bonus1": "Evasion +56",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's evasion.",
+      "maxOwnable": 4,
+      "availability": "Chest [Southern Stormhail Snows], [Cavern of Waves]\nNPC<Item> [Hunter in Merry Hills], [Beastling Hunter in Western Tropu'hopu Traverse]"
+    },
+    {
+      "name": "Marksman's Bow",
+      "physAtk": 118,
+      "elemAtk": null,
+      "bonus1": "Speed +35",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Battle Bow",
+      "physAtk": 114,
+      "elemAtk": null,
+      "bonus1": "Accuracy +34",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank]"
+    },
+    {
+      "name": "Knight's Greatbow",
+      "physAtk": 109,
+      "elemAtk": null,
+      "bonus1": "Critical +34",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu (*)]"
+    },
+    {
+      "name": "Cupid's Bow",
+      "physAtk": 104,
+      "elemAtk": null,
+      "bonus1": "Accuracy +32",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to confuse target.",
+      "maxOwnable": 1,
+      "availability": "Quest [Pearl Hunt]"
+    },
+    {
+      "name": "Steel Bow",
+      "physAtk": 80,
+      "elemAtk": null,
+      "bonus1": "Accuracy +22",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush (*)]"
+    },
+    {
+      "name": "Soldier's Bow",
+      "physAtk": 67,
+      "elemAtk": null,
+      "bonus1": "Critical +18",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank]"
+    },
+    {
+      "name": "Mirage Bow",
+      "physAtk": 63,
+      "elemAtk": 45,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+      "maxOwnable": 1,
+      "availability": "Chest [Southern Clockbank Highroad]"
+    },
+    {
+      "name": "Sailor's Bow",
+      "physAtk": 60,
+      "elemAtk": null,
+      "bonus1": "Speed +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Conning Creek]"
+    },
+    {
+      "name": "Assault Bow",
+      "physAtk": 58,
+      "elemAtk": null,
+      "bonus1": "Accuracy +14",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Cropdale]"
+    },
+    {
+      "name": "Tenacious Bow",
+      "physAtk": 57,
+      "elemAtk": null,
+      "bonus1": "Critical +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Woman in Cropdale]"
+    },
+    {
+      "name": "Shadow Bow",
+      "physAtk": 55,
+      "elemAtk": 55,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to blind target.",
+      "maxOwnable": 1,
+      "availability": "Chest [Borderfall]"
+    },
+    {
+      "name": "Guard's Greatbow",
+      "physAtk": 53,
+      "elemAtk": null,
+      "bonus1": "Critical +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Conning Creek (*)]"
+    },
+    {
+      "name": "Traveler's Bow",
+      "physAtk": 47,
+      "elemAtk": null,
+      "bonus1": "Speed +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Canalbrine], [Besting Village (Jerky)]"
+    },
+    {
+      "name": "Giant Bow",
+      "physAtk": 24,
+      "elemAtk": null,
+      "bonus1": "Critical +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Composite Bow",
+      "physAtk": 22,
+      "elemAtk": null,
+      "bonus1": "Accuracy +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village]"
+    },
+    {
+      "name": "Beastling's Bow",
+      "physAtk": 20,
+      "elemAtk": null,
+      "bonus1": "Evasion +4",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (Jerky)]"
+    },
+    {
+      "name": "Shortbow",
+      "physAtk": 11,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Bow",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Ochette's starting equipment"
+    },
+    {
+      "name": "Handmade Bow",
+      "physAtk": 5,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Partitio's starting equipment"
+    }
+  ],
+  "Staves": [
+    {
+      "name": "Spiritlord's Staff",
+      "physAtk": 160,
+      "elemAtk": 320,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Recover SP equivalent to 1% of the damage dealt.",
+      "maxOwnable": 1,
+      "availability": "Quest [In Search of the Divine Weapons] (Rusty Staff in Chest in Seat of the Water Sprite)"
+    },
+    {
+      "name": "Battle-Tested Staff",
+      "physAtk": 200,
+      "elemAtk": 400,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's speed.",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Roque in Oresrush] (Partitio's story completed)\nNPC<Drop 2%> [Cleric (10*) in Canalbrine]"
+    },
+    {
+      "name": "Lost Tribe's Staff",
+      "physAtk": 190,
+      "elemAtk": 381,
+      "bonus1": "Phys. Def. -102",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Infernal Castle]"
+    },
+    {
+      "name": "Forbidden Staff",
+      "physAtk": -210,
+      "elemAtk": 342,
+      "bonus1": "Elem. Def. -120",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Young Man in Crackridge]"
+    },
+    {
+      "name": "Sunshadow Staff",
+      "physAtk": 171,
+      "elemAtk": 335,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of light- and dark-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Hidden Item> [Boy in Western Gravell Wilds]"
+    },
+    {
+      "name": "Staff of Carnage",
+      "physAtk": 174,
+      "elemAtk": 330,
+      "bonus1": "Evasion +102",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [The Treasures of Ku] (Hikari's story completed)"
+    },
+    {
+      "name": "Diamond Rod",
+      "physAtk": 179,
+      "elemAtk": 325,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Gravell (*)]"
+    },
+    {
+      "name": "Great Sage's Staff",
+      "physAtk": 162,
+      "elemAtk": 324,
+      "bonus1": "Speed +108",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [The Lost Isle]"
+    },
+    {
+      "name": "Bellowing Baton",
+      "physAtk": 160,
+      "elemAtk": 322,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [La'mani in New Delsta: Theater] (Agnea's story completed)"
+    },
+    {
+      "name": "Sacred Flame Staff",
+      "physAtk": 160,
+      "elemAtk": 319,
+      "bonus1": "Elem. Def. +94",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail (*)]"
+    },
+    {
+      "name": "Rough-Hewn Rod",
+      "physAtk": 177,
+      "elemAtk": 315,
+      "bonus1": "Speed -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Gravell]"
+    },
+    {
+      "name": "Abyssal Rod",
+      "physAtk": 152,
+      "elemAtk": 304,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of dark-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Duskruin Shrine: Depths]"
+    },
+    {
+      "name": "Hallowed Rod",
+      "physAtk": 152,
+      "elemAtk": 304,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of light-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Rifted Rock] (Temenos chapter 4)"
+    },
+    {
+      "name": "Ancient Staff",
+      "physAtk": 154,
+      "elemAtk": 294,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village]"
+    },
+    {
+      "name": "Yggdrasil Staff",
+      "physAtk": 146,
+      "elemAtk": 293,
+      "bonus1": "Evasion +86",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Psychic Staff",
+      "physAtk": 152,
+      "elemAtk": 214,
+      "bonus1": "Elem. Def. +88",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Cathedral Window Repair]"
+    },
+    {
+      "name": "Wisdom Wand",
+      "physAtk": 97,
+      "elemAtk": 195,
+      "bonus1": "Speed +59",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise (*)]"
+    },
+    {
+      "name": "Chef's Ladle",
+      "physAtk": 146,
+      "elemAtk": 194,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to confuse target.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Devilishily Delicious Dish]"
+    },
+    {
+      "name": "Quartz Rod",
+      "physAtk": 96,
+      "elemAtk": 192,
+      "bonus1": "Elem. Def. +57",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Fortune Wand",
+      "physAtk": 92,
+      "elemAtk": 185,
+      "bonus1": "Speed +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu (*)], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Sapphire Rod",
+      "physAtk": 61,
+      "elemAtk": 123,
+      "bonus1": "Elem. Def. +36",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise]"
+    },
+    {
+      "name": "Jade Staff",
+      "physAtk": 58,
+      "elemAtk": 116,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of light-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Fellsun Ruins] (Temenos' ch.3)"
+    },
+    {
+      "name": "Magus Wand",
+      "physAtk": 56,
+      "elemAtk": 112,
+      "bonus1": "Speed +33",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Oak Staff",
+      "physAtk": 53,
+      "elemAtk": 105,
+      "bonus1": "Evasion +31",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta (*)], [Winterbloom]"
+    },
+    {
+      "name": "Magic Breaker",
+      "physAtk": 198,
+      "elemAtk": 102,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's elemental defense.",
+      "maxOwnable": 1,
+      "availability": "Chest [Forbidden Shrine] (Temenos' ch.3)"
+    },
+    {
+      "name": "Aegis Mace",
+      "physAtk": 143,
+      "elemAtk": 85,
+      "bonus1": "Critical +60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Conjurer's Staff",
+      "physAtk": 36,
+      "elemAtk": 77,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Mage Wand",
+      "physAtk": 32,
+      "elemAtk": 64,
+      "bonus1": "Speed +16",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch (*)], [Conning Creek]"
+    },
+    {
+      "name": "Rod of Wisdom",
+      "physAtk": 31,
+      "elemAtk": 62,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise]"
+    },
+    {
+      "name": "Lapis Rod",
+      "physAtk": 29,
+      "elemAtk": 59,
+      "bonus1": "Elem. Def. +14",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale]"
+    },
+    {
+      "name": "Light Wand",
+      "physAtk": 27,
+      "elemAtk": 54,
+      "bonus1": "Speed +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Beasting Village], [Canalbrine]"
+    },
+    {
+      "name": "Thunder Mace",
+      "physAtk": 60,
+      "elemAtk": 40,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of lightning-based attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Lair of the Usurper]"
+    },
+    {
+      "name": "Stone Rod",
+      "physAtk": 11,
+      "elemAtk": 24,
+      "bonus1": "Elem. Def. +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch]"
+    },
+    {
+      "name": "Wooden Staff",
+      "physAtk": 11,
+      "elemAtk": 23,
+      "bonus1": "Evasion +5",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Flamechurch], [Canalbrine]"
+    },
+    {
+      "name": "Mace",
+      "physAtk": 43,
+      "elemAtk": 21,
+      "bonus1": "Critical +13",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine]"
+    },
+    {
+      "name": "Sinner's Staff",
+      "physAtk": 5,
+      "elemAtk": 14,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Prison: Underground Passage]"
+    },
+    {
+      "name": "Pilgrim Rod",
+      "physAtk": 9,
+      "elemAtk": 10,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Cathedral Cellars]"
+    },
+    {
+      "name": "Charm Rod",
+      "physAtk": 6,
+      "elemAtk": 11,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Flamechurch]"
+    },
+    {
+      "name": "Staff of Judgment",
+      "physAtk": 3,
+      "elemAtk": 5,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Temenos' starting equipment"
+    },
+    {
+      "name": "Stick",
+      "physAtk": 3,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Beastling in Beasting Village or Nameless Village]\nOsvald's starting equipment"
+    },
+    {
+      "name": "Giant's Club",
+      "physAtk": 328,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises potency of physical skills. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Ivory Ravine]"
+    },
+    {
+      "name": "Morning Star",
+      "physAtk": 190,
+      "elemAtk": null,
+      "bonus1": "Critical +55",
+      "bonus2": null,
+      "effect": "Attack effect: Slim chance to reduce target's speed.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters], [Guard in Conning Creek]"
+    },
+    {
+      "name": "Flail",
+      "physAtk": 124,
+      "elemAtk": null,
+      "bonus1": "Accuracy -50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Crackridge]"
+    }
+  ],
+  "Shields": [
+    {
+      "name": "Cursed Shield",
+      "physAtk": 133,
+      "elemAtk": 133,
+      "bonus1": "Evasion -66",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Shipwreck of the Empress]"
+    },
+    {
+      "name": "Battle-Tested Shield",
+      "physAtk": 120,
+      "elemAtk": 120,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover HP and SP after performing an action. (+200 HP / +8 SP)",
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Veronica in New Delsta] (Agnea's story completed)\nNPC<Drop 2%> [Guard (9*) in Montwise]"
+    },
+    {
+      "name": "Forbidden Shield",
+      "physAtk": 118,
+      "elemAtk": 103,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises the chances of encountering enemies.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Merchant in Western Crackridge Wilds]"
+    },
+    {
+      "name": "Wise King's Shield",
+      "physAtk": 110,
+      "elemAtk": 110,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises physical defense at start of battle.",
+      "maxOwnable": 1,
+      "availability": "Quest [Retired Blacksmith]"
+    },
+    {
+      "name": "Shield of Strength",
+      "physAtk": 108,
+      "elemAtk": 108,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Guaranteed critical hit when taking damage.",
+      "maxOwnable": 1,
+      "availability": "Quest [The Strongest] (Hikari's story completed)"
+    },
+    {
+      "name": "Giant Shield",
+      "physAtk": 105,
+      "elemAtk": 103,
+      "bonus1": "Speed -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island (*)]"
+    },
+    {
+      "name": "Aegis Shield",
+      "physAtk": 104,
+      "elemAtk": 61,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail], [Nameless Village], [Timberain]"
+    },
+    {
+      "name": "Protector's Shield",
+      "physAtk": 96,
+      "elemAtk": 98,
+      "bonus1": "Critical +49",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village (*)]"
+    },
+    {
+      "name": "Adamantine Buckler",
+      "physAtk": 95,
+      "elemAtk": 81,
+      "bonus1": "Evasion +48",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku], [Gravell]"
+    },
+    {
+      "name": "Sun Shield",
+      "physAtk": 91,
+      "elemAtk": 91,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover HP after performing an action. (+100 HP)",
+      "maxOwnable": 1,
+      "availability": "Chest [Western Merry Hills Pass]"
+    },
+    {
+      "name": "Quartz Shield",
+      "physAtk": 87,
+      "elemAtk": 105,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents blindness.",
+      "maxOwnable": 1,
+      "availability": "Chest [Gravell]"
+    },
+    {
+      "name": "Swift Shield",
+      "physAtk": 79,
+      "elemAtk": 97,
+      "bonus1": "Speed +47",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills], [Roque Island]"
+    },
+    {
+      "name": "Heavy Greatshield",
+      "physAtk": 76,
+      "elemAtk": 76,
+      "bonus1": "Evasion -55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store], [Stormhail]"
+    },
+    {
+      "name": "Diamond Shield",
+      "physAtk": 72,
+      "elemAtk": 69,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents instant death.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Merchant in Wellgrove: Department Store]"
+    },
+    {
+      "name": "Platinum Shield",
+      "physAtk": 65,
+      "elemAtk": 53,
+      "bonus1": "Max. HP +400",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Master's Shield",
+      "physAtk": 58,
+      "elemAtk": 58,
+      "bonus1": "Speed +31",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ku Soldier in Castle Ku: Entrance]"
+    },
+    {
+      "name": "Shield of Serenity",
+      "physAtk": 52,
+      "elemAtk": 64,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents confusion.",
+      "maxOwnable": 1,
+      "availability": "Chest [Sunken Maw]"
+    },
+    {
+      "name": "Spiked Shield",
+      "physAtk": 44,
+      "elemAtk": 32,
+      "bonus1": "Critical +17",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank], [Sai]"
+    },
+    {
+      "name": "Plate Buckler",
+      "physAtk": 43,
+      "elemAtk": 35,
+      "bonus1": "Evasion +19",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+    },
+    {
+      "name": "Silver Shield",
+      "physAtk": 42,
+      "elemAtk": 34,
+      "bonus1": "Max. HP +150",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom]"
+    },
+    {
+      "name": "Tattered Sacred Shield",
+      "physAtk": 35,
+      "elemAtk": 35,
+      "bonus1": "Max. Sp +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Thief in Winterbloom: Thieves' Quarter]"
+    },
+    {
+      "name": "Crested Greatshield",
+      "physAtk": 31,
+      "elemAtk": 31,
+      "bonus1": "Evasion -30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu], [Black Market], [Clockbank], [Sai]"
+    },
+    {
+      "name": "Feather Shield",
+      "physAtk": 27,
+      "elemAtk": 31,
+      "bonus1": "Speed +26",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Shell Buckler",
+      "physAtk": 26,
+      "elemAtk": 22,
+      "bonus1": "Evasion +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Guard's Shield",
+      "physAtk": 25,
+      "elemAtk": 21,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Conning Creek (*)]"
+    },
+    {
+      "name": "Sturdy Shield",
+      "physAtk": 25,
+      "elemAtk": 25,
+      "bonus1": "Evasion -20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine]"
+    },
+    {
+      "name": "Iron Shield",
+      "physAtk": 24,
+      "elemAtk": 20,
+      "bonus1": "Max. HP +60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom], [Conning Creek]"
+    },
+    {
+      "name": "Rabbit Shield",
+      "physAtk": 23,
+      "elemAtk": 22,
+      "bonus1": "Speed +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Cavern of the Sea God] (Ochette ch.2)"
+    },
+    {
+      "name": "Weathered Treasure Shield",
+      "physAtk": 20,
+      "elemAtk": 24,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover SP after performing an action. (+3 SP)",
+      "maxOwnable": 1,
+      "availability": "Chest [Lair of the Usurper]"
+    },
+    {
+      "name": "Kite Shield",
+      "physAtk": 20,
+      "elemAtk": 18,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu]"
+    },
+    {
+      "name": "Bronze Shield",
+      "physAtk": 17,
+      "elemAtk": 16,
+      "bonus1": "Max. HP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Leather Buckler",
+      "physAtk": 16,
+      "elemAtk": 20,
+      "bonus1": "Evasion +7",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta]"
+    },
+    {
+      "name": "Round Shield",
+      "physAtk": 15,
+      "elemAtk": 21,
+      "bonus1": "Speed +6",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [Beasting Village]"
+    },
+    {
+      "name": "Buckler",
+      "physAtk": 11,
+      "elemAtk": 9,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch], [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+    },
+    {
+      "name": "Resplendent Shield",
+      "physAtk": 10,
+      "elemAtk": 10,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Crick (Temenos' chapter 1)"
+    },
+    {
+      "name": "Gray Shield",
+      "physAtk": 6,
+      "elemAtk": 3,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Hikari's starting equipment"
+    },
+    {
+      "name": "Small Shield",
+      "physAtk": 5,
+      "elemAtk": 3,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "Temenos, Throné and Castti's starting equipment"
+    },
+    {
+      "name": "Wooden Shield",
+      "physAtk": 4,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 4,
+      "availability": "NPC<Item> [Supervisor in Oresrush] (Partitio ch.1 exclusive)\nOchette, Agnea and Partitio's starting equipment"
+    },
+    {
+      "name": "Bodyguard's Vantage",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +80",
+      "bonus2": "Critical +60",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Veronica's Next Chapter] (Agnea's story completed)"
+    }
+  ],
+  "Headgear": [
+    {
+      "name": "Cursed Helm",
+      "physAtk": 88,
+      "elemAtk": 88,
+      "bonus1": "Max. Sp -66",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Lostseed] (Guarded by Hollow Vessel which moves at dawn)"
+    },
+    {
+      "name": "Mechanical Top Hat",
+      "physAtk": 75,
+      "elemAtk": 62,
+      "bonus1": "Accuracy +65",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [A Genius Inventor]"
+    },
+    {
+      "name": "Imperial Helm",
+      "physAtk": 71,
+      "elemAtk": 59,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain]"
+    },
+    {
+      "name": "Dragon's Helm",
+      "physAtk": 69,
+      "elemAtk": 53,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents unconsciousness.",
+      "maxOwnable": 1,
+      "availability": "Chest [Timberain Castle: Roof] (Castti's ch.4)"
+    },
+    {
+      "name": "Gimmick Goggles",
+      "physAtk": 65,
+      "elemAtk": 43,
+      "bonus1": "Evasion +59",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island]"
+    },
+    {
+      "name": "Royal Guard's Helm",
+      "physAtk": 64,
+      "elemAtk": 64,
+      "bonus1": "Critical +58",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain (*)]"
+    },
+    {
+      "name": "Great Helm",
+      "physAtk": 59,
+      "elemAtk": 59,
+      "bonus1": "Speed +49",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail], [Ku], [Gravell]"
+    },
+    {
+      "name": "Art of Disguise",
+      "physAtk": 58,
+      "elemAtk": 70,
+      "bonus1": "Max. SP +90",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills (*)]"
+    },
+    {
+      "name": "Mermaid Circlet",
+      "physAtk": 55,
+      "elemAtk": 82,
+      "bonus1": "Elem. Atk. +65",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Hermes in Merry Hill: Shrine Entrance or Canalbrine] (Temenos and Agnea's story completed)"
+    },
+    {
+      "name": "Dazzling Tiara",
+      "physAtk": 54,
+      "elemAtk": 65,
+      "bonus1": "Speed +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills]"
+    },
+    {
+      "name": "Gaudy Hat",
+      "physAtk": 53,
+      "elemAtk": 53,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Become more readily targeted by foes.",
+      "maxOwnable": 1,
+      "availability": "Quest [Reaaching for the Stars]"
+    },
+    {
+      "name": "Cloth Headband",
+      "physAtk": 52,
+      "elemAtk": 54,
+      "bonus1": "Speed +60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Boy in Ku: Castle Town]"
+    },
+    {
+      "name": "Forgotten Hat",
+      "physAtk": 51,
+      "elemAtk": 67,
+      "bonus1": "Max. SP +60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Lostseed (*)]"
+    },
+    {
+      "name": "Antique Ceremonial Mask",
+      "physAtk": 49,
+      "elemAtk": 73,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover SP after performing an action. (+6 SP)",
+      "maxOwnable": 1,
+      "availability": "Chest [Wandering Wood] (Temenos' ch.4)"
+    },
+    {
+      "name": "Lighthouse Keeper's Bandana",
+      "physAtk": 46,
+      "elemAtk": 58,
+      "bonus1": "Critical +54",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Lighthouse Restoration]"
+    },
+    {
+      "name": "Platinum Helm",
+      "physAtk": 43,
+      "elemAtk": 35,
+      "bonus1": "Max. HP +300",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store (*)]"
+    },
+    {
+      "name": "Ancient Circlet",
+      "physAtk": 41,
+      "elemAtk": 77,
+      "bonus1": "Elem. Atk. +55",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village]"
+    },
+    {
+      "name": "Soldier's Hat",
+      "physAtk": 38,
+      "elemAtk": 38,
+      "bonus1": "Speed +36",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Ku Soldier in Castle Ku: Entrance]"
+    },
+    {
+      "name": "Fighter's Headband",
+      "physAtk": 37,
+      "elemAtk": 37,
+      "bonus1": "Max. HP +150",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Knight's Helm",
+      "physAtk": 35,
+      "elemAtk": 29,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Starlight Hat",
+      "physAtk": 33,
+      "elemAtk": 41,
+      "bonus1": "Max. SP +40",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Horned Helm",
+      "physAtk": 31,
+      "elemAtk": 25,
+      "bonus1": "Max. HP +100",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Winterbloom], [Wellgrove], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Worker's Helmet",
+      "physAtk": 30,
+      "elemAtk": 26,
+      "bonus1": "Critical +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank (*)]"
+    },
+    {
+      "name": "Hasty Helm",
+      "physAtk": 30,
+      "elemAtk": 24,
+      "bonus1": "Speed +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank]"
+    },
+    {
+      "name": "Silent Bandana",
+      "physAtk": 26,
+      "elemAtk": 33,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents terror.",
+      "maxOwnable": 1,
+      "availability": "Chest [Road to Mother's Garden]"
+    },
+    {
+      "name": "Black Cap",
+      "physAtk": 25,
+      "elemAtk": 31,
+      "bonus1": "Evasion +22",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom (*)]"
+    },
+    {
+      "name": "Gelid Helm",
+      "physAtk": 21,
+      "elemAtk": 18,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces ice damage.",
+      "maxOwnable": 99,
+      "availability": "Store [Black Market]"
+    },
+    {
+      "name": "Skull Helm",
+      "physAtk": 20,
+      "elemAtk": 36,
+      "bonus1": "Elem. Atk. +22",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Crackridge]"
+    },
+    {
+      "name": "Cassius",
+      "physAtk": 20,
+      "elemAtk": 14,
+      "bonus1": "Critical +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Battle Bandana",
+      "physAtk": 19,
+      "elemAtk": 19,
+      "bonus1": "Evasion +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Guard's Helm",
+      "physAtk": 19,
+      "elemAtk": 16,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Conning Creek (*)]"
+    },
+    {
+      "name": "Bronze Helm",
+      "physAtk": 18,
+      "elemAtk": 15,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Canalbrine], [Ryu]"
+    },
+    {
+      "name": "Guard's Hat",
+      "physAtk": 17,
+      "elemAtk": 21,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents silence.",
+      "maxOwnable": 1,
+      "availability": "Chest [Guard Outpost] (Osvald's ch.3)"
+    },
+    {
+      "name": "Headgear",
+      "physAtk": 15,
+      "elemAtk": 19,
+      "bonus1": "Evasion +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+    },
+    {
+      "name": "Fur Cap",
+      "physAtk": 15,
+      "elemAtk": 17,
+      "bonus1": "Max. HP +40",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold (*)]"
+    },
+    {
+      "name": "Hide Hood",
+      "physAtk": 15,
+      "elemAtk": 15,
+      "bonus1": "Evasion +8",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (Jerky)]"
+    },
+    {
+      "name": "Silver Hairpiece",
+      "physAtk": 14,
+      "elemAtk": 22,
+      "bonus1": "Max. SP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Winterbloom], [Clockbank]"
+    },
+    {
+      "name": "Peddler's Feathered Cap",
+      "physAtk": 14,
+      "elemAtk": 20,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents sleep.",
+      "maxOwnable": 1,
+      "availability": "Quest [Ruffians' Redoubt]"
+    },
+    {
+      "name": "Feathered Hat",
+      "physAtk": 14,
+      "elemAtk": 17,
+      "bonus1": "Speed +7",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village], [Oresrush]"
+    },
+    {
+      "name": "Pointed Hat",
+      "physAtk": 12,
+      "elemAtk": 22,
+      "bonus1": "Elem. Atk. +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch], [Montwise]"
+    },
+    {
+      "name": "Festival Garland",
+      "physAtk": 12,
+      "elemAtk": 18,
+      "bonus1": "Max. SP +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale]"
+    },
+    {
+      "name": "Sanctum Knight's Helm",
+      "physAtk": 10,
+      "elemAtk": 5,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Crick (Temenos' chapter 1)"
+    },
+    {
+      "name": "Leather Helm",
+      "physAtk": 8,
+      "elemAtk": 8,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [New Delsta], [Beasting Village], [Ryu]"
+    },
+    {
+      "name": "Cloth Hood",
+      "physAtk": 4,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Carpenter in Oresrush] (Partitio ch.1 exclusive)\nStore [Prison: Underground Passage] (Osvald ch.1 exclusive)"
+    },
+    {
+      "name": "Gray Helm",
+      "physAtk": 4,
+      "elemAtk": 2,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Hikari's starting equipment"
+    },
+    {
+      "name": "Black Hood",
+      "physAtk": 4,
+      "elemAtk": 2,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Throné's starting equipment"
+    },
+    {
+      "name": "Leather Hat",
+      "physAtk": 2,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 4,
+      "availability": "NPC<Item> [Factory Worker]\nTemenos, Ochette and Castti's starting equipment"
+    },
+    {
+      "name": "Ordinary Hat",
+      "physAtk": 2,
+      "elemAtk": 3,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Agnea and Partitio's starting equipment"
+    }
+  ],
+  "Body Armor": [
+    {
+      "name": "Cursed Armor",
+      "physAtk": 222,
+      "elemAtk": 222,
+      "bonus1": "Speed -66",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [House Wellows Manor]"
+    },
+    {
+      "name": "Dragon Mail",
+      "physAtk": 195,
+      "elemAtk": 105,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces fire damage.",
+      "maxOwnable": 1,
+      "availability": "Chest [Deserted Highroad]"
+    },
+    {
+      "name": "Desert Plate",
+      "physAtk": 183,
+      "elemAtk": 110,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku]"
+    },
+    {
+      "name": "Sublime Ornamental Armor",
+      "physAtk": 180,
+      "elemAtk": 180,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces fire, ice, lightning, and wind damage.",
+      "maxOwnable": 1,
+      "availability": "Chest [On the Water] (Behind Scourge of the Sea mini-boss)"
+    },
+    {
+      "name": "Vest of Joy",
+      "physAtk": 170,
+      "elemAtk": 170,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises resistance to poison, sleep, confusion, blindness, silence, terror, and unconsciousness.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Young Girl's Wish]"
+    },
+    {
+      "name": "Imperial Armor",
+      "physAtk": 162,
+      "elemAtk": 132,
+      "bonus1": "Max. HP +600",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain]"
+    },
+    {
+      "name": "Royal Guard's Mail",
+      "physAtk": 160,
+      "elemAtk": 160,
+      "bonus1": "Max. HP +750",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Timberain (*)]"
+    },
+    {
+      "name": "Star's Gown",
+      "physAtk": 155,
+      "elemAtk": 180,
+      "bonus1": "Evasion +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Dolcinaea] (Agnea's story completed)"
+    },
+    {
+      "name": "Quartz Robe",
+      "physAtk": 146,
+      "elemAtk": 149,
+      "bonus1": "Max. SP +60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village]"
+    },
+    {
+      "name": "Quick Cloak",
+      "physAtk": 132,
+      "elemAtk": 162,
+      "bonus1": "Speed +65",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island], [Gravell]"
+    },
+    {
+      "name": "Blessed Vestments",
+      "physAtk": 130,
+      "elemAtk": 215,
+      "bonus1": "Elem. Atk. +74",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "NPC<Item> [Judge in Timberain]\nNPC<Drop 5%> [Judge (10*) in Timberain]"
+    },
+    {
+      "name": "Resplendent Costume",
+      "physAtk": 130,
+      "elemAtk": 169,
+      "bonus1": "Evasion +78",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Shrine of Ul'sterra]"
+    },
+    {
+      "name": "Butler's Tailcoat",
+      "physAtk": 128,
+      "elemAtk": 192,
+      "bonus1": "Critical +75",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Misha's Next Chapter] (Partitio's story completed)"
+    },
+    {
+      "name": "Lightning Armor",
+      "physAtk": 124,
+      "elemAtk": 67,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces lightning damage.",
+      "maxOwnable": 1,
+      "availability": "Chest [Southern Stormhail Snows]"
+    },
+    {
+      "name": "Conjurer's Raiment",
+      "physAtk": 121,
+      "elemAtk": 220,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover HP after performing an action. (+200 HP)",
+      "maxOwnable": 1,
+      "availability": "Quest [A Tower of Trials]"
+    },
+    {
+      "name": "Ornate Costume",
+      "physAtk": 118,
+      "elemAtk": 176,
+      "bonus1": "Evasion +63",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills]"
+    },
+    {
+      "name": "Antique Coat",
+      "physAtk": 115,
+      "elemAtk": 184,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents poison.",
+      "maxOwnable": 1,
+      "availability": "Chest [Path to the Duskruin Shrine]"
+    },
+    {
+      "name": "Protector's Vestments",
+      "physAtk": 112,
+      "elemAtk": 208,
+      "bonus1": "Speed +69",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village (*)]"
+    },
+    {
+      "name": "Platinum Mail",
+      "physAtk": 109,
+      "elemAtk": 89,
+      "bonus1": "Max. HP +400",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Knight's Armor",
+      "physAtk": 99,
+      "elemAtk": 65,
+      "bonus1": "Max. HP +300",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Stormhail]"
+    },
+    {
+      "name": "Desert Armor",
+      "physAtk": 96,
+      "elemAtk": 96,
+      "bonus1": "Speed +41",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Ku Soldier in Ku: Castle Town], [Ku Soldier in Castle Ku]"
+    },
+    {
+      "name": "Mage's Robe",
+      "physAtk": 74,
+      "elemAtk": 112,
+      "bonus1": "Elem. Atk. +41",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise]"
+    },
+    {
+      "name": "White Wolf Scarf",
+      "physAtk": 73,
+      "elemAtk": 89,
+      "bonus1": "Evasion +56",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)"
+    },
+    {
+      "name": "Bone Mail",
+      "physAtk": 70,
+      "elemAtk": 47,
+      "bonus1": "Critical +23",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Sandflow Pass (Guarded by Soldier (4*)], [Western Crackridge Wilds]"
+    },
+    {
+      "name": "Acrobat's Mantle",
+      "physAtk": 65,
+      "elemAtk": 120,
+      "bonus1": "Speed +40",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom (*)], [Wellgrove: Department Store]"
+    },
+    {
+      "name": "Nimble Mantle",
+      "physAtk": 65,
+      "elemAtk": 53,
+      "bonus1": "Speed +22",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank]"
+    },
+    {
+      "name": "Denim Work Clothes",
+      "physAtk": 63,
+      "elemAtk": 63,
+      "bonus1": "Critical +25",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Clockbank (*)]"
+    },
+    {
+      "name": "Dojo Hakama",
+      "physAtk": 59,
+      "elemAtk": 59,
+      "bonus1": "Evasion +23",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Sai]"
+    },
+    {
+      "name": "Dyed Clothes",
+      "physAtk": 50,
+      "elemAtk": 75,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces light and dark damage.",
+      "maxOwnable": 1,
+      "availability": "Quest [Useless Fruit]"
+    },
+    {
+      "name": "Elemental Robe",
+      "physAtk": 48,
+      "elemAtk": 73,
+      "bonus1": "Max. SP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+    },
+    {
+      "name": "Falcon Coat",
+      "physAtk": 44,
+      "elemAtk": 83,
+      "bonus1": "Evasion +26",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom]"
+    },
+    {
+      "name": "Gorgeous Sari",
+      "physAtk": 42,
+      "elemAtk": 79,
+      "bonus1": "Speed +27",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Artisan in Tropu'hopu: Floating Theater], [Apprentice Dancer in Wellgrove]"
+    },
+    {
+      "name": "Iron Mail",
+      "physAtk": 42,
+      "elemAtk": 28,
+      "bonus1": "Max. HP +100",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom], [Clockbank], [Sai]"
+    },
+    {
+      "name": "Guard's Armor",
+      "physAtk": 40,
+      "elemAtk": 24,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Conning Creek (*)]"
+    },
+    {
+      "name": "Beastling Battle Armor",
+      "physAtk": 37,
+      "elemAtk": 33,
+      "bonus1": "Critical +11",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (Jerky)]"
+    },
+    {
+      "name": "Sailor's Vest",
+      "physAtk": 36,
+      "elemAtk": 30,
+      "bonus1": "Evasion +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+    },
+    {
+      "name": "Wind Robe",
+      "physAtk": 33,
+      "elemAtk": 36,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces wind damage.",
+      "maxOwnable": 1,
+      "availability": "Chest [Ruffians's Hideout] (Behind Ruffian fight]"
+    },
+    {
+      "name": "Copper Breastplate",
+      "physAtk": 31,
+      "elemAtk": 21,
+      "bonus1": "Evasion +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu]"
+    },
+    {
+      "name": "Hunting Attire",
+      "physAtk": 29,
+      "elemAtk": 32,
+      "bonus1": "Critical +8",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village (Jerky)]"
+    },
+    {
+      "name": "Quality Vest",
+      "physAtk": 28,
+      "elemAtk": 36,
+      "bonus1": "Speed +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Garud in Cropdale]"
+    },
+    {
+      "name": "Fur Robe",
+      "physAtk": 28,
+      "elemAtk": 34,
+      "bonus1": "Elem. Atk. +9",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold (*)]"
+    },
+    {
+      "name": "Pilgrim's Robe",
+      "physAtk": 27,
+      "elemAtk": 33,
+      "bonus1": "Max. SP +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch]"
+    },
+    {
+      "name": "Simple Costume",
+      "physAtk": 26,
+      "elemAtk": 39,
+      "bonus1": "Evasion +16",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Theater: Backstage]"
+    },
+    {
+      "name": "Feather Mantle",
+      "physAtk": 26,
+      "elemAtk": 38,
+      "bonus1": "Speed +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise]"
+    },
+    {
+      "name": "Champion's Garb",
+      "physAtk": 26,
+      "elemAtk": 27,
+      "bonus1": "Critical +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Montwise: Underground Arena]"
+    },
+    {
+      "name": "Charm Robe",
+      "physAtk": 25,
+      "elemAtk": 46,
+      "bonus1": "Elem. Atk. +15",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Traveler's Mantle",
+      "physAtk": 24,
+      "elemAtk": 36,
+      "bonus1": "Speed +7",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+    },
+    {
+      "name": "Sanctum Knight's Armor",
+      "physAtk": 20,
+      "elemAtk": 5,
+      "bonus1": "Max. HP +100",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 0,
+      "availability": "Exclusive to Crick (Temenos' chapter 1)"
+    },
+    {
+      "name": "Fur Armor",
+      "physAtk": 19,
+      "elemAtk": 14,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold], [New Delsta], [Canalbrine], [Ryu], [Oresrush]"
+    },
+    {
+      "name": "Old Armor",
+      "physAtk": 18,
+      "elemAtk": 13,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Lostseed]"
+    },
+    {
+      "name": "Worker's Jacket",
+      "physAtk": 8,
+      "elemAtk": 8,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "NPC<Item> [Clock Tower Technician in Clockbank], [Townsperson in Oresrush],\n[Supervisor in Orerush (Partitio's ch.1 exclusive)]"
+    },
+    {
+      "name": "Desert Attire",
+      "physAtk": 8,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Hikari's starting equipment"
+    },
+    {
+      "name": "Frog Membrane",
+      "physAtk": 7,
+      "elemAtk": 5,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Ochette's starting equipment"
+    },
+    {
+      "name": "Tough Waistcoat",
+      "physAtk": 7,
+      "elemAtk": 5,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Partitio's starting equipment"
+    },
+    {
+      "name": "Prisoner's Clothes",
+      "physAtk": 6,
+      "elemAtk": 3,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Osvald's starting equipment"
+    },
+    {
+      "name": "Black Attire",
+      "physAtk": 6,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Throné's starting equipment"
+    },
+    {
+      "name": "Robe",
+      "physAtk": 5,
+      "elemAtk": 10,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Temenos' starting equipment"
+    },
+    {
+      "name": "Tattered Dress",
+      "physAtk": 4,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Sai: East District] (Guarded by Caretaker (6*)]"
+    },
+    {
+      "name": "Apothecary's Attire",
+      "physAtk": 4,
+      "elemAtk": 6,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Castti's starting equipment"
+    },
+    {
+      "name": "Villager's Clothes",
+      "physAtk": 4,
+      "elemAtk": 4,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Agnea's starting equipment"
+    }
+  ],
+  "Accessories": [
+    {
+      "name": "Spurning Ribbon",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Wards off all enemy encounters.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Gate Between Worlds]"
+    },
+    {
+      "name": "Alluring Ribbon",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises the chances of encountering enemies.",
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Gloomy Hunter in Eastern Wellgrove Trail]\nQuest [Lingering Love]"
+    },
+    {
+      "name": "EXP Augmentor",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Receive additional EXP. (+50%)",
+      "maxOwnable": 1,
+      "availability": "Chest [On the Water]"
+    },
+    {
+      "name": "JP Augmentor",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Receive additional JP. (+50%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Cavern of Waves]"
+    },
+    {
+      "name": "Brooch of Joy",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Receive additional EXP and JP. (+50% / +50%)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Melia in Winterbloom] (Castti's story completed)"
+    },
+    {
+      "name": "Cait Powder",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises the chances of encountering caits.",
+      "maxOwnable": 2,
+      "availability": "Quest [My Beloved Catharine]\nChest [Tropu'hopu] (Guarded by Cat Connoisseur (6*))"
+    },
+    {
+      "name": "Octopuff Pot",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises the chances of encountering octopuffs.",
+      "maxOwnable": 3,
+      "availability": "Quest [Will Research for Money]\nChest [Lighthouse Island]\nNPC<Item> [Fisherman in Conning Creek]"
+    },
+    {
+      "name": "Dragon's Scarf",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover SP after performing an action. (+6 SP)",
+      "maxOwnable": 3,
+      "availability": "Quest [Utterly Exhausted!]\nChest [??? (Gate of Finis)]\nNPC<Item> [Coda in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+    },
+    {
+      "name": "Beastly Scarf",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover HP after performing an action. (+100 HP)",
+      "maxOwnable": 3,
+      "availability": "Quest [Useless Fruit]\nChest [On the Water]\nNPC<Item> [Rico in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+    },
+    {
+      "name": "Warding Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Become less readily targeted by foes.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Scholar in Crackridge]"
+    },
+    {
+      "name": "Divine Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents petrification.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Beastling in Nameless Village]"
+    },
+    {
+      "name": "Melia's Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover HP and SP after performing an action.\n(+300 HP / +10 SP)",
+      "maxOwnable": 1,
+      "availability": "Quest [Melia's Next Chapter] (Castti's story completed)"
+    },
+    {
+      "name": "Enfeebling Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Extends duration of inflicted enfeebling effects by 1 turn.",
+      "maxOwnable": 1,
+      "availability": "Chest [Unfinished Tunnel]"
+    },
+    {
+      "name": "Prosperity Charm",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Receive additional leaves ($) at the end of battle. (+10%)\n(equip both for +20%)",
+      "maxOwnable": 2,
+      "availability": "Quest [The Soused Nobleman]\nChest [The Roque Company: Factory]"
+    },
+    {
+      "name": "Charm of Compassion",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover more HP and SP when healed. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Quest [Through a Child's Eyes]"
+    },
+    {
+      "name": "Blessing in Disguise",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Turns negative values on other equipment into positive values.",
+      "maxOwnable": 2,
+      "availability": "Chest [Seat of the Water Sprite], [The Lost Isle]"
+    },
+    {
+      "name": "Finisher's Claws",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises damage dealt by critical hits. (+50%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Nameless Isle]"
+    },
+    {
+      "name": "Stone of Truth",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Grants permanent spell intensity boost at start of battle.",
+      "maxOwnable": 1,
+      "availability": "Chest [Infernal Castle] (Behind Deadwolf mini-boss)"
+    },
+    {
+      "name": "Fang of Ferocity",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises damage dealt by boosted attacks. (+30%)",
+      "maxOwnable": 1,
+      "availability": "Chest [Curious Nest] (Behind Tyrannodrake mini-boss)"
+    },
+    {
+      "name": "Gale Feather",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +120",
+      "bonus2": null,
+      "effect": "Equip effect: Raises speed and evasion at start of battle.",
+      "maxOwnable": 1,
+      "availability": "Mini-Boss<Drop> [Heavenwing in Old Clocktower]"
+    },
+    {
+      "name": "Eye of Calamity",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces physical attack and elemental attack at start of battle.",
+      "maxOwnable": 1,
+      "availability": "Mini-Boss<Drop> [Deep One in Ivory Ravine]"
+    },
+    {
+      "name": "Victory Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises physical attack at start of battle.",
+      "maxOwnable": 1,
+      "availability": "Quest [A Gambling Man]"
+    },
+    {
+      "name": "Hand-Sewn Gloves",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Raises elemental defense at start of battle.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Girl in Stormhail]"
+    },
+    {
+      "name": "Foreign Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +35",
+      "bonus2": null,
+      "effect": "Equip effect: Raises critical rate at start of battle.",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Traveler in Clockbank]"
+    },
+    {
+      "name": "Alpione's Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +1200",
+      "bonus2": null,
+      "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+      "maxOwnable": 1,
+      "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+    },
+    {
+      "name": "Librarian's Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +120",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Procuring Peculiar Tomes]"
+    },
+    {
+      "name": "Champion's Belt",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +100",
+      "bonus2": null,
+      "effect": "Equip effect: Prevents surprise attacks from enemies.",
+      "maxOwnable": 99,
+      "availability": "Boss<drop 100%> [Yurinas in Montwise: Underground Arena]"
+    },
+    {
+      "name": "Mikka's Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +100",
+      "bonus2": "Speed +100",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Mikka's Next Chapter] (Hikari & Agnea's Crossed Paths completed)"
+    },
+    {
+      "name": "Laila's Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +100",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [Laila's Next Chapter] (Agnea & Temenos' story completed)"
+    },
+    {
+      "name": "Sisters' Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +100",
+      "bonus2": "Critical +100",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [The Missing Girl]"
+    },
+    {
+      "name": "Jade Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +100",
+      "bonus2": "Max. Sp +10",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Islander in Tropu'hopu: Floating Theater]"
+    },
+    {
+      "name": "Shadowsage Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +40",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)"
+    },
+    {
+      "name": "Rosary of Redemption",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical -60",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Lostseed]"
+    },
+    {
+      "name": "Coat of Arms",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Quest [From the Far Reaches of Hell]"
+    },
+    {
+      "name": "Blazon of Protection",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market]"
+    },
+    {
+      "name": "Scarlet Stone of Protection",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Recover SP after performing an action. (+4 SP)",
+      "maxOwnable": 1,
+      "availability": "NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)"
+    },
+    {
+      "name": "Crescent Moon Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +15",
+      "bonus2": "Evasion +15",
+      "effect": null,
+      "maxOwnable": 4,
+      "availability": "NPC<Item> [Elderly Man, Woman, Young Man and Elderly Woman all in Crackridge]"
+    },
+    {
+      "name": "Moonshell Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +35",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Islander in Tropu'hopu], [Young Man in Tropu'hopu]"
+    },
+    {
+      "name": "Moonshell Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +35",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "NPC<Item> [Islander in Tropu'hopu], [Girl in Tropu'hopu (Night: Floating Theater)]"
+    },
+    {
+      "name": "Physical Belt",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "Quest [Stage Actors]\nChest [New Delsta: Game Parlor] (Guarded by Safe Keeper (8*))\nNPC<Item> [Mercenary in Gravell]"
+    },
+    {
+      "name": "Mental Belt",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "Quest [A Forced Hand]\nChest [Southern Nameless Village Traverse]\nNPC<Item> [Cleric in Stormhail: Sacred Guard Headquarters]"
+    },
+    {
+      "name": "Mighty Belt",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Cavern of the Moon and Sun]\nNPC<Item> [Factory Worker in Clockbank: Industrial District]"
+    },
+    {
+      "name": "Elemental Augmentor",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Shrine of Ul'sterra]\nNPC<Item> [Townsperson in Sai: East District]"
+    },
+    {
+      "name": "Guardian Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Abandoned Traverse]\nNPC<Item> [Sanctum Knight in Stormhail]"
+    },
+    {
+      "name": "Elemental Ward",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Mount Liphia]\nNPC<Item> [Scholar in Merry Hills: Shrine Entrance]"
+    },
+    {
+      "name": "Empowering Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +1000",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+    },
+    {
+      "name": "Stimulating Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Nameless Village]\nNPC<Item> [Apprentice Dancer in Wellgrove]"
+    },
+    {
+      "name": "Protective Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 3,
+      "availability": "Chest [Timberain]\nNPC<Item> [Treasurer in Castle Ku: Entrance]\nNPC<Hidden Item> [Cleric in Ku: Castle Town]"
+    },
+    {
+      "name": "Unerring Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Northern Montwise Pass]\nNPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+    },
+    {
+      "name": "Enlightening Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Roque Island: Anchorage]\nNPC<Item> [Thief in Clockbank: Industrial District]"
+    },
+    {
+      "name": "Sprightly Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Lostseed]\nNPC<Item> [Elderly Soldier in Timberain Castle: Town Square]"
+    },
+    {
+      "name": "Critical Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +80",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 2,
+      "availability": "Chest [Duskruin Shrine]\nNPC<Item> [Soldier in Timberain]"
+    },
+    {
+      "name": "Empowering Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +500",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store], [Timberain]"
+    },
+    {
+      "name": "Stimulating Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Gravell]"
+    },
+    {
+      "name": "Protective Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Merry Hills]"
+    },
+    {
+      "name": "Unerring Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Wellgrove: Department Store], [Stormhail]"
+    },
+    {
+      "name": "Enlightening Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Nameless Village]"
+    },
+    {
+      "name": "Sprightly Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ku]"
+    },
+    {
+      "name": "Critical Bracelet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Roque Island]"
+    },
+    {
+      "name": "Empowering Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +200",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale (*)], [Black Market], [Sai]"
+    },
+    {
+      "name": "Stimulating Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cropdale (*)], [Montwise]"
+    },
+    {
+      "name": "Protective Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechurch (*)], [Crackridge]"
+    },
+    {
+      "name": "Unerring Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Clockbank]"
+    },
+    {
+      "name": "Enlightening Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Winterbloom]"
+    },
+    {
+      "name": "Sprightly Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Tropu'hopu]"
+    },
+    {
+      "name": "Critical Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +20",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market], [Conning Creek]"
+    },
+    {
+      "name": "Falcon Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +10",
+      "bonus2": "Evasion +10",
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market]"
+    },
+    {
+      "name": "Empowering Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +50",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village]"
+    },
+    {
+      "name": "Stimulating Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush]"
+    },
+    {
+      "name": "Protective Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Flamechuch]"
+    },
+    {
+      "name": "Unerring Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Accuracy +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [New Delsta]"
+    },
+    {
+      "name": "Enlightening Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Evasion +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Cape Cold]"
+    },
+    {
+      "name": "Sprightly Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Speed +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu]"
+    },
+    {
+      "name": "Critical Earring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Critical +10",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Canalbrine]"
+    },
+    {
+      "name": "Ancient Necklace",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +30",
+      "bonus2": "Max. SP +10",
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Prison: Underground Passage]"
+    },
+    {
+      "name": "Wargod's Talisman",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Ryu], [Black Market]"
+    },
+    {
+      "name": "Silver Locket",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Oresrush], [Black Market]"
+    },
+    {
+      "name": "Angel's Ring",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. SP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Black Market]"
+    },
+    {
+      "name": "Traveler's Charm",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": "Max. HP +30",
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 99,
+      "availability": "Store [Beasting Village], [Canalbrine]"
+    },
+    {
+      "name": "Tattered Shoes",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": null,
+      "maxOwnable": 1,
+      "availability": "Chest [Sai: East District] (Guarded by Caretaker (6*))"
+    },
+    {
+      "name": "Inferno Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces fire damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Old Clock Tower]\nNPC<Item> [Villager in Gravell]"
+    },
+    {
+      "name": "Blizzard Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces ice damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Infernal Castle]\nNPC<Item> [Sanctum Knight in Stormhail]"
+    },
+    {
+      "name": "Tempest Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces wind damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Dragonridge]\nNPC<Item> [Woman in Merry Hills]"
+    },
+    {
+      "name": "Thunderstorm Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces lightning damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Castle Mei: East Tower]\nNPC<Item> [Arms Merchant in Stormhail]"
+    },
+    {
+      "name": "Void Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces dark damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Rifted Rock]\nNPC<Item> [Diviner in Wellgrove]"
+    },
+    {
+      "name": "Gleaming Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Greatly reduces light damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Forbidden Shrine]\nNPC<Item> [Designer in Merry Hills: Shrine Entrance]"
+    },
+    {
+      "name": "Fire Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces fire damage.",
+      "maxOwnable": 4,
+      "availability": "Chest [Path to the Bed of the Titan]\nNPC<Item> [Pilgrim in Flamechurch: Cathedral], [Merchant in Wellgrove: Department Store],\n[Dancer in Crackridge]"
+    },
+    {
+      "name": "Ice Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces ice damage.",
+      "maxOwnable": 2,
+      "availability": "Chest [Sacred Peak Altahe]\nNPC<Item> [Woman in Canalbrine]"
+    },
+    {
+      "name": "Wind Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces wind damage.",
+      "maxOwnable": 3,
+      "availability": "Chest [Southern Cropdale Trail]\nNPC<Item> [Griff in Sandflow Pass (Castti's story completed)], [Official in Castle Ku: Entrance]"
+    },
+    {
+      "name": "Lightning Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces lightning damage.",
+      "maxOwnable": 4,
+      "availability": "Chest [Theater: Backstage]\nNPC<Item> [Greg in Winterbloom (Castti's story completed)], [Librarian in Montwise: Library]\nNPC<Hidden Item> [Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+    },
+    {
+      "name": "Dark Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces dark damage.",
+      "maxOwnable": 4,
+      "availability": "Chest [Sacred Guard Ship]\nNPC<Item> [Cleric in Flamechurch: Cathedral], [Sanctum Knight in Borderfall],\n[Elderly Guard in Wellgrove or Mother's Garden: Orphanage (Throné's story completed)]"
+    },
+    {
+      "name": "Light Amulet",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Reduces light damage.",
+      "maxOwnable": 3,
+      "availability": "Chest [Secret Forest]\nNPC<Item> [Traveler in Merry Hills: Shrine Entrance], [Stage Director in Tropu'hopu: Floating Theater]"
+    },
+    {
+      "name": "Antidote Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents poison.",
+      "maxOwnable": 2,
+      "availability": "Chest [Abandoned Waterway]\nNPC<Item> [Townsperson in Clockbank]"
+    },
+    {
+      "name": "Wakeful Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents sleep.",
+      "maxOwnable": 3,
+      "availability": "Chest [Starfall Spring]\nNPC<Item> [Guard in Clockbank: Industrial District]\nNPC<Hidden Item> [Thief in Winterbloom: Thieves' Quarter]"
+    },
+    {
+      "name": "Articulate Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents silence.",
+      "maxOwnable": 3,
+      "availability": "Chest [Sinking Ruins]\nNPC<Item> [Scholar in Montwise Library]\nNPC<Hidden Item> [Woman in Merry Hills]"
+    },
+    {
+      "name": "Bright Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents Blindness.",
+      "maxOwnable": 2,
+      "availability": "Chest [Quicksand Gaol]\nNPC<Item> [Boy in Gravell]"
+    },
+    {
+      "name": "Calming Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents terror.",
+      "maxOwnable": 3,
+      "availability": "Chest [Mother's Garden]\nNPC<Item> [Soldier in Sai]\nNPC<Hidden Item> [Factory Worker in Clockbank]"
+    },
+    {
+      "name": "Clarity Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents confusion.",
+      "maxOwnable": 2,
+      "availability": "Chest [Unfinished Tunnel]\nNPC<Item> [Employee in Roque Island: Anchorage]"
+    },
+    {
+      "name": "Conscious Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents unconsciousness.",
+      "maxOwnable": 3,
+      "availability": "Chest [Nameless Isle]\nNPC<Item> [Soldier in Sai]\nNPC<Hidden Item> [Soldier in Timberain]"
+    },
+    {
+      "name": "Vivifying Stone",
+      "physAtk": null,
+      "elemAtk": null,
+      "bonus1": null,
+      "bonus2": null,
+      "effect": "Equip effect: Prevents instant death.",
+      "maxOwnable": 2,
+      "availability": "Chest [Forsaken Graveyard]\nNPC<Item> [Woman in Winterbloom: Thieves' Quarter]"
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "character": "Hikari",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Blade",
+        "physAtk": 400,
+        "elemAtk": null,
+        "bonus1": "Critical +120",
+        "bonus2": null,
+        "effect": "Equip effect: Raises potency of physical skills. (+30%)",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)\nNPC<Drop 2%> [Young Man (10*) in Tropu'hopu]"
+      },
+      "score": 460
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 212.95
+    },
+    "headgear": {
+      "item": {
+        "name": "Platinum Helm",
+        "physAtk": 43,
+        "elemAtk": 35,
+        "bonus1": "Max. HP +300",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 153.25
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 446.5
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 350
+    },
+    "accessory2": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 350
+    },
+    "totalScore": 1972.7
+  },
+  {
+    "character": "Osvald",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Staff",
+        "physAtk": 200,
+        "elemAtk": 400,
+        "bonus1": null,
+        "bonus2": null,
+        "effect": "Attack effect: Slim chance to reduce target's speed.",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Roque in Oresrush] (Partitio's story completed)\nNPC<Drop 2%> [Cleric (10*) in Canalbrine]"
+      },
+      "score": 420
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 139.5
+    },
+    "headgear": {
+      "item": {
+        "name": "Mermaid Circlet",
+        "physAtk": 55,
+        "elemAtk": 82,
+        "bonus1": "Elem. Atk. +65",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 1,
+        "availability": "NPC<Item> [Hermes in Merry Hill: Shrine Entrance or Canalbrine] (Temenos and Agnea's story completed)"
+      },
+      "score": 146
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 326
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 200
+    },
+    "accessory2": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 240
+    },
+    "totalScore": 1471.5
+  },
+  {
+    "character": "Temenos",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Staff",
+        "physAtk": 200,
+        "elemAtk": 400,
+        "bonus1": null,
+        "bonus2": null,
+        "effect": "Attack effect: Slim chance to reduce target's speed.",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Roque in Oresrush] (Partitio's story completed)\nNPC<Drop 2%> [Cleric (10*) in Canalbrine]"
+      },
+      "score": 320
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 166.25
+    },
+    "headgear": {
+      "item": {
+        "name": "Platinum Helm",
+        "physAtk": 43,
+        "elemAtk": 35,
+        "bonus1": "Max. HP +300",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 120.55
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 361
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 300
+    },
+    "accessory2": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 300
+    },
+    "totalScore": 1567.8
+  },
+  {
+    "character": "Throne",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Dagger",
+        "physAtk": 380,
+        "elemAtk": null,
+        "bonus1": "Evasion +120",
+        "bonus2": null,
+        "effect": "Attack effect: Slim chance to reduce target's accuracy.",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Plukk in Winterbloom: Thieves' Quarter] (Castti's story & Melia's Next Chapter sidequest completed)\nNPC<Drop 2%> [Elderly Man (9*) in Clockbank]"
+      },
+      "score": 406
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 139.95
+    },
+    "headgear": {
+      "item": {
+        "name": "Cloth Headband",
+        "physAtk": 52,
+        "elemAtk": 54,
+        "bonus1": "Speed +60",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 1,
+        "availability": "NPC<Item> [Boy in Ku: Castle Town]"
+      },
+      "score": 109.7
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 302
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 200
+    },
+    "accessory2": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 240
+    },
+    "totalScore": 1397.65
+  },
+  {
+    "character": "Ochette",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Bow",
+        "physAtk": 390,
+        "elemAtk": null,
+        "bonus1": "Critical +120",
+        "bonus2": null,
+        "effect": "Attack effect: Slim chance to reduce target's physical defense.",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)\nNPC<Drop 2%> [Tutor (9*) in New Delsta]"
+      },
+      "score": 456
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 170.3
+    },
+    "headgear": {
+      "item": {
+        "name": "Mechanical Top Hat",
+        "physAtk": 75,
+        "elemAtk": 62,
+        "bonus1": "Accuracy +65",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 1,
+        "availability": "Quest [A Genius Inventor]"
+      },
+      "score": 129.95
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 363.5
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 250
+    },
+    "accessory2": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 300
+    },
+    "totalScore": 1669.75
+  },
+  {
+    "character": "Castti",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Axe",
+        "physAtk": 400,
+        "elemAtk": 250,
+        "bonus1": null,
+        "bonus2": null,
+        "effect": "Equip effect: Raises potency of lightning- and ice-based attacks. (+30%)",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)\nNPC<Drop 2%> [Villager (8*) in Cape Cold]"
+      },
+      "score": 350
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 259.35
+    },
+    "headgear": {
+      "item": {
+        "name": "Platinum Helm",
+        "physAtk": 43,
+        "elemAtk": 35,
+        "bonus1": "Max. HP +300",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 189.25
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 527
+    },
+    "accessory1": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 600
+    },
+    "accessory2": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 500
+    },
+    "totalScore": 2425.6
+  },
+  {
+    "character": "Agnea",
+    "weapon": {
+      "item": {
+        "name": "Great Sage's Staff",
+        "physAtk": 162,
+        "elemAtk": 324,
+        "bonus1": "Speed +108",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 1,
+        "availability": "Chest [The Lost Isle]"
+      },
+      "score": 351
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 127.45
+    },
+    "headgear": {
+      "item": {
+        "name": "Dazzling Tiara",
+        "physAtk": 54,
+        "elemAtk": 65,
+        "bonus1": "Speed +55",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Merry Hills]"
+      },
+      "score": 108.05
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 286
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 200
+    },
+    "accessory2": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 240
+    },
+    "totalScore": 1312.5
+  },
+  {
+    "character": "Partitio",
+    "weapon": {
+      "item": {
+        "name": "Battle-Tested Axe",
+        "physAtk": 400,
+        "elemAtk": 250,
+        "bonus1": null,
+        "bonus2": null,
+        "effect": "Equip effect: Raises potency of lightning- and ice-based attacks. (+30%)",
+        "maxOwnable": 99,
+        "availability": "NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)\nNPC<Drop 2%> [Villager (8*) in Cape Cold]"
+      },
+      "score": 410
+    },
+    "shield": {
+      "item": {
+        "name": "Platinum Shield",
+        "physAtk": 65,
+        "elemAtk": 53,
+        "bonus1": "Max. HP +400",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      "score": 194.05
+    },
+    "headgear": {
+      "item": {
+        "name": "Art of Disguise",
+        "physAtk": 58,
+        "elemAtk": 70,
+        "bonus1": "Max. SP +90",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Merry Hills (*)]"
+      },
+      "score": 147.2
+    },
+    "bodyArmor": {
+      "item": {
+        "name": "Royal Guard's Mail",
+        "physAtk": 160,
+        "elemAtk": 160,
+        "bonus1": "Max. HP +750",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 99,
+        "availability": "Store [Timberain (*)]"
+      },
+      "score": 425
+    },
+    "accessory1": {
+      "item": {
+        "name": "Empowering Necklace",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1000",
+        "bonus2": null,
+        "effect": null,
+        "maxOwnable": 3,
+        "availability": "Chest [Merry Hills: Shrine Entrance]\nNPC<Item> [Soldier in Timberain]\nNPC<Hidden Item> [Merchant in Roque Island]"
+      },
+      "score": 300
+    },
+    "accessory2": {
+      "item": {
+        "name": "Alpione's Amulet",
+        "physAtk": null,
+        "elemAtk": null,
+        "bonus1": "Max. HP +1200",
+        "bonus2": null,
+        "effect": "Equip effect: Deal more damage when your HP is low. (+200%)",
+        "maxOwnable": 1,
+        "availability": "Quest [Alpione's Next Chapter] (Ochette's story completed)"
+      },
+      "score": 360
+    },
+    "totalScore": 1836.25
+  }
+]
