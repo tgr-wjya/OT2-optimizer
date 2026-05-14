@@ -32,3 +32,16 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+ot2_optimizer/__pycache__/__init__.cpython-314.pyc
+ot2_optimizer/__pycache__/availability.cpython-314.pyc
+ot2_optimizer/__pycache__/cli.cpython-314.pyc
+ot2_optimizer/__pycache__/damage_sim.cpython-314.pyc
+ot2_optimizer/__pycache__/data_loader.cpython-314.pyc
+ot2_optimizer/__pycache__/models.cpython-314.pyc
+ot2_optimizer/__pycache__/optimizer.cpython-314.pyc
+ot2_optimizer/__pycache__/report.cpython-314.pyc
+ot2_optimizer/__pycache__/rules.cpython-314.pyc
+ot2_optimizer/__pycache__/scholar_skills.cpython-314.pyc
+ot2_optimizer/__pycache__/scoring.cpython-314.pyc
+ot2_optimizer/__pycache__/stats_data.cpython-314.pyc
+ot2_optimizer/__pycache__/templates.cpython-314.pyc
