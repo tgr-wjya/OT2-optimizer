@@ -17,5 +17,9 @@
     "include_unknown_availability": false,
     "budget": 25000
   },
-  "current_equipment": null
+  "current_equipment": null,
+  "owned_inventory": null,
+  "respect_other_characters": false,
+  "reserved_inventory": null,
+  "naked_stats": {}
 }

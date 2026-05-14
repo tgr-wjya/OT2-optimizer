@@ -24,6 +24,9 @@
     "accessory1": null,
     "accessory2": null
   },
+  "owned_inventory": null,
+  "respect_other_characters": false,
+  "reserved_inventory": null,
   "priorities": {
     "hp": 0.1,
     "sp": 0.05,

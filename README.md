@@ -69,8 +69,9 @@ Launch the local browser app with:
 python -m ot2_optimizer.gui
 ```
 
-It opens a local page where you can pick a traveler, leave equipment blank for
-an all-naked baseline, and run the optimizer without editing JSON by hand.
+   It opens a local page where you can pick a traveler, leave equipment blank for
+   an all-naked baseline, fill custom naked base stats, or flip on the
+   "I don't have any leaves" budget toggle without editing JSON by hand.
 
 ## Generate A Starter Config
 
@@ -98,12 +99,22 @@ Start from `configs/one_character.example.json` or a generated config and edit:
 - `class`: original class for that traveler.
 - `level`: current character level.
 - `current_equipment`: set to `null` for a naked baseline.
+- `naked_stats`: optional custom naked base stats; leave empty to use CSV values.
 - `progression.allowed_locations`: towns and areas you can already reach.
 - `progression.allowed_source_types`: usually start with `store` only.
-- `progression.budget`: how many leaves you want to spend.
+- `progression.budget`: how many leaves you want to spend. Use `0` for no-leaves mode.
+- `owned_inventory`: optional list of owned items for no-leaves runs, e.g. `[{ "name": "Silver Sword", "quantity": 2 }]`.
+- `respect_other_characters`: optional toggle to apply cross-character reservation limits.
+- `reserved_inventory`: optional reserved copies used by other characters, e.g. `[{ "name": "Silver Sword", "quantity": 1 }]`.
 
 If `current_equipment` is `null`, the optimizer uses naked base stats from
-`Octopath Traveler 2 Resource - Stats.csv`.
+`Octopath Traveler 2 Resource - Stats.csv` unless you provide `naked_stats`.
+
+If `progression.budget` is `0` and `owned_inventory` is provided, optimizer switches to
+owned-inventory mode:
+- It recommends from owned items only (no shop/source/location acquisition filtering).
+- If `respect_other_characters` is `true`, effective quantity is
+  `owned_inventory - reserved_inventory` per item.
 
 ## One-Character Testing Workflow
 

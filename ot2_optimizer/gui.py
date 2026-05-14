@@ -7,6 +7,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 
 from .data_loader import load_equipment, project_root
+from .models import STAT_KEYS
 from .optimizer import optimize_character
 from .templates import CHARACTER_DEFAULT_CLASS, list_characters, list_classes
 
@@ -32,6 +33,10 @@ DEFAULT_EXAMPLE_CONFIG = {
         "budget": 25000,
     },
     "current_equipment": None,
+    "owned_inventory": None,
+    "respect_other_characters": False,
+    "reserved_inventory": None,
+    "naked_stats": {},
 }
 
 
@@ -103,8 +108,62 @@ def _equipment_payload(form_data: dict[str, Any]) -> dict[str, str] | None:
     return equipment or None
 
 
+def _naked_stats_payload(payload: dict[str, Any]) -> dict[str, int] | None:
+    raw_stats = payload.get("naked_stats")
+    if isinstance(raw_stats, dict):
+        source = raw_stats
+    else:
+        source = {stat: payload.get(f"naked_{stat}", "") for stat in STAT_KEYS}
+
+    naked_stats: dict[str, int] = {}
+    for stat in STAT_KEYS:
+        value = str(source.get(stat, "")).strip()
+        if not value:
+            continue
+        parsed = int(value)
+        if parsed < 0:
+            raise ValueError(f"naked stat {stat} must be >= 0")
+        naked_stats[stat] = parsed
+    return naked_stats or None
+
+
 def _locations_payload(raw_locations: str) -> list[str]:
     return [part.strip() for part in raw_locations.replace("\n", ",").split(",") if part.strip()]
+
+
+def _inventory_payload(payload: dict[str, Any], key: str) -> list[dict[str, Any]] | None:
+    raw = payload.get(key)
+    if raw is None:
+        return None
+    if not isinstance(raw, list):
+        raise ValueError(f"{key} must be a list")
+
+    inventory: list[dict[str, Any]] = []
+    for idx, entry in enumerate(raw):
+        if isinstance(entry, str):
+            name = entry.strip()
+            if not name:
+                continue
+            inventory.append({"name": name, "quantity": 1})
+            continue
+        if not isinstance(entry, dict):
+            raise ValueError(f"{key}[{idx}] must be object or string")
+        name = str(entry.get("name") or entry.get("item") or "").strip()
+        if not name:
+            raise ValueError(f"{key}[{idx}] missing name/item")
+        quantity_raw = entry.get("quantity", 1)
+        try:
+            quantity = int(quantity_raw)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"{key}[{idx}].quantity must be integer >= 1") from exc
+        if quantity < 1:
+            raise ValueError(f"{key}[{idx}].quantity must be integer >= 1")
+        payload_entry = {"name": name, "quantity": quantity}
+        category = entry.get("category")
+        if category is not None and str(category).strip():
+            payload_entry["category"] = str(category).strip()
+        inventory.append(payload_entry)
+    return inventory or None
 
 
 def _parse_json_body(body: bytes) -> dict[str, Any]:
@@ -118,6 +177,10 @@ def _build_config(payload: dict[str, Any]) -> dict[str, Any]:
     level = int(payload.get("level", 1) or 1)
     budget_raw = str(payload.get("budget", "")).strip()
     budget = int(budget_raw) if budget_raw else None
+    no_leaves_mode = budget == 0
+    owned_inventory = _inventory_payload(payload, "owned_inventory")
+    reserved_inventory = _inventory_payload(payload, "reserved_inventory")
+    respect_other_characters = bool(payload.get("respect_other_characters", False))
     config = {
         "character": character,
         "class": _default_class_for(character),
@@ -133,8 +196,16 @@ def _build_config(payload: dict[str, Any]) -> dict[str, Any]:
             "budget": budget,
         },
         "current_equipment": _equipment_payload(payload),
+        "owned_inventory": owned_inventory,
+        "respect_other_characters": respect_other_characters,
+        "reserved_inventory": reserved_inventory if respect_other_characters else None,
     }
-    if not config["progression"]["allowed_source_types"]:
+    naked_stats = _naked_stats_payload(payload)
+    if naked_stats is not None:
+        config["naked_stats"] = naked_stats
+    if no_leaves_mode:
+        config["progression"]["allowed_source_types"] = []
+    elif not config["progression"]["allowed_source_types"]:
         config["progression"]["allowed_source_types"] = ["store"]
     return config
 
@@ -221,10 +292,14 @@ def _page_html(state: dict[str, Any]) -> str:
     .field {{ margin-bottom: 14px; }}
     .row2 {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
     .row3 {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }}
+    .budget-row {{ display: grid; gap: 8px; }}
+    .budget-toggle {{ display: inline-flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--text); }}
+    .budget-toggle input {{ width: auto; }}
     .source-grid {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 10px; }}
     .source-grid label {{ margin: 0; display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--text); }}
     .source-grid input {{ width: auto; }}
     .slot-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
+    .naked-grid {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }}
     .hint {{ color: var(--muted); font-size: .82rem; margin-top: 6px; }}
     .button-row {{ display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }}
     button {{
@@ -241,7 +316,7 @@ def _page_html(state: dict[str, Any]) -> str:
     .results {{ display: grid; gap: 14px; }}
     .hero-card {{ padding: 18px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, rgba(96,165,250,.08), transparent); border-radius: 18px 18px 0 0; }}
     .hero-metrics {{ display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; }}
-    .metric {{ padding: 12px 14px; border-radius: 14px; background: rgba(2,6,23,.48); border: 1px solid rgba(148,163,184,.15); min-width: 156px; }}
+    .metric {{ padding: 12px 14px; border-radius: 14px; background: rgba(2,6,23,.48); border: 1px solid rgba(148,163,184,.15); min-width: 0; flex: 1 1 180px; }}
     .metric .k {{ display: block; color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }}
     .metric .v {{ font-size: 1.2rem; font-weight: 800; margin-top: 6px; }}
     table {{ width: 100%; border-collapse: collapse; }}
@@ -249,8 +324,9 @@ def _page_html(state: dict[str, Any]) -> str:
     th {{ color: #cbd5e1; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }}
     .card {{ padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--panel-2); }}
     .card h3 {{ margin: 0 0 10px; font-size: 1rem; }}
-    .slot-grid-result {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }}
+    .slot-grid-result {{ display: grid; grid-template-columns: 1fr; gap: 12px; }}
     .slot-badge {{ display: inline-flex; align-items: center; gap: 6px; padding: .28rem .55rem; border-radius: 999px; background: rgba(52,211,153,.12); color: #a7f3d0; font-size: .78rem; border: 1px solid rgba(52,211,153,.2); }}
+    .slot-badge {{ max-width: 100%; white-space: normal; }}
     .muted {{ color: var(--muted); }}
     details {{ border: 1px solid rgba(148,163,184,.14); border-radius: 12px; padding: 10px 12px; background: rgba(2,6,23,.35); }}
     details + details {{ margin-top: 10px; }}
@@ -265,6 +341,12 @@ def _page_html(state: dict[str, Any]) -> str:
     .badge {{ display:inline-block; margin-left: 6px; padding: .18rem .42rem; border-radius: 999px; background: rgba(96,165,250,.16); color: #bfdbfe; font-size: .72rem; }}
     .list {{ margin: 0; padding-left: 1.1rem; }}
     .list li {{ margin: .28rem 0; }}
+    .candidate-list {{ display: grid; gap: 10px; }}
+    .candidate-row {{ padding: 12px; border: 1px solid rgba(148,163,184,.14); border-radius: 12px; background: rgba(2,6,23,.35); }}
+    .candidate-row .meta {{ display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; margin-bottom: 6px; }}
+    .candidate-row .rank {{ font-weight: 800; color: #dbeafe; }}
+    .candidate-row .name {{ font-weight: 700; }}
+    .candidate-row .tiny {{ margin-top: 4px; }}
     @media (max-width: 1080px) {{
       .hero, .grid {{ grid-template-columns: 1fr; }}
       .source-grid, .slot-grid {{ grid-template-columns: 1fr 1fr; }}
@@ -315,15 +397,21 @@ def _page_html(state: dict[str, Any]) -> str:
               </div>
               <div class="field">
                 <label for="budget">Budget</label>
-                <input id="budget" name="budget" type="number" min="0" placeholder="Leave blank for unlimited">
+                <div class="budget-row">
+                  <input id="budget" name="budget" type="number" min="0" placeholder="Leave blank for unlimited">
+                  <label class="budget-toggle" for="no_leaves">
+                    <input id="no_leaves" name="no_leaves" type="checkbox">
+                    I don't have any leaves
+                  </label>
+                </div>
               </div>
             </div>
-            <div class="field">
+            <div class="field" id="locations-field">
               <label for="allowed_locations">Allowed locations</label>
               <textarea id="allowed_locations" name="allowed_locations" placeholder="Comma or newline separated towns / areas"></textarea>
               <div class="hint">Leave as-is for a quick test. Blank locations are allowed, but the optimizer becomes more restrictive.</div>
             </div>
-            <div class="field">
+            <div class="field" id="source-types-field">
               <label>Allowed source types</label>
               <div class="source-grid" id="source-types"></div>
             </div>
@@ -338,6 +426,21 @@ def _page_html(state: dict[str, Any]) -> str:
                 <div><label for="accessory2">Accessory 2</label><input id="accessory2" name="accessory2" list="accessory-list" placeholder="Optional"></div>
               </div>
               <div class="hint">Leave every slot blank to test from naked stats.</div>
+            </div>
+            <div class="field">
+              <label for="owned_inventory">Owned inventory (used in no-leaves mode)</label>
+              <textarea id="owned_inventory" name="owned_inventory" placeholder="One per line: Item Name|Quantity&#10;Example: Silver Sword|2"></textarea>
+              <label class="budget-toggle" for="respect_other_characters" style="margin-top:8px">
+                <input id="respect_other_characters" name="respect_other_characters" type="checkbox">
+                Exclude copies equipped by other characters
+              </label>
+              <textarea id="reserved_inventory" name="reserved_inventory" placeholder="Reserved by other characters (Item Name|Quantity)" style="margin-top:8px"></textarea>
+              <div class="hint">When no-leaves is enabled, recommendations come only from this inventory list.</div>
+            </div>
+            <div class="field">
+              <label>Custom naked base stats</label>
+              <div class="naked-grid" id="naked-stats"></div>
+              <div class="hint">Leave blank to use loaded CSV stats. Fill values to override the naked baseline.</div>
             </div>
             <div class="button-row">
               <button class="primary" type="submit">Run optimizer</button>
@@ -378,12 +481,19 @@ def _page_html(state: dict[str, Any]) -> str:
       className: document.getElementById('class'),
       level: document.getElementById('level'),
       budget: document.getElementById('budget'),
+      noLeaves: document.getElementById('no_leaves'),
       allowedLocations: document.getElementById('allowed_locations'),
+      locationsField: document.getElementById('locations-field'),
+      sourceTypesField: document.getElementById('source-types-field'),
+      ownedInventory: document.getElementById('owned_inventory'),
+      reservedInventory: document.getElementById('reserved_inventory'),
+      respectOtherCharacters: document.getElementById('respect_other_characters'),
       resetBtn: document.getElementById('reset-btn'),
       sourceTypes: document.getElementById('source-types'),
       defaultChar: document.getElementById('default-char'),
       defaultClass: document.getElementById('default-class'),
       defaultLocations: document.getElementById('default-locations'),
+      nakedStats: document.getElementById('naked-stats'),
     }};
 
     function escapeHtml(text) {{
@@ -422,8 +532,73 @@ def _page_html(state: dict[str, Any]) -> str:
       `).join('');
     }}
 
+    function fillNakedStats() {{
+      els.nakedStats.innerHTML = STAT_KEYS.map((stat) => `
+        <div>
+          <label for="naked_${{stat}}">${{escapeHtml(stat)}}</label>
+          <input id="naked_${{stat}}" name="naked_${{stat}}" type="number" min="0" step="1" placeholder="Use CSV default">
+        </div>
+      `).join('');
+    }}
+
     function fillDatalist(id, values) {{
       document.getElementById(id).innerHTML = values.map((value) => `<option value="${{escapeHtml(value)}}"></option>`).join('');
+    }}
+
+    function parseInventoryTextarea(text) {{
+      const lines = String(text || '').split('\\n').map((line) => line.trim()).filter(Boolean);
+      const inventory = [];
+      for (const line of lines) {{
+        const parts = line.split('|').map((part) => part.trim());
+        if (!parts[0]) continue;
+        const quantity = parts.length > 1 ? Number(parts[1]) : 1;
+        if (!Number.isInteger(quantity) || quantity < 1) {{
+          throw new Error(`Invalid inventory quantity in line: "${{line}}"`);
+        }}
+        inventory.push({{ name: parts[0], quantity }});
+      }}
+      return inventory;
+    }}
+
+    function formatInventoryTextarea(entries) {{
+      if (!Array.isArray(entries)) return '';
+      return entries
+        .map((entry) => {{
+          const name = String(entry?.name || entry?.item || '').trim();
+          const qty = Number(entry?.quantity || 1);
+          if (!name) return '';
+          return `${{name}}|${{Number.isInteger(qty) && qty > 0 ? qty : 1}}`;
+        }})
+        .filter(Boolean)
+        .join('\\n');
+    }}
+
+    function syncBudgetMode() {{
+      const noLeaves = els.noLeaves.checked;
+      els.budget.disabled = noLeaves;
+      if (noLeaves) {{
+        els.budget.value = '';
+      }}
+      els.allowedLocations.disabled = noLeaves;
+      for (const checkbox of document.querySelectorAll('input[name="source_type"]')) {{
+        checkbox.disabled = noLeaves;
+      }}
+      if (els.locationsField) {{
+        els.locationsField.style.opacity = noLeaves ? '0.55' : '1';
+      }}
+      if (els.sourceTypesField) {{
+        els.sourceTypesField.style.opacity = noLeaves ? '0.55' : '1';
+      }}
+      if (els.respectOtherCharacters) {{
+        els.respectOtherCharacters.disabled = !noLeaves;
+      }}
+      if (els.ownedInventory) {{
+        els.ownedInventory.disabled = !noLeaves;
+      }}
+      if (els.reservedInventory) {{
+        const reservationOn = noLeaves && els.respectOtherCharacters.checked;
+        els.reservedInventory.disabled = !reservationOn;
+      }}
     }}
 
     function resetForm() {{
@@ -431,13 +606,23 @@ def _page_html(state: dict[str, Any]) -> str:
       els.character.value = config.character || GUI.characters[0];
       syncCharacter();
       els.level.value = config.level ?? 1;
-      els.budget.value = config.progression?.budget ?? '';
+      const budget = config.progression?.budget;
+      els.noLeaves.checked = budget === 0;
+      els.budget.value = budget && budget > 0 ? budget : '';
+      syncBudgetMode();
       els.allowedLocations.value = (config.progression?.allowed_locations || []).join(', ');
       for (const input of ['weapon', 'shield', 'headgear', 'body_armor', 'accessory1', 'accessory2']) {{
         document.getElementById(input).value = '';
       }}
       for (const checkbox of document.querySelectorAll('input[name="source_type"]')) {{
         checkbox.checked = checkbox.value === 'store';
+      }}
+      els.ownedInventory.value = formatInventoryTextarea(config.owned_inventory || []);
+      els.respectOtherCharacters.checked = !!config.respect_other_characters;
+      els.reservedInventory.value = formatInventoryTextarea(config.reserved_inventory || []);
+      const nakedStats = config.naked_stats || {{}};
+      for (const stat of STAT_KEYS) {{
+        document.getElementById(`naked_${{stat}}`).value = nakedStats[stat] ?? '';
       }}
       els.summary.textContent = 'Run the optimizer to see recommended gear.';
       els.results.innerHTML = '';
@@ -454,10 +639,23 @@ def _page_html(state: dict[str, Any]) -> str:
 
     function collectPayload() {{
       const sourceTypes = Array.from(document.querySelectorAll('input[name="source_type"]:checked')).map((el) => el.value);
+      const nakedStats = {{}};
+      for (const stat of STAT_KEYS) {{
+        const raw = document.getElementById(`naked_${{stat}}`).value.trim();
+        if (!raw) continue;
+        const value = Number(raw);
+        if (!Number.isInteger(value) || value < 0) {{
+          throw new Error(`naked stat ${{stat}} must be a whole number >= 0`);
+        }}
+        nakedStats[stat] = value;
+      }}
+      const budget = els.noLeaves.checked ? 0 : els.budget.value;
+      const ownedInventory = parseInventoryTextarea(els.ownedInventory.value);
+      const reservedInventory = parseInventoryTextarea(els.reservedInventory.value);
       return {{
         character: els.character.value,
         level: Number(els.level.value || 1),
-        budget: els.budget.value,
+        budget,
         allowed_locations: els.allowedLocations.value,
         allowed_source_types: sourceTypes,
         weapon: document.getElementById('weapon').value,
@@ -466,6 +664,10 @@ def _page_html(state: dict[str, Any]) -> str:
         body_armor: document.getElementById('body_armor').value,
         accessory1: document.getElementById('accessory1').value,
         accessory2: document.getElementById('accessory2').value,
+        owned_inventory: ownedInventory,
+        respect_other_characters: els.noLeaves.checked ? els.respectOtherCharacters.checked : false,
+        reserved_inventory: els.noLeaves.checked && els.respectOtherCharacters.checked ? reservedInventory : [],
+        naked_stats: Object.keys(nakedStats).length ? nakedStats : null,
       }};
     }}
 
@@ -481,20 +683,19 @@ def _page_html(state: dict[str, Any]) -> str:
 
     function renderCandidates(candidates) {{
       if (!candidates || !candidates.length) return '<div class="tiny">No candidates.</div>';
-      const rows = candidates.map((candidate, index) => `
-        <tr>
-          <td>${{index + 1}}</td>
-          <td>${{escapeHtml(candidate.item)}}</td>
-          <td>${{candidate.score.toFixed(2)}}</td>
-          <td>${{candidate.acquisition_cost >= 10**9 ? 'N/A' : candidate.acquisition_cost}}</td>
-          <td>${{escapeHtml(Object.entries(candidate.stat_delta || {{}}).map(([k, v]) => `${{k}}:${{v >= 0 ? '+' : ''}}${{v}}`).join('  ') || '—')}}</td>
-        </tr>
-      `).join('');
       return `
-        <table>
-          <thead><tr><th>#</th><th>Item</th><th>Score</th><th>Acq.</th><th>Delta</th></tr></thead>
-          <tbody>${{rows}}</tbody>
-        </table>
+        <div class="candidate-list">
+          ${{candidates.map((candidate, index) => `
+            <div class="candidate-row">
+              <div class="meta">
+                <span class="rank">#${{index + 1}}</span>
+                <span class="name">${{escapeHtml(candidate.item)}}</span>
+                <span class="tiny">${{escapeHtml(candidate.category)}} · score ${{candidate.score.toFixed(2)}} · acq. ${{candidate.acquisition_cost >= 10**9 ? 'N/A' : candidate.acquisition_cost}}</span>
+              </div>
+              <div class="tiny">${{escapeHtml(Object.entries(candidate.stat_delta || {{}}).map(([k, v]) => `${{k}}:${{v >= 0 ? '+' : ''}}${{v}}`).join('  ') || '—')}}</div>
+            </div>
+          `).join('')}}
+        </div>
       `;
     }}
 
@@ -597,6 +798,7 @@ def _page_html(state: dict[str, Any]) -> str:
 
     fillCharacterOptions();
     fillSourceTypes();
+    fillNakedStats();
     fillDatalist('weapon-list', GUI.weapon_options || []);
     fillDatalist('shield-list', GUI.shield_options || []);
     fillDatalist('headgear-list', GUI.headgear_options || []);
@@ -604,6 +806,8 @@ def _page_html(state: dict[str, Any]) -> str:
     fillDatalist('accessory-list', GUI.accessory_options || []);
 
     els.character.addEventListener('change', syncCharacter);
+    els.noLeaves.addEventListener('change', syncBudgetMode);
+    els.respectOtherCharacters.addEventListener('change', syncBudgetMode);
     els.form.addEventListener('submit', runOptimizer);
     els.resetBtn.addEventListener('click', resetForm);
 

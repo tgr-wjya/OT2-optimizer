@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from itertools import product
 
-from .availability import is_available
+from .availability import available_equipment_by_slot, is_available, is_equippable_in_slot
 from .data_loader import item_index, normalize_name
 from .models import CLASS_WEAPONS, CandidateScore, CharacterResult, EquipmentItem
 from .scoring import combine_stats, score_candidate
@@ -32,12 +32,29 @@ def find_item(
     return index.get(normalize_name(name))
 
 
-def allowed_for_slot(item: EquipmentItem, slot: str, class_name: str) -> bool:
-    if item.slot != slot:
-        return False
-    if slot == "weapon":
-        return item.category in CLASS_WEAPONS[class_name]
-    return True
+def resolve_equipment_selection(
+    index: dict[str, EquipmentItem],
+    selection: object,
+) -> EquipmentItem | None:
+    if not selection:
+        return None
+    if isinstance(selection, str):
+        return find_item(index, selection)
+    if isinstance(selection, dict):
+        name = selection.get("name") or selection.get("item")
+        category = selection.get("category")
+        key = selection.get("key")
+        if key:
+            item = index.get(normalize_name(str(key)))
+            if item:
+                return item
+        if name and category:
+            item = index.get(f"{normalize_name(str(category))}:{normalize_name(str(name))}")
+            if item:
+                return item
+        if name:
+            return find_item(index, str(name))
+    return None
 
 
 def acquisition_cost(
@@ -45,7 +62,10 @@ def acquisition_cost(
     current_item: EquipmentItem | None,
     budget_enabled: bool,
     allow_unknown_prices: bool,
+    no_purchase_mode: bool = False,
 ) -> int:
+    if no_purchase_mode:
+        return 0
     if current_item and current_item.key == item.key:
         return 0
     if item.price is not None:
@@ -53,6 +73,88 @@ def acquisition_cost(
     if budget_enabled and not allow_unknown_prices:
         return 10**12
     return 0
+
+
+def _parse_inventory_quantities(
+    index: dict[str, EquipmentItem],
+    inventory_payload: object,
+    field_name: str,
+) -> dict[str, int]:
+    if not inventory_payload:
+        return {}
+
+    entries: list[object]
+    if isinstance(inventory_payload, list):
+        entries = inventory_payload
+    else:
+        raise ValueError(f"{field_name} must be a list")
+
+    quantities: dict[str, int] = defaultdict(int)
+    for idx, entry in enumerate(entries):
+        item: EquipmentItem | None = None
+        quantity = 1
+        label = f"{field_name}[{idx}]"
+
+        if isinstance(entry, str):
+            item = resolve_equipment_selection(index, entry)
+        elif isinstance(entry, dict):
+            quantity_raw = entry.get("quantity", 1)
+            if isinstance(quantity_raw, bool):
+                raise ValueError(f"{label}.quantity must be an integer >= 1")
+            try:
+                quantity = int(quantity_raw)
+            except (TypeError, ValueError) as exc:
+                raise ValueError(f"{label}.quantity must be an integer >= 1") from exc
+            if quantity < 1:
+                raise ValueError(f"{label}.quantity must be >= 1")
+            item = resolve_equipment_selection(index, entry)
+            if item is None:
+                item_name = entry.get("name") or entry.get("item") or entry.get("key")
+                raise ValueError(f"{label} could not resolve item: {item_name!r}")
+        else:
+            raise ValueError(f"{label} must be string or object")
+
+        if item is None:
+            raise ValueError(f"{label} could not resolve item")
+        quantities[item.key] += quantity
+
+    return dict(quantities)
+
+
+def _effective_owned_quantities(
+    owned_quantities: dict[str, int],
+    reserved_quantities: dict[str, int],
+    respect_other_characters: bool,
+) -> dict[str, int]:
+    if not respect_other_characters:
+        return dict(owned_quantities)
+
+    effective: dict[str, int] = {}
+    for key, qty in owned_quantities.items():
+        remaining = qty - reserved_quantities.get(key, 0)
+        if remaining > 0:
+            effective[key] = remaining
+    return effective
+
+
+def _owned_equipment_by_slot(
+    items: list[EquipmentItem],
+    quantities: dict[str, int],
+    class_name: str,
+    slots: tuple[str, ...],
+) -> dict[str, list[EquipmentItem]]:
+    grouped: dict[str, list[EquipmentItem]] = defaultdict(list)
+    for item in items:
+        if quantities.get(item.key, 0) <= 0:
+            continue
+        if item.slot not in slots:
+            continue
+        if not is_equippable_in_slot(item, item.slot, class_name):
+            continue
+        grouped[item.slot].append(item)
+    for slot in grouped:
+        grouped[slot].sort(key=lambda item: (item.category, item.name))
+    return dict(grouped)
 
 
 def survivability_adjustment(
@@ -113,7 +215,7 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
         current_equipment_config = {}
 
     current_equipment = {
-        slot: find_item(index, current_equipment_config.get(slot))
+        slot: resolve_equipment_selection(index, current_equipment_config.get(slot))
         for slot in (
             "weapon",
             "shield",
@@ -124,20 +226,52 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
         )
     }
 
-    available_items = [item for item in items if is_available(item, progression)]
-    excluded_examples = [
-        f"{item.name} ({item.slot}: {item.availability})"
-        for item in items
-        if (
-            not is_available(item, progression)
-            and item.slot in ("shield", "headgear", "body_armor")
+    owned_quantities = _parse_inventory_quantities(index, config.get("owned_inventory"), "owned_inventory")
+    respect_other_characters = bool(config.get("respect_other_characters", False))
+    reserved_quantities = (
+        _parse_inventory_quantities(
+            index,
+            config.get("reserved_inventory"),
+            "reserved_inventory",
         )
-        or (
-            not is_available(item, progression)
-            and item.slot == "weapon"
-            and item.category in CLASS_WEAPONS[class_name]
-        )
-    ][:20]
+        if respect_other_characters
+        else {}
+    )
+    effective_owned_quantities = _effective_owned_quantities(
+        owned_quantities,
+        reserved_quantities,
+        respect_other_characters,
+    )
+
+    budget = progression.get("budget")
+    owned_only_mode = budget == 0 and bool(owned_quantities)
+    if owned_only_mode:
+        for slot in AUTO_SLOTS:
+            current_item = current_equipment.get(slot)
+            if current_item:
+                effective_owned_quantities[current_item.key] = max(
+                    effective_owned_quantities.get(current_item.key, 0),
+                    1,
+                )
+        available_items = [
+            item for item in items if effective_owned_quantities.get(item.key, 0) > 0
+        ]
+        excluded_examples: list[str] = []
+    else:
+        available_items = [item for item in items if is_available(item, progression)]
+        excluded_examples = [
+            f"{item.name} ({item.slot}: {item.availability})"
+            for item in items
+            if (
+                not is_available(item, progression)
+                and item.slot in ("shield", "headgear", "body_armor")
+            )
+            or (
+                not is_available(item, progression)
+                and item.slot == "weapon"
+                and item.category in CLASS_WEAPONS[class_name]
+            )
+        ][:20]
 
     base_stats = config.get("naked_stats")
     if not base_stats:
@@ -148,15 +282,18 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
         base_stats,
     )
 
-    budget = progression.get("budget")
     budget_enabled = budget is not None
     allow_unknown_prices = bool(progression.get("allow_unknown_prices", False))
 
+    available_by_slot = (
+        _owned_equipment_by_slot(items, effective_owned_quantities, class_name, AUTO_SLOTS)
+        if owned_only_mode
+        else available_equipment_by_slot(available_items, progression, class_name)
+    )
+
     scored_by_slot: dict[str, list[CandidateScore]] = {}
     for slot in AUTO_SLOTS:
-        candidates = [
-            item for item in available_items if allowed_for_slot(item, slot, class_name)
-        ]
+        candidates = available_by_slot.get(slot, [])
         current_item = current_equipment.get(slot)
         scored = [
             score_candidate(
@@ -191,7 +328,11 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
         current_item = current_equipment.get(slot)
         for cs in scored_by_slot[slot]:
             cs.acquisition_cost = acquisition_cost(
-                cs.item, current_item, budget_enabled, allow_unknown_prices
+                cs.item,
+                current_item,
+                budget_enabled,
+                allow_unknown_prices,
+                no_purchase_mode=owned_only_mode,
             )
             cs.is_current_item = (
                 current_item is not None and cs.item.key == current_item.key
@@ -210,6 +351,7 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
                 current_equipment.get(slot_order[index]),
                 budget_enabled,
                 allow_unknown_prices,
+                no_purchase_mode=owned_only_mode,
             )
             for index, score in enumerate(combo)
         )

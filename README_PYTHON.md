@@ -60,12 +60,22 @@ Important fields:
 - `class`: original class for that traveler.
 - `level`: character level.
 - `current_equipment`: set to `null` for a naked baseline.
+- `naked_stats`: optional custom naked base stats for the baseline.
 - `progression.allowed_locations`: towns and areas currently available.
 - `progression.allowed_source_types`: usually start with only `["store"]`.
-- `progression.budget`: maximum new purchase cost for the recommendation.
+- `progression.budget`: maximum new purchase cost for the recommendation. Use `0` for no-leaves mode.
+- `owned_inventory`: optional list of owned items for no-leaves runs, e.g. `[{ "name": "Silver Sword", "quantity": 2 }]`.
+- `respect_other_characters`: optional toggle to apply cross-character reservation limits.
+- `reserved_inventory`: optional reserved copies used by other characters, e.g. `[{ "name": "Silver Sword", "quantity": 1 }]`.
 
 If `current_equipment` is `null`, the optimizer loads naked base stats from
-`Octopath Traveler 2 Resource - Stats.csv` automatically.
+`Octopath Traveler 2 Resource - Stats.csv` unless `naked_stats` is present.
+
+If `progression.budget` is `0` and `owned_inventory` is provided, optimizer switches to
+owned-inventory mode:
+- It recommends from owned items only (no shop/source/location acquisition filtering).
+- If `respect_other_characters` is `true`, effective quantity is
+  `owned_inventory - reserved_inventory` per item.
 
 ## Source Types
 

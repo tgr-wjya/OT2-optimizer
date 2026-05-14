@@ -255,6 +255,10 @@ def generate_config_template(
             "budget": budget,
         },
         "current_equipment": None,
+        "owned_inventory": None,
+        "respect_other_characters": False,
+        "reserved_inventory": None,
+        "naked_stats": {},
     }
 
     return config
