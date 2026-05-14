@@ -1,0 +1,72 @@
+{
+  "character": "Hikari",
+  "class": "Warrior",
+  "level": 20,
+  "progression": {
+    "allowed_locations": [
+      "New Delsta",
+      "Oresrush",
+      "Ryu",
+      "Sai",
+      "Wellgrove",
+      "Timberain"
+    ],
+    "_locations_note": "Add the town names you have reached. Hint: Hikari's starting region typically includes ['Ryu', 'Sai'].",
+    "allowed_source_types": ["store"],
+    "include_unknown_availability": false,
+    "budget": 20000
+  },
+  "current_equipment": {
+    "weapon": "Silver Sword",
+    "shield": "Kite Shield",
+    "headgear": null,
+    "body_armor": "Copper Breastplate",
+    "accessory1": null,
+    "accessory2": null
+  },
+  "priorities": {
+    "hp": 0.1,
+    "sp": 0.05,
+    "phys_atk": 1.0,
+    "elem_atk": 0.0,
+    "phys_def": 0.35,
+    "elem_def": 0.2,
+    "speed": 0.15,
+    "accuracy": 0.1,
+    "evasion": 0.05,
+    "critical": 0.1,
+    "physical_skill_potency": 0.5
+  },
+  "minimum_priorities": {
+    "hp": 0.1,
+    "phys_def": 0.5,
+    "elem_def": 0.35
+  },
+  "survivability_targets": {
+    "phys_def": 180,
+    "elem_def": 120
+  },
+  "_survivability_note": "Optional: set phys_def / elem_def targets to ensure the optimizer never sacrifices defence for offence. E.g. {\"phys_def\": 150, \"elem_def\": 130}",
+  "survivability_target_weights": {
+    "phys_def": 1.0,
+    "elem_def": 0.8
+  },
+  "effect_values": {
+    "physical_skill_potency": 30,
+    "sp_sustain": 10,
+    "low_hp_damage": 0,
+    "instant_kill": 0
+  },
+  "naked_stats": {
+    "hp": 1697,
+    "sp": 64,
+    "phys_atk": 148,
+    "elem_atk": 111,
+    "phys_def": 136,
+    "elem_def": 99,
+    "accuracy": 136,
+    "speed": 124,
+    "critical": 124,
+    "evasion": 99
+  }
+}
