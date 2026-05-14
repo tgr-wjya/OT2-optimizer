@@ -61,6 +61,17 @@ This writes:
 - `reports/one_character.result.json`
 - `reports/one_character.report.html`
 
+## Open The GUI
+
+Launch the local browser app with:
+
+```bash
+python -m ot2_optimizer.gui
+```
+
+It opens a local page where you can pick a traveler, leave equipment blank for
+an all-naked baseline, and run the optimizer without editing JSON by hand.
+
 ## Generate A Starter Config
 
 You can generate a starting config for any traveler and class:

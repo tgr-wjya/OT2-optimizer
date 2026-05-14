@@ -40,6 +40,16 @@ Outputs:
 - `reports/one_character.result.json`
 - `reports/one_character.report.html`
 
+## GUI
+
+Start the local browser app with:
+
+```bash
+python -m ot2_optimizer.gui
+```
+
+Use it for form-based one-character testing instead of hand-editing JSON.
+
 ## Edit The Input
 
 Start from `configs/one_character.example.json` or a generated config.
