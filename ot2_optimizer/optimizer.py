@@ -8,8 +8,20 @@ from .data_loader import item_index, normalize_name
 from .models import CLASS_WEAPONS, CandidateScore, CharacterResult, EquipmentItem
 from .scoring import combine_stats, score_candidate
 from .stats_data import base_stats_for
+from .templates import CLASS_EFFECT_VALUES, CLASS_MINIMUM_PRIORITIES, CLASS_PRIORITIES
 
 AUTO_SLOTS = ("weapon", "shield", "headgear", "body_armor")
+
+SURVIVABILITY_PROFILE = {
+    "Scholar": {"phys_def": 1.65, "elem_def": 1.55, "hp": 1.15, "evasion": 1.05},
+    "Cleric": {"phys_def": 1.6, "elem_def": 1.6, "hp": 1.15, "evasion": 1.0},
+    "Warrior": {"phys_def": 1.45, "elem_def": 1.3, "hp": 1.1, "evasion": 0.95},
+    "Hunter": {"phys_def": 1.4, "elem_def": 1.25, "hp": 1.05, "evasion": 1.0},
+    "Thief": {"phys_def": 1.35, "elem_def": 1.25, "hp": 1.05, "evasion": 1.1},
+    "Dancer": {"phys_def": 1.35, "elem_def": 1.35, "hp": 1.05, "evasion": 1.05},
+    "Merchant": {"phys_def": 1.4, "elem_def": 1.3, "hp": 1.1, "evasion": 1.0},
+    "Apothecary": {"phys_def": 1.45, "elem_def": 1.35, "hp": 1.15, "evasion": 0.95},
+}
 
 
 def find_item(
@@ -65,18 +77,40 @@ def survivability_adjustment(
     return score, notes
 
 
+def class_defaults(class_name: str) -> tuple[dict[str, float], dict[str, float], dict[str, float]]:
+    priorities = CLASS_PRIORITIES.get(class_name, CLASS_PRIORITIES["Warrior"])
+    minimum_priorities = CLASS_MINIMUM_PRIORITIES.get(class_name, {})
+    effect_values = CLASS_EFFECT_VALUES.get(class_name, {})
+    return priorities, minimum_priorities, effect_values
+
+
+def survivability_policy(
+    class_name: str,
+    base_stats: dict[str, int],
+) -> tuple[dict[str, int], dict[str, float]]:
+    profile = SURVIVABILITY_PROFILE.get(class_name, SURVIVABILITY_PROFILE["Warrior"])
+    targets: dict[str, int] = {}
+    for stat, multiplier in profile.items():
+        current = int(base_stats.get(stat, 0))
+        if current <= 0:
+            continue
+        targets[stat] = max(current, int(round(current * multiplier)))
+    weights = {"phys_def": 1.0, "elem_def": 1.0, "hp": 0.25, "evasion": 0.1}
+    return targets, weights
+
+
 def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterResult:
     character = config["character"]
     class_name = config["class"]
     level = int(config["level"])
-    priorities = config.get("priorities", {})
-    minimum_priorities = config.get("minimum_priorities", {})
     progression = config.get("progression", {})
-    effect_values = config.get("effect_values", {})
-    survivability_targets = config.get("survivability_targets", {})
-    survivability_target_weights = config.get("survivability_target_weights", {})
-    current_equipment_config = config.get("current_equipment", {})
     index = item_index(items)
+
+    priorities, minimum_priorities, effect_values = class_defaults(class_name)
+
+    current_equipment_config = config.get("current_equipment") or {}
+    if not isinstance(current_equipment_config, dict):
+        current_equipment_config = {}
 
     current_equipment = {
         slot: find_item(index, current_equipment_config.get(slot))
@@ -108,6 +142,11 @@ def optimize_character(config: dict, items: list[EquipmentItem]) -> CharacterRes
     base_stats = config.get("naked_stats")
     if not base_stats:
         base_stats = base_stats_for(character, level)
+
+    survivability_targets, survivability_target_weights = survivability_policy(
+        class_name,
+        base_stats,
+    )
 
     budget = progression.get("budget")
     budget_enabled = budget is not None

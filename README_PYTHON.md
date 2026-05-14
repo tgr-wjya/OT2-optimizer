@@ -9,8 +9,8 @@ For local setup and usage, start with [README.md](README.md).
 ## What Exists Now
 
 - One-character optimizer first.
-- Editable JSON config for level, naked stats, current gear, locations, source
-  types, priorities, and effect values.
+- Minimal config surface for the default workflow.
+- Class-specific scoring and survivability behavior are automatic.
 - Strict availability filtering. Unknown availability is excluded by default.
 - Current gear is used as the baseline, so recommendations are based on actual
   improvement, not just absolute item stats.
@@ -42,32 +42,20 @@ Outputs:
 
 ## Edit The Input
 
-Change this file:
-
-```text
-configs/one_character.example.json
-```
+Start from `configs/one_character.example.json` or a generated config.
 
 Important fields:
 
+- `character`: the traveler name.
+- `class`: original class for that traveler.
 - `level`: character level.
-- `naked_stats`: your stats with no equipment. If this is omitted, the optimizer
-  loads base stats for `character` + `level` from
-  `Octopath Traveler 2 Resource - Stats.csv`.
-- `current_equipment`: what you currently wear.
-- `progression.allowed_locations`: towns/areas currently available.
+- `current_equipment`: set to `null` for a naked baseline.
+- `progression.allowed_locations`: towns and areas currently available.
 - `progression.allowed_source_types`: usually start with only `["store"]`.
 - `progression.budget`: maximum new purchase cost for the recommendation.
-- `progression.allow_unknown_prices`: defaults to false behavior in the optimizer;
-  unknown-price paid items are not treated as free when a budget exists.
-- `priorities`: how much this character values each stat/effect.
-- `effect_values`: base point values for special effects.
-- `minimum_priorities`: stat floors that still matter even when they are not the
-  character's main job-defining stat. This prevents defense from becoming
-  worthless on offense-focused characters.
-- `survivability_targets`: final stat targets for the whole recommended loadout.
-  This lets the optimizer trade down damage if keeping a weak shield/armor leaves
-  the character too fragile.
+
+If `current_equipment` is `null`, the optimizer loads naked base stats from
+`Octopath Traveler 2 Resource - Stats.csv` automatically.
 
 ## Source Types
 
@@ -102,4 +90,4 @@ immunity.
 2. Improve effect and accessory rules with manual review.
 3. Add budget-aware item selection.
 4. Add whole-roster optimization and limited-copy conflict handling.
-5. Add a CLI config for multiple characters.
+5. Add a local browser GUI on top of the Python engine.

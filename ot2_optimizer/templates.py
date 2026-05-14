@@ -1,11 +1,8 @@
 """
 Config template generator for the OT2 optimizer.
 
-Provides class-appropriate priority defaults and a function to produce a
-starter config dict for any character + class + level combination.
-
-All priority values are opinionated defaults — they work reasonably well
-out of the box but are meant to be tweaked once you know your playstyle.
+Provides a minimal starter config for any character + class + level
+combination. Class-specific tuning stays inside the engine.
 """
 
 from __future__ import annotations
@@ -238,10 +235,6 @@ def generate_config_template(
     Generate a complete optimizer config template for any character / class /
     level combination.
 
-    ``naked_stats`` is auto-populated from the Stats CSV when the data is
-    available.  If the lookup fails, the field is omitted so the optimizer
-    falls back gracefully.
-
     Parameters
     ----------
     character         : Character name (e.g. "Hikari")
@@ -251,56 +244,18 @@ def generate_config_template(
                         Pass None or [] to leave blank for the user to fill in.
     budget            : Leaf budget, or None for unlimited.
     """
-    # Try Stats CSV lookup for naked stats
-    naked_stats: dict[str, int] | None = None
-    try:
-        from .stats_data import base_stats_for
-
-        naked_stats = base_stats_for(character, level)
-    except Exception:
-        pass  # will be omitted; optimizer falls back automatically
-
-    priorities = CLASS_PRIORITIES.get(class_name, CLASS_PRIORITIES["Warrior"])
-    min_priorities = CLASS_MINIMUM_PRIORITIES.get(class_name, {})
-    effect_values = CLASS_EFFECT_VALUES.get(class_name, {})
-
     config: dict[str, Any] = {
         "character": character,
         "class": class_name,
         "level": level,
         "progression": {
             "allowed_locations": allowed_locations or [],
-            "_locations_note": (
-                "Add the town names you have reached. "
-                f"Hint: {character}'s starting region typically includes "
-                f"{CHARACTER_STARTING_REGION.get(character, ['(unknown)'])}."
-            ),
             "allowed_source_types": ["store"],
             "include_unknown_availability": False,
             "budget": budget,
         },
-        "current_equipment": {
-            "weapon": None,
-            "shield": None,
-            "headgear": None,
-            "body_armor": None,
-            "accessory1": None,
-            "accessory2": None,
-        },
-        "priorities": priorities,
-        "minimum_priorities": min_priorities,
-        "survivability_targets": {},
-        "_survivability_note": (
-            "Optional: set phys_def / elem_def targets to ensure the optimizer "
-            "never sacrifices defence for offence. "
-            'E.g. {"phys_def": 150, "elem_def": 130}'
-        ),
-        "survivability_target_weights": {},
-        "effect_values": effect_values,
+        "current_equipment": None,
     }
-
-    if naked_stats:
-        config["naked_stats"] = naked_stats
 
     return config
 

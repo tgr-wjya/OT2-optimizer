@@ -3,8 +3,8 @@
 Python-first equipment optimizer for Octopath Traveler 2.
 
 This repo is focused on one-character optimization first. It uses your current
-character level, naked stats, current gear, available locations, and budget to
-recommend equipment from the local game data files.
+character level, naked base stats, current gear, available locations, and budget
+to recommend equipment from the local game data files.
 
 ## What It Does
 
@@ -12,6 +12,7 @@ recommend equipment from the local game data files.
 - Supports all 8 original-class travelers.
 - Uses current gear as the baseline, so recommendations are upgrades from what
   you actually have equipped.
+- Auto-loads class-specific scoring and survivability behavior internally.
 - Filters by availability and source type.
 - Treats accessories as review items instead of auto-equipping them blindly.
 - Writes both JSON output and an HTML report.
@@ -85,17 +86,12 @@ Start from `configs/one_character.example.json` or a generated config and edit:
 - `character`: the traveler name.
 - `class`: original class for that traveler.
 - `level`: current character level.
-- `naked_stats`: stats with no equipment, if you want to override CSV lookup.
-- `current_equipment`: what the character is currently wearing.
+- `current_equipment`: set to `null` for a naked baseline.
 - `progression.allowed_locations`: towns and areas you can already reach.
 - `progression.allowed_source_types`: usually start with `store` only.
 - `progression.budget`: how many leaves you want to spend.
-- `priorities`: stat and effect weights for the selected class or build.
-- `minimum_priorities`: floor values so survivability does not get ignored.
-- `survivability_targets`: final defense targets for the full loadout.
-- `effect_values`: value assigned to special effect tags.
 
-If `naked_stats` is omitted, the optimizer pulls base stats from
+If `current_equipment` is `null`, the optimizer uses naked base stats from
 `Octopath Traveler 2 Resource - Stats.csv`.
 
 ## One-Character Testing Workflow

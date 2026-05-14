@@ -218,10 +218,8 @@ def damage_comparison_html(comp: "DamageComparison") -> str:
 def write_html_report(
     result: CharacterResult,
     path: Path,
-    damage_comp: "DamageComparison | None" = None,
 ) -> None:
     base_stats: dict[str, int] = getattr(result, "base_stats", {})
-    surv_notes: list[str] = getattr(result, "survivability_notes", [])
     budget = getattr(result, "budget", None)
     top_candidates: dict[str, list] = getattr(result, "top_candidates", {})
 
@@ -250,17 +248,8 @@ def write_html_report(
     else:
         base_stats_section = ""
 
-    # ── Survivability notes card ─────────────────────────────────────────────
-    if surv_notes:
-        notes_li = "".join(f"<li>{html.escape(n)}</li>" for n in surv_notes)
-        surv_section = (
-            "<section class='surv-notes'>"
-            "<h3>&#9888; Survivability Targets</h3>"
-            f"<ul>{notes_li}</ul>"
-            "</section>"
-        )
-    else:
-        surv_section = ""
+    # Survivability notes stay internal in the simplified workflow.
+    surv_section = ""
 
     # ── Per-slot recommendations ─────────────────────────────────────────────
     recommendation_sections: list[str] = []
@@ -370,9 +359,6 @@ def write_html_report(
         )
 
     # ── Damage simulation section ────────────────────────────────────────────
-    damage_section = (
-        damage_comparison_html(damage_comp) if damage_comp is not None else ""
-    )
 
     # ── Assemble full document ───────────────────────────────────────────────
     document = f"""<!doctype html>
@@ -446,7 +432,6 @@ def write_html_report(
 
   {surv_section}
 
-  {damage_section}
 
   <h2>Recommendations</h2>
   {"".join(recommendation_sections)}

@@ -4,7 +4,6 @@ import argparse
 import json
 from pathlib import Path
 
-from .damage_sim import DamageComparison, run_comparison_from_config
 from .data_loader import load_equipment
 from .optimizer import optimize_character
 from .report import write_html_report
@@ -27,70 +26,7 @@ def _delta_short(stat_delta: dict[str, int], max_stats: int = 3) -> str:
     return "  ".join(f"{k}:{v:+d}" for k, v in top)
 
 
-def print_damage_comparison(comp: DamageComparison) -> None:
-    """Print the damage simulation comparison table."""
-    elem_delta = comp.recommended_elem_atk - comp.current_elem_atk
-    elem_pct = (
-        (comp.recommended_elem_atk / comp.current_elem_atk - 1) * 100
-        if comp.current_elem_atk > 0
-        else 0.0
-    )
-    print("─" * 80)
-    print(
-        f"Damage Simulation  (vs enemy Elem. Def: {comp.enemy_elem_def}"
-        f" | Level {comp.level}, mult: {comp.level_mult})"
-    )
-    print(
-        f"  Elem. Atk: {comp.current_elem_atk} (current)"
-        f" → {comp.recommended_elem_atk} (recommended)"
-        f"  [{elem_delta:+d}, {elem_pct:+.1f}%]"
-    )
-    print()
-
-    W_LABEL = 30
-    W_HITS = 5
-    W_DMG = 11  # "XXXX–YYYY"
-    W_DELTA = 8
-    SEP = "  "
-    header = (
-        f"  {'Scenario':<{W_LABEL}}{SEP}"
-        f"{'BP':>2}{SEP}{'I':>1}{SEP}"
-        f"{'Hits':>{W_HITS}}{SEP}"
-        f"{'Current':>{W_DMG}}{SEP}"
-        f"{'Recommended':>{W_DMG}}{SEP}"
-        f"{'Delta':>{W_DELTA}}"
-    )
-    print(header)
-    print("  " + "─" * (len(header) - 2))
-
-    for row in comp.rows:
-        label = row.scenario.label or row.display_name
-        label_trunc = label[:W_LABEL]
-        cur_str = row.current.total_str()
-        rec_str = row.recommended.total_str()
-        pct_str = f"{row.delta_pct:+.0f}%"
-        conf_marker = (
-            ""
-            if row.current.confidence == "HIGH"
-            else (" ~" if row.current.confidence == "MEDIUM" else " ?")
-        )
-        print(
-            f"  {label_trunc:<{W_LABEL}}{SEP}"
-            f"{row.current.bp:>2}{SEP}{row.current.intensity:>1}{SEP}"
-            f"{row.current.hits_str():>{W_HITS}}{SEP}"
-            f"{cur_str:>{W_DMG}}{SEP}"
-            f"{rec_str:>{W_DMG}}{SEP}"
-            f"{pct_str:>{W_DELTA}}{conf_marker}"
-        )
-
-    print()
-    if comp.confidence_note:
-        print(f"  {comp.confidence_note}")
-    print("─" * 80)
-    print()
-
-
-def print_result(result, damage_comp: DamageComparison | None = None) -> None:
+def print_result(result) -> None:
     # ── 1. Header ──────────────────────────────────────────────────────────────
     print(f"{result.character} level {result.level} ({result.class_name})")
     locations = ", ".join(result.selected_locations) or "no location limit"
@@ -117,15 +53,7 @@ def print_result(result, damage_comp: DamageComparison | None = None) -> None:
             print("  " + " | ".join(f"{k}: {v}" for k, v in chunk))
         print()
 
-    # ── 3. Survivability notes ─────────────────────────────────────────────────
-    survivability_notes: list[str] = getattr(result, "survivability_notes", [])
-    if survivability_notes:
-        print("Survivability targets:")
-        for note in survivability_notes:
-            print(f"  - {note}")
-        print()
-
-    # ── 4 & 5. Per-slot recommendations + top candidates ───────────────────────
+    # ── 3 & 4. Per-slot recommendations + top candidates ───────────────────────
     top_candidates: dict[str, list] = getattr(result, "top_candidates", {})
 
     for slot, score in result.recommendations.items():
@@ -246,10 +174,6 @@ def print_result(result, damage_comp: DamageComparison | None = None) -> None:
         print()
 
     # ── 6. Accessories ─────────────────────────────────────────────────────────
-    # ── 7. Damage simulation ───────────────────────────────────────────────────
-    if damage_comp is not None:
-        print_damage_comparison(damage_comp)
-
     print("Accessories to review:")
     for tier, items in result.accessory_review.items():
         print(f"  {tier}:")
@@ -325,23 +249,14 @@ def main() -> None:
     config = json.loads(config_path.read_text(encoding="utf-8"))
     result = optimize_character(config, load_equipment())
 
-    damage_comp = run_comparison_from_config(
-        config,
-        current_elem_atk=result.current_stats.get("elem_atk", 0),
-        recommended_elem_atk=result.recommended_stats.get("elem_atk", 0),
-        level=result.level,
-    )
-
-    print_result(result, damage_comp)
+    print_result(result)
 
     out: dict = result.to_jsonable()
-    if damage_comp is not None:
-        out["damage_simulation"] = damage_comp.to_jsonable()
 
     json_path = Path(args.json_out)
     json_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(out, indent=2), encoding="utf-8")
-    write_html_report(result, Path(args.html_out), damage_comp)
+    write_html_report(result, Path(args.html_out))
 
     print()
     print(f"Wrote JSON: {json_path}")
