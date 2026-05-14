@@ -51,7 +51,7 @@ def parse_float(value: str) -> float | None:
 
 def stats_csv_rows(root: Path | None = None) -> list[list[str]]:
     root = root or project_root()
-    with (root / "Octopath Traveler 2 Resource - Stats.csv").open(
+    with (root / "data/Octopath_Traveler2_Resource_Stats.csv").open(
         newline="",
         encoding="utf-8",
     ) as handle:

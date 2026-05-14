@@ -4,6 +4,8 @@ This is the Python-first restart of the optimizer. It is intentionally separate
 from the existing TypeScript GUI so the optimizer logic can survive even if the
 old app directory is deleted later.
 
+For local setup and usage, start with [README.md](README.md).
+
 ## What Exists Now
 
 - One-character optimizer first.

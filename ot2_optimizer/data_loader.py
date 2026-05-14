@@ -70,7 +70,7 @@ def parse_price(value: str | None) -> int | None:
 
 def load_store_prices(root: Path | None = None) -> dict[str, int]:
     root = root or project_root()
-    store_csv = root / "Octopath Traveler 2 Resource - Store.csv"
+    store_csv = root / "data/Octopath_Traveler2_Resource_Store.csv"
     prices: dict[str, int] = {}
     if not store_csv.exists():
         return prices
