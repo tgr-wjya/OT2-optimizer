@@ -1,0 +1,647 @@
+,,,Phys.,Elem.,+Stat,+Stat,Equip / Attack Effects,Max,Availability
+,Physical Boost,,Suggestion: Hikari with Cleric Job,,,,,,
+,,Battle-Tested Blade,400,,Critical +120,,Equip effect: Raises potency of physical skills. (+30%),99,"NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)
+NPC<Drop 2%> [Young Man (10*) in Tropu'hopu]"
+,,Giant's Club,328,,,,Equip effect: Raises potency of physical skills. (+30%),1,Chest [Ivory Ravine]
+,,,,,,,,,
+,Fire Boost,,"Suggestion: Osvald with Warrior Job, or Partitio with Thief Job",,,,,,
+,,Firestarter,195,298,,,Equip effect: Raises potency of fire-based attacks. (+30%),1,Chest [Eastern Ku Sands]
+,,Fire Dragon's Glaive,318,,Evasion +95,,Equip effect: Raises Potency of fire-based attacks. (+30%),1,Chest [Decaying Temple]
+,,Scorched Bone Spear,132,,Accuracy -60,,Equip effect: Raises potency of fire-based attacks. (+30%),1,Chest [Quicksand Gaol]
+,,Mooneater,285,349,,,Equip effect: Raises potency of fire- and wind-based attacks. (+30%),1,NPC<Item> [Ruined Vessel in Lostseed]
+,,Moonfang,141,,Speed +75,,Equip effect: Raises potency of fire-based attacks. (+30%),1,NPC<Item> [Orphan in Mother's Garden: Orphanage]
+,,,,,,,,,
+,Ice Boost,,Suggestion: Osvald with Hunter Job (for dual Ice/Lightning),,,,,,
+,,Guardian's Iceblade,203,,Evasion +41,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Boss<Drop> [Glacis in Sacred Peak Altahe] (Ochette chapter 2: Glacis's Route)
+,,Battle-Tested Axe,400,250,,,Equip effect: Raises potency of lightning- and ice-based attacks. (+30%),99,"NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)
+NPC<Drop 2%> [Villager (8*) in Cape Cold]"
+,,Icy Axe,295,198,,,Equip effect: Raises potency of ice-based attacks. (+30%),1,NPC<Item> [Mercenary in Stormhail: Castle Mei]
+,,Frost Axe,110,,Speed +30,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Chest [Abandoned Waterway] (Guarded by Carnivorous Plant mini-boss)
+,,Absolute Zero Bow,187,158,,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Chest [Sacred Peak Altahe]
+,,,,,,,,,
+,Lightning Boost,,Suggestion: Osvald with Hunter Job (for dual Ice/Lightning),,,,,,
+,,Battle-Tested Axe,400,250,,,Equip effect: Raises potency of lightning- and ice-based attacks. (+30%),99,"NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)
+NPC<Drop 2%> [Villager (8*) in Cape Cold]"
+,,Hero's Axe,340,,Critical +102,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,NPC<Item> [Soldier in Timberain]
+,,Bellowing Baton,160,322,,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,NPC<Item> [La'mani in New Delsta: Theater] (Agnea's story completed)
+,,Thunder Mace,60,40,,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,Chest [Lair of the Usurper]
+,,,,,,,,,
+,Wind Boost,,Suggestion: Agnea with Merchant Job or Castti with Armsmaster,,,,,,
+,,Tornado Glaive,337,,Evasion +105,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Curious Nest] (Guarded by Tyrannodrake mini-boss)
+,,Mooneater,285,349,,,Equip effect: Raises potency of fire- and wind-based attacks. (+30%),1,NPC<Item> [Ruined Vessel in Lostseed]
+,,Wind Whisperer,172,163,,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Dragonridge]
+,,Tornado Bow,295,,Speed +90,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Stormy Cape] (Ochette's story completed)
+,,,,,,,,,
+,Light Boost,,Suggestion: Temenos,,,,,,
+,,Sunshadow Staff,171,335,,,Equip effect: Raises potency of light- and dark-based attacks. (+30%),1,NPC<Hidden Item> [Boy in Western Gravell Wilds]
+,,Hallowed Rod,152,304,,,Equip effect: Raises potency of light-based attacks. (+30%),1,Chest [Rifted Rock] (Temenos chapter 4)
+,,Jade Staff,58,116,,,Equip effect: Raises potency of light-based attacks. (+30%),1,Chest [Fellsun Ruins] (Temenos' ch.3)
+,,,,,,,,,
+,Dark Boost,,Suggestion: Throné with Arcanist Job (dual Light/Dark) or Castti with Armsmaster Job (for full Dark),,,,,,
+,,Eclipse Edge,352,,Accuracy -75,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Boss<Drop> [Captain Kaldena in Rifted Rock] (Temenos chapter 4)
+,,Heretic's Greatsword,69,,Accuracy -40,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Chest: [Ruffians's Hideout]
+,,Dark Slasher,197,,Critical +58,,Equip effect: Raises potency of dark based attacks. (+30%),1,Chest [Forsaken Graveyard]
+,,Sunshadow Staff,171,335,,,Equip effect: Raises potency of light- and dark-based attacks. (+30%),1,NPC<Hidden Item> [Boy in Western Gravell Wilds]
+,,Abyssal Rod,152,304,,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Chest [Duskruin Shrine: Depths]
+,,,,,,,,,
+Inventory,,,Listing as it appears in inventory,,,,,,
+,,Conqueror's Sword,200,,,,Attack effect: Raise Physical attack by 250 against broken foes.,1,Quest [In Search of the Divine Weapons] (Rusty Sword from sidequest The Sword in the Stone)
+,,Serpent Slayer,420,,Accuracy -75,Critical -150,,1,Chest [Infernal Castle]
+,,Battle-Tested Blade,400,,Critical +120,,Equip effect: Raises potency of physical skills. (+30%),99,"NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)
+NPC<Drop 2%> [Young Man (10*) in Tropu'hopu]"
+,,Lost Tribe's Blade,386,,Phys. Def. -101,,Attack effect: Slim chance to instantly kill target.,1,Mini-Boss<Drop> [Battle-Worn Shark in On the Water]
+,,Eclipse Edge,352,,Accuracy -75,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Boss<Drop> [Captain Kaldena in Rifted Rock] (Temenos chapter 4)
+,,Sword of Oaths,349,,Evasion +104,,Attack effect: Slim chance to reduce target's physical attack.,1,Quest [Ort's Next Chapter] (Temenos' story completed)
+,,Divine Splendor,345,,Speed +110,,,1,NPC<Item> [Ku Officer in Castle Ku]
+,,Expert's Obsidian Edge,343,,Accuracy +105,,Attack effect: Slim chance to reduce target's elemental defense.,2,"NPC<Item> [Arrogant Warrior in Southern Ku Sands], [Tough Warrior in Southern Ku Sands]"
+,,Giant's Blade,323,,Accuracy -65,,,99,Store [Wellgrove: Department Store (*)]
+,,Forbidden Blade,322,,Speed +77,,Attack effect: Slim chance to raise target's physical attack.,1,Chest [Forsaken Graveyard] (Guarded by Devourer of Dreams mini-boss)
+,,Skypiercer,320,,Speed +50,Critical +50,,99,Store [Ku (*)]
+,,Sanctum Sword,319,,Speed +98,,,99,Store [Stormhail (*)]
+,,Keepsake Sword,312,,Critical +86,,Attack effect: Slim chance to reduce target's evasion.,1,NPC<Item> [Young Warrior in Sai] (Sidequest: Sword Hunter in the Decaying Temple)
+,,Hypno Sword,310,,Evasion +90,,Attack effect: Slim chance to put target to sleep.,1,Chest [Southern Timberain Trail]
+,,Evil Slayer,305,,Accuracy +52,Critical +52,,1,NPC<Item> [Gladiator in Montwise: Underground Arena]
+,,Starsplitter,296,,Critical +91,,Attack effect: Slim chance to reduce target's physical defense.,1,Chest [Western Gravell Wilds]
+,,Ogre's Bane,294,,Critical +88,,,99,Store [Ku]
+,,Bastard Sword,292,,Accuracy +87,,,99,Store [Lostseed (*)]
+,,Great Blade,205,,Accuracy -60,,,99,Store [Sai (*)]
+,,Guardian's Iceblade,203,,Evasion +41,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Boss<Drop> [Glacis in Sacred Peak Altahe] (Ochette chapter 2: Glacis's Route)
+,,Bloodsucker,199,,,,Attack effect: Recover HP equivalent to 25% of the damage dealt.,1,NPC<Item> [Merchant in Wellgrove: Department Store]
+,,Soulsucker,199,,,,Attack effect: Recover SP equivalent to 1% of the damage dealt.,1,NPC<Item> [Merchant in Wellgrove: Department Store]
+,,Aegis Sword,197,,Speed +59,,,99,Store [Stormhail]
+,,Master Rod,196,,Speed +57,,Attack effect: Slim chance to reduce target's speed.,1,Quest [A Devilishily Delicious Dish]
+,,Firestarter,195,298,,,Equip effect: Raises potency of fire-based attacks. (+30%),1,Chest [Eastern Ku Sands]
+,,Clan Mei Sword,192,,,,Attack effect: Slim chance to reduce target's accuracy.,2,"NPC<Item> [Clan Mei Soldier in Sotrmhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+,,Stonesplitter,184,,Critical +56,,,99,Store [Wellgrove: Department Store] (Partitio's Ch.3 completed)
+,,Enchanted Edge,183,140,,,,99,Store [Crackridge (*)]
+,,Crescent Saber,123,,Accuracy +36,,,99,Store [Crackridge]
+,,Reaper's Blade,119,,Accuracy +34,,Atteck effect: Slim chance to instantly kill target.,1,NPC<Item> [Elderly Man in Clockbank]
+,,Quartz Blade,118,70,Accuracy -55,,,1,Chest [Sandflow Pass] (Guarded by Soldier 4*)
+,,Warrior's Sword,117,,Speed +35,,,99,Store [Montwise: Underground Arena (*)]
+,,Little Crow,112,,Critical +34,,,99,Store [Sai]
+,,Refined Sword,107,,Speed +32,,,99,"Store [Wellgrove], [Wellgrove: Department Store]"
+,,Heavy Blade,80,,Accuracy -55,,,99,"Store [Oresrush (*)], [Clockbank]"
+,,Champion's Sword,70,,Accuracy +18,,,99,Store [Montwise: Underground Arena (*)]
+,,Heretic's Greatsword,69,,Accuracy -40,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Chest: [Ruffians's Hideout]
+,,Magic Eater,68,,Evasion +17,,Attack effect: Slim chance to reduce target's elemental attack.,1,Chest: [Northern Wellgrove Trail]
+,,Silver Sword,59,,Speed +13,,,99,Store [Oresrush]
+,,Guard's Saber,54,,Accuracy +12,,,99,Store [Conning Creek (*)]
+,,Spirit Scimitar,52,25,,,,99,Store [Cropdale]
+,,Broadsword,48,,Speed +11,,,99,"Store [New Delsta], [Canalbrine], [Montwise: Underground Arena]"
+,,Iron Blade,30,,Accuracy -20,,,99,"Store [Cape Cold], [Beasting Village]"
+,,Nameless Sword,23,,Critical +6,,,99,"Store [New Delsta], [Ryu]"
+,,Long Sword,12,,,,,99,Store [Ryu]
+,,Knight's Sword,12,,,,,0,Exclusive to Crick (Temenos' chapter 1)
+,,Sword of the Sands,5,,,,,0,Exclusive to Ritsu (Hikari's chapter 1)
+,,Rotted Sword,5,,,,,1,NPC<Item> [Ruined Vessel in Lostseed]
+,,Desert Blade,5,,,,,2,"Hikari's starting equipment
+NPC<Item> [Novice Warrior in Southern Ku Sands]"
+,,Thief's Sword,4,,,,,1,Throné's starting equipment
+,,,,,,,,,
+,,Warlord's Spear,310,,,,Attack effect: Recover BP when defeating an enemy.,1,Quest [In Search of the Divine Weapons] (Rusty Polearm in a chest from Timberain Castle: Town Square)
+,,Battle-Tested Spear,390,,Critical +120,,Attack effect: Slim chance to blind target.,99,"NPC<Item> [Benkei in Castle Ku] (Hikari's story completed)
+NPC<Drop 2%> [Townsperson (8*) in Sai]"
+,,Lost Tribe's Spear,386,,Speed -101,,Attack effect: Slim chance to put target to sleep.,1,Chest [Shipwreck of the Empress]
+,,Gravity Lance,375,,Accuracy -75,Evasion -90,,99,Store [Roque Island (*)]
+,,Spear of Strength,338,,,,Attack effect: Guaranteed critical hit.,1,Quest [The Strongest] (Hikari's story completed)
+,,Tornado Glaive,337,,Evasion +105,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Curious Nest] (Guarded by Tyrannodrake mini-boss)
+,,Forbidden Spear,320,,Speed -120,Evasion +50,,1,NPC<Item> [Townsperson in Sai: East District]
+,,Fire Dragon's Glaive,318,,Evasion +95,,Equip effect: Raises Potency of fire-based attacks. (+30%),1,Chest [Decaying Temple]
+,,Monster Bone Spear,315,,Accuracy -65,,,99,Store [Wellgrove: Department Store (*)]
+,,Obsidian Lance,311,,Critical +97,,,99,Store [Ku (*)]
+,,Seraphim Spear,296,,Speed +96,,Attack effect: Slim chance to reduce target's elemental attack.,1,Chest [Old Clock Tower]
+,,Venom Lance,292,,Critical +89,,Attack effect: Slim chance to poison target.,1,Chest [The Roque Company: West Tower]
+,,Well-Worn Pole,289,330,,,Attack effect: Slim chance to reduce target's elemental defense.,1,Quest [Lady Clarissa's Next Chapter] (Osvald's & Ochette's story completed)
+,,Crimson Spear,288,,Critical +90,,,99,Store [Ku]
+,,Hyperion Spear,286,,Speed +88,,,99,Store [Stormhail]
+,,Rare Metal Glaive,284,,Evasion +82,,,99,Store [Roque Island]
+,,Sea God's Spear,224,,Accuracy +91,,Attack effect: Deal 1 additional attack.,1,Chest [Sinking Ruins]
+,,Nightmare Glaive,210,,Accuracy -60,,Attack effect: Slim chance to put target to sleep.,1,Chest [Castle Mei: East Tower]
+,,Clan Mei Spear,187,,,,Attack effect: Slim chance to reduce target's speed.,2,"NPC<Item> [Clan Mei Soldier in Stormhail], [Clan Mei Soldier in Stormhail: Castle Mei]"
+,,Paladin's Lance,184,,Critical +55,,,99,Store [Stormhail]
+,,Lightning Glaive,182,,Evasion +56,,,99,"Store [Sai (*)], [Wellgrove: Department Store]"
+,,Scorched Bone Spear,132,,Accuracy -60,,Equip effect: Raises potency of fire-based attacks. (+30%),1,Chest [Quicksand Gaol]
+,,Heavy Bone Spear,125,,Accuracy -60,,,99,Store [Tropu'hopu (*)]
+,,Matching Trident,114,,Critical +35,,Attack effect: Slim chance to reduce target's evasion.,2,"NPC<Item> [Waiting Woman in Northern Conning Creek Coast]
+Chest [Northern Conning Creek Coast] (Guarded by Waiting Woman (5*))"
+,,Soldier's Spear,111,,Speed +34,,,99,"Store [Winterbloom], [Clockbank]"
+,,Fuscina,106,,Accuracy +20,Critical +20,,99,Store [Montwise: Underground Arena (*)]
+,,Master Harpoon,103,,Accuracy +31,,,99,Store [Canalbrine (*)]
+,,Vanguard's Javelin,71,,Speed +41,,,1,NPC<Item> [Scholar in Montwise: Library]
+,,Gluttonous Glaive,69,,Accuracy -40,,Attack effect: Slim chance to reduce target's evasion.,1,Quest [Culinary Cunning]
+,,Slashing Glaive,68,,Evasion +18,,,99,Store [Tropu'hopu]
+,,Steel Lance,63,,Critical +16,,,99,Store [Clockbank]
+,,Sandstorm Spear,58,,Speed +17,,,99,"Store [Ryu (*)], [Black Market]"
+,,Spear of Sleep,57,57,,,Attack effect: Slim chance to put target to sleep.,1,Mini-Boss<Drop> [Monarch in Starfall Spring]
+,,War Glaive,49,,Evasion +11,,,99,"Store [Ryu], [Montwise: Underground Arena]"
+,,Memorial Harpoon,38,,,,Attack effect: Slim chance to reduce target's speed.,1,NPC<Item> [Merchant in Canalbrine]
+,,Bone Spear,28,,Accuracy -18,,,99,Store [Oresrush]
+,,Lance,24,,Critical +6,,,99,Store [New Delsta]
+,,Long Spear,22,,Speed +5,,,99,Store [Ryu]
+,,Spear,11,,,,,99,Store [Oresrush]
+,,Desert Spear,5,,,,,2,"Hikari's starting equipment
+NPC<Item> [Boy in Ku: Castle Town]"
+,,Handmade Spear,5,,,,,1,Partitio's starting equipment
+,,,,,,,,,
+,,Dancer's Blade,300,,,,"Attack effect: Slim chance to afflict target with poison, blindness, confusion, or sleep",1,Quest [In Search of the Divine Weapons] (Rusty Dagger in a chest in Shipwreck of the Empress)
+,,Battle-Tested Dagger,380,,Evasion +120,,Attack effect: Slim chance to reduce target's accuracy.,99,"NPC<Item> [Plukk in Winterbloom: Thieves' Quarter] (Castti's story & Melia's Next Chapter sidequest completed)
+NPC<Drop 2%> [Elderly Man (9*) in Clockbank]"
+,,Lost Tribe's Dagger,362,,Speed -103,,Attack effect: Slim chance to blind target.,1,Chest [The Lost Isle]
+,,Tonfa,329,,Accuracy +102,,Equip effect: Slim chance to counterattack.,1,Boss<Drop> [Tyran the Seeker in Five-Tiered Tower: Third Floor]
+,,Vengeful Knife,325,,Speed +109,,Attack effect: Slim chance to put target to sleep.,1,Quest [Mira and the Elderly Guard's Next Chapter] (Throné's story completed)
+,,Ruinous Dagger,317,,Accuracy -75,,Attack effect: Slim chance to instantly kill target.,1,Chest [Lostseed Castle: Upper Level]
+,,Diamond Dagger,315,,,,,99,Store [Gravell (*)]
+,,Dagger in the Rough,305,,Accuracy -65,Critical -30,,99,Store [Gravell]
+,,Mooneater,285,349,,,Equip effect: Raises potency of fire- and wind-based attacks. (+30%),1,NPC<Item> [Ruined Vessel in Lostseed]
+,,Forbidden Dagger,305,295,Phys Def. -120,,,1,Chest [New Delsta: Game Parlor] (Garded by Safe Keeper (8*))
+,,Lockpick,304,,Evasion +94,,Attack effect: Slim chance to reduce target's physical defense.,1,NPC<Item> [Girl in Winterbloom: Thieves' Quarter]
+,,Bloodstained Knife,290,,,,Attack effect: Recover HP equivalent to 25% of the damage dealt.,1,Chest [Shrine of Ul'sterra]
+,,Breaker's Blade,289,,Critical +115,,,99,Store [Merry Hills (*)]
+,,Ornate Dagger,281,,Accuracy +91,,,99,Store [Merry Hills]
+,,Dagger of Seclusion,279,,Evasion +88,,,99,Store [Lostseed (*)]
+,,Assassin's Dagger,278,,Speed +90,,,99,Store [Wellgrove: Department Store (*)]
+,,Mysterious Dagger,266,266,,,Attack effect: Slim chance to reduce target's elemental defense.,1,Chest [Tranquil Grotto]
+,,Champion Seeker,180,,Accuracy +58,,,99,Store [Montwise: Underground Arena (*)]
+,,Marietta,179,,Evasion +56,,Attack effect: Slim chance to instantly kill target.,1,Boss<Drop> [Father in Abandoned Church] (Throne ch.3)
+,,Piercing Dagger,176,,Speed +55,,,99,Store [Winterbloom (*)]
+,,Doombreaker,174,,Critical +56,,,99,"Store [Sai (*)], [Wellgrove], [Wellgrove: Department Store]"
+,,Wind Whisperer,172,163,,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Dragonridge]
+,,Poison Dagger,162,,Critical +58,,Attack effect: Slim chance to poison target.,1,NPC<Item> [Thief in Winterbloom: Thieves' Quarter]
+,,Moonfang,141,,Speed +75,,Equip effect: Raises potency of fire-based attacks. (+30%),1,NPC<Item> [Orphan in Mother's Garden: Orphanage]
+,,Obsidian Dagger,122,,Accuracy -60,,,99,Store [Crackridge]
+,,Black Dagger,118,,Speed +55,,Attack effect: Slim chance to blind target.,1,Chest [Abandoned Church]
+,,Stealthy Knife,117,,Evasion +37,,,99,Store [Sai]
+,,Drifting Dagger,111,,Accuracy +28,Critical +28,,1,Boss<Drop> [Plukk in Winterbloom: Thieves' Quarter] (Castti ch.2)
+,,Stinging Dagger,107,,Speed +34,,,99,"Store [Winterbloom], [Montwise: Underground Arena]"
+,,Jade Dagger,101,,Evasion +31,,Attack effect: Slim chance to reduce target's physical attack.,1,Quest [The Washed-Up Letter]
+,,Magus Knife,97,93,,,,99,"Store [New Delsta (*)], [Tropu'hopu]"
+,,Crystal Dagger,72,,Accuracy -50,,,99,Store [Tropu'hopu]
+,,Swordbreaker,62,,Critical +16,,,2,"NPC<Item> [Smuggler in Crackridge Harbor: Anchorage]
+NPC<Hidden Item> [Man in Clockbank: Industrial District]"
+,,Quartz Dagger,60,58,,,Attack effect: Slim chance to reduce target's elemental defense.,99,Store [Black Market]
+,,Falcon Knife,57,,Evasion +14,,,99,Store [Winterbloom]
+,,Handbreaker,52,,Critical +13,,,99,Store [New Delsta]
+,,Kukri,46,,Accuracy +11,,,99,"Store [Cape Cold], [Beasting Village], [Oresrush]"
+,,Needle Dagger,25,,Speed +6,,,99,Store [Flamechurch]
+,,Bronze Knife,22,,Evasion +5,,,99,"Store [New Delsta], [Cropdale]"
+,,Dagger,11,,,,,99,Store [Cropdale]
+,,Silver-Plated Knife,7,,,,,1,NPC<Iteam> [Giff in Oresrush]
+,,Thief's Dagger,6,,,,,1,Throné's starting equipment
+,,Snakebite,4,,,,,2,Boss<Steal> [Fake Snake (Parent&Child)] (Throné's ch.4)
+,,Fruit Knife,4,,,,,2,"NPC<Item> [Tavern Cook in New Delsta]
+Agnea's starting equipment"
+,,Sharp Stone,3,,,,,2,"NPC<Item> [Cooking Enthusiast in Beasting Village], [Man in Orerush: Foundry]"
+,,,,,,,,,
+,,Lionheart's Axe,320,,,,Attack effect: Raises max HP during battle.,1,"Quest [In Search of the Divine Weapons] (Rusty Axe in Quicksand Gaol, guarded by Lord of Sands mini-boss)"
+,,Battle-Tested Axe,400,250,,,Equip effect: Raises potency of lightning- and ice-based attacks. (+30%),99,"NPC<Item> [Shirlutto in Nameless Village] (Temenos' story completed)
+NPC<Drop 2%> [Villager (8*) in Cape Cold]"
+,,Lost Tribe's Axe,381,,Critical -102,,Attack effect: Slim chance to confuse target.,1,Chest [Ivory Ravine]
+,,Reaper's Sickle,366,,Accuracy -66,,Attack effect: Slim chance to instantly kill target.,1,Quest [A Mysterious Box]
+,,Hero's Axe,340,,Critical +102,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,NPC<Item> [Soldier in Timberain]
+,,Forbidden Axe,324,,Accuracy +80,Critical -120,,1,Chest [House Wellows Manor]
+,,Flayer's Admonishment,323,,,,Attack effect: Recover HP equivalent to 25% of the damage dealt.,1,Chest [Stormhail: Sacred Guard Headquarters] (Guarded by Sanctum Knight (7*))
+,,Royal Guard's Hatchet,319,,Speed +97,,,99,Store [Timberain (*)]
+,,Axe of the Conqueror,306,,Critical +90,,Attack effect: Slim chance to blind target.,1,Chest [Stormy Cape] (Ochette's story completed)
+,,Cleaver of Destruction,304,,Accuracy +91,,Attack effect: Slim chance to reduce target's physical defense.,2,"NPC<Item> [Beastling in Nameless Village]
+Chest [Timberain Castle]"
+,,Stupefying Stone Axe,297,,Speed +91,,Attack effect: Slim chance to confuse target.,2,"Quest [Ghormf!]
+NPC<Item> [Beastling in Beasting Village]"
+,,Icy Axe,295,198,,,Equip effect: Raises potency of ice-based attacks. (+30%),1,NPC<Item> [Mercenary in Stormhail: Castle Mei]
+,,Imperial Axe,293,,Accuracy +89,,,99,Store [Timberain]
+,,Frontier Axe,290,,,,Attack effect: Slim chance to reduce target's physical attack.,99,Store [Beasting Village (*)]
+,,Contaminated Iron Ingot,289,,Phys. Def. -60,,Attack effect: Slim chance to poison target.,1,NPC<Item> [Factory Worker in Roque Island]
+,,Double Tomahawk,230,264,,,Attack effect: Deal 1 additional attack.,1,Chest [On the Water]
+,,Guardian's Great Axe,204,,Accuracy -60,Critical +55,,1,Boss<Drop> [Tera in Bed of the Titan] (Ochette ch.2)
+,,Dark Slasher,197,,Critical +58,,Equip effect: Raises potency of dark based attacks. (+30%),1,Chest [Forsaken Graveyard]
+,,Pirate's Axe,195,,Critical +57,,,99,"Store [Sai (*)], [Wellgrove: Department Store]"
+,,Platinum Hatchet,194,,Speed +58,,,99,Store [Platinum Hatchet]
+,,Quartz Axe,187,154,,,Attack effect: Slim chance to reduce target's elemental attack.,1,Chest [Nameless Isle]
+,,Grand Cleaver,186,,Critical +55,,,99,Store [Crackridge (*)]
+,,Bone Cleaver,128,,Accuracy -60,,,99,Store [Crackridge]
+,,Guardian's Axe,123,,Accuracy +36,,,99,Store [Stormhail]
+,,Guillotine's Blade,119,,Accuracy +20,Critical +20,,99,Store [Clockbank (*)]
+,,Silver Hatchet,112,,Speed +32,,,99,"Store [Beasting Village (*)], [Winterbloom]"
+,,Frost Axe,110,,Speed +30,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Chest [Abandoned Waterway] (Guarded by Carnivorous Plant mini-boss)
+,,Rock Cleaver,108,,Critical +31,,,99,Store [Sai]
+,,Axe of Avarice,107,,Phys. Def. +20,Elem. Def. +20,,1,Boss<Drop> [Captain Stenvar in Guard Outpost] (Osvald ch.3)
+,,Helmcleaver,71,,Accuracy -45,,Attack effect: Slim chance to reduce target's physical defense.,1,Chest [Northern Conning Creek Coast]
+,,Strong Axe,70,,Accuracy +18,,,99,Store [Winterbloom]
+,,Poisoned Hatchet,61,55,,,Attack effect: Slim chance to poison target.,1,Chest [Sand Lion's Den]
+,,Battle Hatchet,59,,Speed +14,,,99,Store [Sai]
+,,Guard's Great Axe,54,,Critical +13,,,99,"Store [Black Market], [Conning Creek]"
+,,Iron Axe,48,,Accuracy +11,,,99,"Store [Beasting Village], [Ryu]"
+,,War Axe,26,,Accuracy +6,,,99,"Store [New Delsta], [Canalbrine]"
+,,Woodcutter's Great Axe,24,,Critical +5,,,99,Store [Beasting Village]
+,,Beastling's Hatchet,23,,Speed +5,,,99,Store [Beasting Village (Jerky)]
+,,Handaxe,12,,,,,99,"Store [Beasting Village], [Canalbrine]"
+,,Woodcutter's Axe,10,,,,,0,Exclusive to Gus (Agnea's chapter 1)
+,,Rotted Axe,7,,,,,1,NPC<Item> [Ruined Vessel in Lostseed]
+,,Demolition Axe,6,,,,,1,Ochette's starting equipment
+,,Small Axe,6,,,,,2,"NPC<Item> [Elderly Woman's Son in Forest Path]
+Castti's starting equipment"
+,,Snake Fang,6,,,,,0,Exclusive to Scaracci (Throné's chapter 1)
+,,,,,,,,,
+,,Hunter's Bow,312,,,,Attack effect: Slim chance to reduce a random attribute.,1,Quest [In Search of the Divine Weapons] (Rusty Bow in Chest in Sinking Ruins behind Behemoth mini-boss)
+,,Battle-Tested Bow,390,,Critical +120,,Attack effect: Slim chance to reduce target's physical defense.,99,"NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)
+NPC<Drop 2%> [Tutor (9*) in New Delsta]"
+,,Lost Tribe's Bow,371,,Accuracy -103,,Attack effect: Slim chance to poison target.,1,Chest [Curious Nest] (Behind Tyrannodrake mini-boss)
+,,Exorcising Bow,339,,Speed +110,,Attack effect: Slim chance to reduce target's elemental attack.,1,NPC<Item> [Elderly Soldier in Timberain Castle: Town Square]
+,,Floyd's Neo Bow,338,,Accuracy +120,,Attack effect: Slim chance to reduce target's evasion.,1,Quest [Floyd and Thurston's Next Chapter] (Partitio's story completed)
+,,Befuddling Greatbow,337,,Evasion +105,,Attack effect: Slim chance to confuse target.,1,Quest [Shirlutto's Next Chapter] (Temenos's story completed)
+,,Forbidden Bow,315,,Critical +70,Evasion -120,,1,Chest [Nameless Village] (Guarded by Beastling (7*))
+,,Bow of Carnage,313,,Speed +70,Critical +70,,1,Boss<Drop> [Enshrouded King in Castle Ku) (Hikari's ch.5)
+,,Protector's Bow,310,,Evasion +96,,,99,Store [Nameless Village (*)]
+,,Art of Archery,297,,Accuracy +115,,,99,Store [Merry Hills (*)]
+,,Leviathan Greatbow,296,,Critical +89,,Attack effect: Slim chance to reduce target's physical attack.,1,Chest [On the Water] (Behind Scourge of the Sea mini-boss)
+,,Tornado Bow,295,,Speed +90,,Equip effect: Raises potency of wind-based attacks. (+30%),1,Chest [Stormy Cape] (Ochette's story completed)
+,,Mechanical Bow,294,,Accuracy +93,,Attack effect: Slim chance to reduce target's accuracy.,1,Chest [The Roque company: East Tower]
+,,Evening Mist,293,325,,,Attack effect: Slim chance to blind target.,1,Chest [Ivory Ravine]
+,,Master's Greatbow,288,,Critical +88,,,99,Store [Roque Island]
+,,Ancient Bow,286,,Speed +87,,,99,Store [Nameless Village]
+,,King of Beasts,282,,Evasion +90,,,99,Store [Wellgrove: Department Store (*)]
+,,Black Bow,281,,Critical +145,,Attack effect: Slim chance to instantly kill target.,1,Boss<Drop> [Grotesque Monster in Tombs of the Wardenbeasts] (Extra stories)
+,,Engagement Bow,197,,Speed +64,,Attack effect: Slim chance to reduce target's evasion.,1,Chest [Montwise] (Guarded by Former Champion (6*))
+,,Absolute Zero Bow,187,158,,,Equip effect: Raises potency of ice-based attacks. (+30%),1,Chest [Sacred Peak Altahe]
+,,Sniper's Bow,186,,Accuracy +56,,,99,Store [Wellgrove: Department Store]
+,,Expert's Bow,183,,Speed +57,,,99,Store [Stormhail]
+,,Raging Beast,179,,Evasion +56,,Attack effect: Slim chance to reduce target's evasion.,4,"Chest [Southern Stormhail Snows], [Cavern of Waves]
+NPC<Item> [Hunter in Merry Hills], [Beastling Hunter in Western Tropu'hopu Traverse]"
+,,Marksman's Bow,118,,Speed +35,,,99,Store [Crackridge]
+,,Battle Bow,114,,Accuracy +34,,,99,Store [Clockbank]
+,,Knight's Greatbow,109,,Critical +34,,,99,Store [Tropu'hopu (*)]
+,,Cupid's Bow,104,,Accuracy +32,,Attack effect: Slim chance to confuse target.,1,Quest [Pearl Hunt]
+,,Steel Bow,80,,Accuracy +22,,,99,Store [Oresrush (*)]
+,,Soldier's Bow,67,,Critical +18,,,99,Store [Clockbank]
+,,Mirage Bow,63,45,,,Attack effect: Slim chance to reduce target's accuracy.,1,Chest [Southern Clockbank Highroad]
+,,Sailor's Bow,60,,Speed +15,,,99,"Store [Black Market], [Conning Creek]"
+,,Assault Bow,58,,Accuracy +14,,,99,"Store [New Delsta], [Cropdale]"
+,,Tenacious Bow,57,,Critical +20,,,1,NPC<Item> [Woman in Cropdale]
+,,Shadow Bow,55,55,,,Attack effect: Slim chance to blind target.,1,Chest [Borderfall]
+,,Guard's Greatbow,53,,Critical +11,,,99,Store [Conning Creek (*)]
+,,Traveler's Bow,47,,Speed +13,,,99,"Store [Cape Cold], [Canalbrine], [Besting Village (Jerky)]"
+,,Giant Bow,24,,Critical +6,,,99,Store [Oresrush]
+,,Composite Bow,22,,Accuracy +5,,,99,Store [Beasting Village]
+,,Beastling's Bow,20,,Evasion +4,,,99,Store [Beasting Village (Jerky)]
+,,Shortbow,11,,,,,99,Store [Oresrush]
+,,Bow,5,,,,,1,Ochette's starting equipment
+,,Handmade Bow,5,,,,,1,Partitio's starting equipment
+,,,,,,,,,
+,,Spiritlord's Staff,160,320,,,Attack effect: Recover SP equivalent to 1% of the damage dealt.,1,Quest [In Search of the Divine Weapons] (Rusty Staff in Chest in Seat of the Water Sprite)
+,,Battle-Tested Staff,200,400,,,Attack effect: Slim chance to reduce target's speed.,99,"NPC<Item> [Roque in Oresrush] (Partitio's story completed)
+NPC<Drop 2%> [Cleric (10*) in Canalbrine]"
+,,Lost Tribe's Staff,190,381,Phys. Def. -102,,,1,Chest [Infernal Castle]
+,,Forbidden Staff,-210,342,Elem. Def. -120,,,1,NPC<Item> [Young Man in Crackridge]
+,,Sunshadow Staff,171,335,,,Equip effect: Raises potency of light- and dark-based attacks. (+30%),1,NPC<Hidden Item> [Boy in Western Gravell Wilds]
+,,Staff of Carnage,174,330,Evasion +102,,,1,Quest [The Treasures of Ku] (Hikari's story completed)
+,,Diamond Rod,179,325,,,,99,Store [Gravell (*)]
+,,Great Sage's Staff,162,324,Speed +108,,,1,Chest [The Lost Isle]
+,,Bellowing Baton,160,322,,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,NPC<Item> [La'mani in New Delsta: Theater] (Agnea's story completed)
+,,Sacred Flame Staff,160,319,Elem. Def. +94,,,99,Store [Stormhail (*)]
+,,Rough-Hewn Rod,177,315,Speed -60,,,99,Store [Gravell]
+,,Abyssal Rod,152,304,,,Equip effect: Raises potency of dark-based attacks. (+30%),1,Chest [Duskruin Shrine: Depths]
+,,Hallowed Rod,152,304,,,Equip effect: Raises potency of light-based attacks. (+30%),1,Chest [Rifted Rock] (Temenos chapter 4)
+,,Ancient Staff,154,294,,,,99,Store [Nameless Village]
+,,Yggdrasil Staff,146,293,Evasion +86,,,99,Store [Wellgrove: Department Store]
+,,Psychic Staff,152,214,Elem. Def. +88,,,1,Quest [Cathedral Window Repair]
+,,Wisdom Wand,97,195,Speed +59,,,99,Store [Montwise (*)]
+,,Chef's Ladle,146,194,,,Attack effect: Slim chance to confuse target.,1,Quest [A Devilishily Delicious Dish]
+,,Quartz Rod,96,192,Elem. Def. +57,,,99,Store [Stormhail]
+,,Fortune Wand,92,185,Speed +55,,,99,"Store [Tropu'hopu (*)], [Wellgrove: Department Store]"
+,,Sapphire Rod,61,123,Elem. Def. +36,,,99,Store [Montwise]
+,,Jade Staff,58,116,,,Equip effect: Raises potency of light-based attacks. (+30%),1,Chest [Fellsun Ruins] (Temenos' ch.3)
+,,Magus Wand,56,112,Speed +33,,,99,Store [Crackridge]
+,,Oak Staff,53,105,Evasion +31,,,99,"Store [New Delsta (*)], [Winterbloom]"
+,,Magic Breaker,198,102,,,Attack effect: Slim chance to reduce target's elemental defense.,1,Chest [Forbidden Shrine] (Temenos' ch.3)
+,,Aegis Mace,143,85,Critical +60,,,99,Store [Stormhail]
+,,Conjurer's Staff,36,77,,,,99,Store [Tropu'hopu]
+,,Mage Wand,32,64,Speed +16,,,99,"Store [Flamechurch (*)], [Conning Creek]"
+,,Rod of Wisdom,31,62,,,,99,Store [Montwise]
+,,Lapis Rod,29,59,Elem. Def. +14,,,99,Store [Cropdale]
+,,Light Wand,27,54,Speed +13,,,99,"Store [New Delsta], [Beasting Village], [Canalbrine]"
+,,Thunder Mace,60,40,,,Equip effect: Raises potency of lightning-based attacks. (+30%),1,Chest [Lair of the Usurper]
+,,Stone Rod,11,24,Elem. Def. +6,,,99,Store [Flamechurch]
+,,Wooden Staff,11,23,Evasion +5,,,99,"Store [Cape Cold], [Flamechurch], [Canalbrine]"
+,,Mace,43,21,Critical +13,,,99,Store [Canalbrine]
+,,Sinner's Staff,5,14,,,,1,Chest [Prison: Underground Passage]
+,,Pilgrim Rod,9,10,,,,1,Chest [Cathedral Cellars]
+,,Charm Rod,6,11,,,,99,"Store [Cape Cold], [Flamechurch]"
+,,Staff of Judgment,3,5,,,,1,Temenos' starting equipment
+,,Stick,3,4,,,,2,"NPC<Item> [Beastling in Beasting Village or Nameless Village]
+Osvald's starting equipment"
+,,Giant's Club,328,,,,Equip effect: Raises potency of physical skills. (+30%),1,Chest [Ivory Ravine]
+,,Morning Star,190,,Critical +55,,Attack effect: Slim chance to reduce target's speed.,2,"NPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters], [Guard in Conning Creek]"
+,,Flail,124,,Accuracy -50,,,99,"Store [Black Market], [Crackridge]"
+,,,,,,,,,
+,,Cursed Shield,133,133,Evasion -66,,,1,Chest [Shipwreck of the Empress]
+,,Battle-Tested Shield,120,120,,,Equip effect: Recover HP and SP after performing an action. (+200 HP / +8 SP),99,"NPC<Item> [Veronica in New Delsta] (Agnea's story completed)
+NPC<Drop 2%> [Guard (9*) in Montwise]"
+,,Forbidden Shield,118,103,,,Equip effect: Raises the chances of encountering enemies.,1,NPC<Item> [Merchant in Western Crackridge Wilds]
+,,Wise King's Shield,110,110,,,Equip effect: Raises physical defense at start of battle.,1,Quest [Retired Blacksmith]
+,,Shield of Strength,108,108,,,Equip effect: Guaranteed critical hit when taking damage.,1,Quest [The Strongest] (Hikari's story completed)
+,,Giant Shield,105,103,Speed -60,,,99,Store [Roque Island (*)]
+,,Aegis Shield,104,61,,,,99,"Store [Stormhail], [Nameless Village], [Timberain]"
+,,Protector's Shield,96,98,Critical +49,,,99,Store [Nameless Village (*)]
+,,Adamantine Buckler,95,81,Evasion +48,,,99,"Store [Ku], [Gravell]"
+,,Sun Shield,91,91,,,Equip effect: Recover HP after performing an action. (+100 HP),1,Chest [Western Merry Hills Pass]
+,,Quartz Shield,87,105,,,Equip effect: Prevents blindness.,1,Chest [Gravell]
+,,Swift Shield,79,97,Speed +47,,,99,"Store [Merry Hills], [Roque Island]"
+,,Heavy Greatshield,76,76,Evasion -55,,,99,"Store [Wellgrove: Department Store], [Stormhail]"
+,,Diamond Shield,72,69,,,Equip effect: Prevents instant death.,1,NPC<Item> [Merchant in Wellgrove: Department Store]
+,,Platinum Shield,65,53,Max. HP +400,,,99,Store [Wellgrove: Department Store (*)]
+,,Master's Shield,58,58,Speed +31,,,1,NPC<Item> [Ku Soldier in Castle Ku: Entrance]
+,,Shield of Serenity,52,64,,,Equip effect: Prevents confusion.,1,Chest [Sunken Maw]
+,,Spiked Shield,44,32,Critical +17,,,99,"Store [Clockbank], [Sai]"
+,,Plate Buckler,43,35,Evasion +19,,,99,"Store [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+,,Silver Shield,42,34,Max. HP +150,,,99,Store [Winterbloom]
+,,Tattered Sacred Shield,35,35,Max. Sp +20,,,1,NPC<Item> [Thief in Winterbloom: Thieves' Quarter]
+,,Crested Greatshield,31,31,Evasion -30,,,99,"Store [Ryu], [Black Market], [Clockbank], [Sai]"
+,,Feather Shield,27,31,Speed +26,,,99,"Store [Black Market], [Montwise: Underground Arena]"
+,,Shell Buckler,26,22,Evasion +9,,,99,Store [Tropu'hopu]
+,,Guard's Shield,25,21,,,,99,Store [Conning Creek (*)]
+,,Sturdy Shield,25,25,Evasion -20,,,99,Store [Canalbrine]
+,,Iron Shield,24,20,Max. HP +60,,,99,"Store [Winterbloom], [Conning Creek]"
+,,Rabbit Shield,23,22,Speed +15,,,1,Chest [Cavern of the Sea God] (Ochette ch.2)
+,,Weathered Treasure Shield,20,24,,,Equip effect: Recover SP after performing an action. (+3 SP),1,Chest [Lair of the Usurper]
+,,Kite Shield,20,18,,,,99,Store [Ryu]
+,,Bronze Shield,17,16,Max. HP +30,,,99,Store [Oresrush]
+,,Leather Buckler,16,20,Evasion +7,,,99,Store [New Delsta]
+,,Round Shield,15,21,Speed +6,,,99,"Store [Cape Cold], [Beasting Village]"
+,,Buckler,11,9,,,,99,"Store [Flamechurch], [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+,,Resplendent Shield,10,10,,,,0,Exclusive to Crick (Temenos' chapter 1)
+,,Gray Shield,6,3,,,,1,Hikari's starting equipment
+,,Small Shield,5,3,,,,3,"Temenos, Throné and Castti's starting equipment"
+,,Wooden Shield,4,4,,,,4,"NPC<Item> [Supervisor in Oresrush] (Partitio ch.1 exclusive)
+Ochette, Agnea and Partitio's starting equipment"
+,,Bodyguard's Vantage,Atk. +60,,Accuracy +80,Critical +60,,1,Quest [Veronica's Next Chapter] (Agnea's story completed)
+,,,,,,,,,
+,,Cursed Helm,88,88,Max. Sp -66,,,1,Chest [Lostseed] (Guarded by Hollow Vessel which moves at dawn)
+,,Mechanical Top Hat,75,62,Accuracy +65,,,1,Quest [A Genius Inventor]
+,,Imperial Helm,71,59,,,,99,Store [Timberain]
+,,Dragon's Helm,69,53,,,Equip effect: Prevents unconsciousness.,1,Chest [Timberain Castle: Roof] (Castti's ch.4)
+,,Gimmick Goggles,65,43,Evasion +59,,,99,Store [Roque Island]
+,,Royal Guard's Helm,64,64,Critical +58,,,99,Store [Timberain (*)]
+,,Great Helm,59,59,Speed +49,,,99,"Store [Stormhail], [Ku], [Gravell]"
+,,Art of Disguise,58,70,Max. SP +90,,,99,Store [Merry Hills (*)]
+,,Mermaid Circlet,55,82,Elem. Atk. +65,,,1,NPC<Item> [Hermes in Merry Hill: Shrine Entrance or Canalbrine] (Temenos and Agnea's story completed)
+,,Dazzling Tiara,54,65,Speed +55,,,99,Store [Merry Hills]
+,,Gaudy Hat,53,53,,,Equip effect: Become more readily targeted by foes.,1,Quest [Reaaching for the Stars]
+,,Cloth Headband,52,54,Speed +60,,,1,NPC<Item> [Boy in Ku: Castle Town]
+,,Forgotten Hat,51,67,Max. SP +60,,,99,Store [Lostseed (*)]
+,,Antique Ceremonial Mask,49,73,,,Equip effect: Recover SP after performing an action. (+6 SP),1,Chest [Wandering Wood] (Temenos' ch.4)
+,,Lighthouse Keeper's Bandana,46,58,Critical +54,,,1,Quest [Lighthouse Restoration]
+,,Platinum Helm,43,35,Max. HP +300,,,99,Store [Wellgrove: Department Store (*)]
+,,Ancient Circlet,41,77,Elem. Atk. +55,,,99,Store [Nameless Village]
+,,Soldier's Hat,38,38,Speed +36,,,1,NPC<Item> [Ku Soldier in Castle Ku: Entrance]
+,,Fighter's Headband,37,37,Max. HP +150,,,99,Store [Sai]
+,,Knight's Helm,35,29,,,,99,Store [Stormhail]
+,,Starlight Hat,33,41,Max. SP +40,,,99,"Store [Montwise], [Wellgrove: Department Store]"
+,,Horned Helm,31,25,Max. HP +100,,,99,"Store [Black Market], [Winterbloom], [Wellgrove], [Wellgrove: Department Store]"
+,,Worker's Helmet,30,26,Critical +20,,,99,Store [Clockbank (*)]
+,,Hasty Helm,30,24,Speed +20,,,99,Store [Clockbank]
+,,Silent Bandana,26,33,,,Equip effect: Prevents terror.,1,Chest [Road to Mother's Garden]
+,,Black Cap,25,31,Evasion +22,,,99,Store [Winterbloom (*)]
+,,Gelid Helm,21,18,,,Equip effect: Reduces ice damage.,99,Store [Black Market]
+,,Skull Helm,20,36,Elem. Atk. +22,,,99,Store [Crackridge]
+,,Cassius,20,14,Critical +9,,,99,Store [Montwise: Underground Arena]
+,,Battle Bandana,19,19,Evasion +11,,,99,Store [Sai]
+,,Guard's Helm,19,16,,,,99,Store [Conning Creek (*)]
+,,Bronze Helm,18,15,,,,99,"Store [New Delsta], [Canalbrine], [Ryu]"
+,,Guard's Hat,17,21,,,Equip effect: Prevents silence.,1,Chest [Guard Outpost] (Osvald's ch.3)
+,,Headgear,15,19,Evasion +9,,,99,"Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+,,Fur Cap,15,17,Max. HP +40,,,99,Store [Cape Cold (*)]
+,,Hide Hood,15,15,Evasion +8,,,99,Store [Beasting Village (Jerky)]
+,,Silver Hairpiece,14,22,Max. SP +30,,,99,"Store [New Delsta], [Winterbloom], [Clockbank]"
+,,Peddler's Feathered Cap,14,20,,,Equip effect: Prevents sleep.,1,Quest [Ruffians' Redoubt]
+,,Feathered Hat,14,17,Speed +7,,,99,"Store [Beasting Village], [Oresrush]"
+,,Pointed Hat,12,22,Elem. Atk. +9,,,99,"Store [Flamechurch], [Montwise]"
+,,Festival Garland,12,18,Max. SP +15,,,99,Store [Cropdale]
+,,Sanctum Knight's Helm,10,5,,,,0,Exclusive to Crick (Temenos' chapter 1)
+,,Leather Helm,8,8,,,,99,"Store [Cape Cold], [New Delsta], [Beasting Village], [Ryu]"
+,,Cloth Hood,4,4,,,,99,"NPC<Item> [Carpenter in Oresrush] (Partitio ch.1 exclusive)
+Store [Prison: Underground Passage] (Osvald ch.1 exclusive)"
+,,Gray Helm,4,2,,,,1,Hikari's starting equipment
+,,Black Hood,4,2,,,,1,Throné's starting equipment
+,,Leather Hat,2,4,,,,4,"NPC<Item> [Factory Worker]
+Temenos, Ochette and Castti's starting equipment"
+,,Ordinary Hat,2,3,,,,2,Agnea and Partitio's starting equipment
+,,,,,,,,,
+,,Cursed Armor,222,222,Speed -66,,,1,Chest [House Wellows Manor]
+,,Dragon Mail,195,105,,,Equip effect: Reduces fire damage.,1,Chest [Deserted Highroad]
+,,Desert Plate,183,110,,,,99,Store [Ku]
+,,Sublime Ornamental Armor,180,180,,,"Equip effect: Reduces fire, ice, lightning, and wind damage.",1,Chest [On the Water] (Behind Scourge of the Sea mini-boss)
+,,Vest of Joy,170,170,,,"Equip effect: Raises resistance to poison, sleep, confusion, blindness, silence, terror, and unconsciousness.",1,Quest [A Young Girl's Wish]
+,,Imperial Armor,162,132,Max. HP +600,,,99,Store [Timberain]
+,,Royal Guard's Mail,160,160,Max. HP +750,,,99,Store [Timberain (*)]
+,,Star's Gown,155,180,Evasion +80,,,1,NPC<Item> [Dolcinaea] (Agnea's story completed)
+,,Quartz Robe,146,149,Max. SP +60,,,99,Store [Nameless Village]
+,,Quick Cloak,132,162,Speed +65,,,99,"Store [Roque Island], [Gravell]"
+,,Blessed Vestments,130,215,Elem. Atk. +74,,,99,"NPC<Item> [Judge in Timberain]
+NPC<Drop 5%> [Judge (10*) in Timberain]"
+,,Resplendent Costume,130,169,Evasion +78,,,1,Chest [Shrine of Ul'sterra]
+,,Butler's Tailcoat,128,192,Critical +75,,,1,Quest [Misha's Next Chapter] (Partitio's story completed)
+,,Lightning Armor,124,67,,,Equip effect: Reduces lightning damage.,1,Chest [Southern Stormhail Snows]
+,,Conjurer's Raiment,121,220,,,Equip effect: Recover HP after performing an action. (+200 HP),1,Quest [A Tower of Trials]
+,,Ornate Costume,118,176,Evasion +63,,,99,Store [Merry Hills]
+,,Antique Coat,115,184,,,Equip effect: Prevents poison.,1,Chest [Path to the Duskruin Shrine]
+,,Protector's Vestments,112,208,Speed +69,,,99,Store [Nameless Village (*)]
+,,Platinum Mail,109,89,Max. HP +400,,,99,Store [Wellgrove: Department Store]
+,,Knight's Armor,99,65,Max. HP +300,,,99,Store [Stormhail]
+,,Desert Armor,96,96,Speed +41,,,2,"NPC<Item> [Ku Soldier in Ku: Castle Town], [Ku Soldier in Castle Ku]"
+,,Mage's Robe,74,112,Elem. Atk. +41,,,99,Store [Montwise]
+,,White Wolf Scarf,73,89,Evasion +56,,,1,NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)
+,,Bone Mail,70,47,Critical +23,,,2,"Chest [Sandflow Pass (Guarded by Soldier (4*)], [Western Crackridge Wilds]"
+,,Acrobat's Mantle,65,120,Speed +40,,,99,"Store [Winterbloom (*)], [Wellgrove: Department Store]"
+,,Nimble Mantle,65,53,Speed +22,,,99,Store [Clockbank]
+,,Denim Work Clothes,63,63,Critical +25,,,99,Store [Clockbank (*)]
+,,Dojo Hakama,59,59,Evasion +23,,,99,Store [Sai]
+,,Dyed Clothes,50,75,,,Equip effect: Reduces light and dark damage.,1,Quest [Useless Fruit]
+,,Elemental Robe,48,73,Max. SP +30,,,99,"Store [Black Market], [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+,,Falcon Coat,44,83,Evasion +26,,,99,Store [Winterbloom]
+,,Gorgeous Sari,42,79,Speed +27,,,2,"NPC<Item> [Artisan in Tropu'hopu: Floating Theater], [Apprentice Dancer in Wellgrove]"
+,,Iron Mail,42,28,Max. HP +100,,,99,"Store [Winterbloom], [Clockbank], [Sai]"
+,,Guard's Armor,40,24,,,,99,Store [Conning Creek (*)]
+,,Beastling Battle Armor,37,33,Critical +11,,,99,Store [Beasting Village (Jerky)]
+,,Sailor's Vest,36,30,Evasion +10,,,99,"Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+,,Wind Robe,33,36,,,Equip effect: Reduces wind damage.,1,Chest [Ruffians's Hideout] (Behind Ruffian fight]
+,,Copper Breastplate,31,21,Evasion +9,,,99,Store [Ryu]
+,,Hunting Attire,29,32,Critical +8,,,99,Store [Beasting Village (Jerky)]
+,,Quality Vest,28,36,Speed +15,,,1,NPC<Item> [Garud in Cropdale]
+,,Fur Robe,28,34,Elem. Atk. +9,,,99,Store [Cape Cold (*)]
+,,Pilgrim's Robe,27,33,Max. SP +15,,,99,Store [Flamechurch]
+,,Simple Costume,26,39,Evasion +16,,,1,Chest [Theater: Backstage]
+,,Feather Mantle,26,38,Speed +10,,,99,Store [Montwise]
+,,Champion's Garb,26,27,Critical +30,,,99,Store [Montwise: Underground Arena]
+,,Charm Robe,25,46,Elem. Atk. +15,,,99,Store [Tropu'hopu]
+,,Traveler's Mantle,24,36,Speed +7,,,99,"Store [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+,,Sanctum Knight's Armor,20,5,Max. HP +100,,,0,Exclusive to Crick (Temenos' chapter 1)
+,,Fur Armor,19,14,,,,99,"Store [Cape Cold], [New Delsta], [Canalbrine], [Ryu], [Oresrush]"
+,,Old Armor,18,13,,,,99,"Store [Black Market], [Lostseed]"
+,,Worker's Jacket,8,8,,,,3,"NPC<Item> [Clock Tower Technician in Clockbank], [Townsperson in Oresrush],
+[Supervisor in Orerush (Partitio's ch.1 exclusive)]"
+,,Desert Attire,8,4,,,,1,Hikari's starting equipment
+,,Frog Membrane,7,5,,,,1,Ochette's starting equipment
+,,Tough Waistcoat,7,5,,,,1,Partitio's starting equipment
+,,Prisoner's Clothes,6,3,,,,1,Osvald's starting equipment
+,,Black Attire,6,4,,,,1,Throné's starting equipment
+,,Robe,5,10,,,,1,Temenos' starting equipment
+,,Tattered Dress,4,4,,,,1,Chest [Sai: East District] (Guarded by Caretaker (6*)]
+,,Apothecary's Attire,4,6,,,,1,Castti's starting equipment
+,,Villager's Clothes,4,4,,,,1,Agnea's starting equipment
+,,,,,,,,,
+,,Spurning Ribbon,,,,,Equip effect: Wards off all enemy encounters.,1,Quest [A Gate Between Worlds]
+,,Alluring Ribbon,,,,,Equip effect: Raises the chances of encountering enemies.,2,"NPC<Item> [Gloomy Hunter in Eastern Wellgrove Trail]
+Quest [Lingering Love]"
+,,EXP Augmentor,,,,,Equip effect: Receive additional EXP. (+50%),1,Chest [On the Water]
+,,JP Augmentor,,,,,Equip effect: Receive additional JP. (+50%),1,Chest [Cavern of Waves]
+,,Brooch of Joy,,,,,Equip effect: Receive additional EXP and JP. (+50% / +50%),1,NPC<Item> [Melia in Winterbloom] (Castti's story completed)
+,,Cait Powder,,,,,Equip effect: Raises the chances of encountering caits.,2,"Quest [My Beloved Catharine]
+Chest [Tropu'hopu] (Guarded by Cat Connoisseur (6*))"
+,,Octopuff Pot,,,,,Equip effect: Raises the chances of encountering octopuffs.,3,"Quest [Will Research for Money]
+Chest [Lighthouse Island]
+NPC<Item> [Fisherman in Conning Creek]"
+,,Dragon's Scarf,,,,,Equip effect: Recover SP after performing an action. (+6 SP),3,"Quest [Utterly Exhausted!]
+Chest [??? (Gate of Finis)]
+NPC<Item> [Coda in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+,,Beastly Scarf,,,,,Equip effect: Recover HP after performing an action. (+100 HP),3,"Quest [Useless Fruit]
+Chest [On the Water]
+NPC<Item> [Rico in New Delsta Harbor: Anchorage] (Agnea's story completed)"
+,,Warding Necklace,,,,,Equip effect: Become less readily targeted by foes.,1,NPC<Item> [Scholar in Crackridge]
+,,Divine Necklace,,,,,Equip effect: Prevents petrification.,1,NPC<Item> [Beastling in Nameless Village]
+,,Melia's Amulet,,,,,"Equip effect: Recover HP and SP after performing an action.
+(+300 HP / +10 SP)",1,Quest [Melia's Next Chapter] (Castti's story completed)
+,,Enfeebling Amulet,,,,,Equip effect: Extends duration of inflicted enfeebling effects by 1 turn.,1,Chest [Unfinished Tunnel]
+,,Prosperity Charm,,,,,"Equip effect: Receive additional leaves ($) at the end of battle. (+10%)
+(equip both for +20%)",2,"Quest [The Soused Nobleman]
+Chest [The Roque Company: Factory]"
+,,Charm of Compassion,,,,,Equip effect: Recover more HP and SP when healed. (+30%),1,Quest [Through a Child's Eyes]
+,,Blessing in Disguise,,,,,Equip effect: Turns negative values on other equipment into positive values.,2,"Chest [Seat of the Water Sprite], [The Lost Isle]"
+,,Finisher's Claws,,,,,Equip effect: Raises damage dealt by critical hits. (+50%),1,Chest [Nameless Isle]
+,,Stone of Truth,,,,,Equip effect: Grants permanent spell intensity boost at start of battle.,1,Chest [Infernal Castle] (Behind Deadwolf mini-boss)
+,,Fang of Ferocity,,,,,Equip effect: Raises damage dealt by boosted attacks. (+30%),1,Chest [Curious Nest] (Behind Tyrannodrake mini-boss)
+,,Gale Feather,,,Evasion +120,,Equip effect: Raises speed and evasion at start of battle.,1,Mini-Boss<Drop> [Heavenwing in Old Clocktower]
+,,Eye of Calamity,Atk. +120,Atk. +120,,,Equip effect: Reduces physical attack and elemental attack at start of battle.,1,Mini-Boss<Drop> [Deep One in Ivory Ravine]
+,,Victory Ring,Atk. +20,,,,Equip effect: Raises physical attack at start of battle.,1,Quest [A Gambling Man]
+,,Hand-Sewn Gloves,,Def. +60,,,Equip effect: Raises elemental defense at start of battle.,1,NPC<Item> [Girl in Stormhail]
+,,Foreign Ring,,,Critical +35,,Equip effect: Raises critical rate at start of battle.,1,NPC<Item> [Traveler in Clockbank]
+,,Alpione's Amulet,,,Max. HP +1200,,Equip effect: Deal more damage when your HP is low. (+200%),1,Quest [Alpione's Next Chapter] (Ochette's story completed)
+,,Librarian's Amulet,,Def. +120,Max. SP +120,,,1,Quest [Procuring Peculiar Tomes]
+,,Champion's Belt,Atk. +100,,Critical +100,,Equip effect: Prevents surprise attacks from enemies.,99,Boss<drop 100%> [Yurinas in Montwise: Underground Arena]
+,,Mikka's Amulet,Def. +100,,Accuracy +100,Speed +100,,1,Quest [Mikka's Next Chapter] (Hikari & Agnea's Crossed Paths completed)
+,,Laila's Amulet,,Atk. +100,Evasion +100,,,1,Quest [Laila's Next Chapter] (Agnea & Temenos' story completed)
+,,Sisters' Amulet,,,Speed +100,Critical +100,,1,Quest [The Missing Girl]
+,,Jade Ring,,,Max. HP +100,Max. Sp +10,,1,NPC<Item> [Islander in Tropu'hopu: Floating Theater]
+,,Shadowsage Necklace,,Atk. +40,Max. SP +40,,,1,NPC<Item> [Orphan in Mother's Garden: Orphanage] (Throné's story completed)
+,,Rosary of Redemption,Atk. -60,,Critical -60,,,99,"Store [Black Market], [Lostseed]"
+,,Coat of Arms,Def. +100,Def. +100,,,,1,Quest [From the Far Reaches of Hell]
+,,Blazon of Protection,Def. +30,Def. +30,,,,99,Store [Black Market]
+,,Scarlet Stone of Protection,,Def. +30,,,Equip effect: Recover SP after performing an action. (+4 SP),1,NPC<Item> [Cohazeh in Beasting Village] (Ochette's story completed)
+,,Crescent Moon Necklace,,,Accuracy +15,Evasion +15,,4,"NPC<Item> [Elderly Man, Woman, Young Man and Elderly Woman all in Crackridge]"
+,,Moonshell Necklace,,,Speed +35,,,2,"NPC<Item> [Islander in Tropu'hopu], [Young Man in Tropu'hopu]"
+,,Moonshell Bracelet,,,Critical +35,,,2,"NPC<Item> [Islander in Tropu'hopu], [Girl in Tropu'hopu (Night: Floating Theater)]"
+,,Physical Belt,"Atk. +65
+Def. +50",,,,,3,"Quest [Stage Actors]
+Chest [New Delsta: Game Parlor] (Guarded by Safe Keeper (8*))
+NPC<Item> [Mercenary in Gravell]"
+,,Mental Belt,,"Atk. +65
+Def. +50",,,,3,"Quest [A Forced Hand]
+Chest [Southern Nameless Village Traverse]
+NPC<Item> [Cleric in Stormhail: Sacred Guard Headquarters]"
+,,Mighty Belt,Atk. +50,,,,,2,"Chest [Cavern of the Moon and Sun]
+NPC<Item> [Factory Worker in Clockbank: Industrial District]"
+,,Elemental Augmentor,,Atk. +100,,,,2,"Chest [Shrine of Ul'sterra]
+NPC<Item> [Townsperson in Sai: East District]"
+,,Guardian Amulet,Def. +65,,,,,2,"Chest [Abandoned Traverse]
+NPC<Item> [Sanctum Knight in Stormhail]"
+,,Elemental Ward,,Def. +65,,,,2,"Chest [Mount Liphia]
+NPC<Item> [Scholar in Merry Hills: Shrine Entrance]"
+,,Empowering Necklace,,,Max. HP +1000,,,3,"Chest [Merry Hills: Shrine Entrance]
+NPC<Item> [Soldier in Timberain]
+NPC<Hidden Item> [Merchant in Roque Island]"
+,,Stimulating Necklace,,,Max. SP +80,,,2,"Chest [Nameless Village]
+NPC<Item> [Apprentice Dancer in Wellgrove]"
+,,Protective Necklace,Def. +80,Def. +80,,,,3,"Chest [Timberain]
+NPC<Item> [Treasurer in Castle Ku: Entrance]
+NPC<Hidden Item> [Cleric in Ku: Castle Town]"
+,,Unerring Necklace,,,Accuracy +80,,,2,"Chest [Northern Montwise Pass]
+NPC<Item> [Elite Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+,,Enlightening Necklace,,,Evasion +80,,,2,"Chest [Roque Island: Anchorage]
+NPC<Item> [Thief in Clockbank: Industrial District]"
+,,Sprightly Necklace,,,Speed +80,,,2,"Chest [Lostseed]
+NPC<Item> [Elderly Soldier in Timberain Castle: Town Square]"
+,,Critical Necklace,,,Critical +80,,,2,"Chest [Duskruin Shrine]
+NPC<Item> [Soldier in Timberain]"
+,,Empowering Bracelet,,,Max. HP +500,,,99,"Store [Wellgrove: Department Store], [Timberain]"
+,,Stimulating Bracelet,,,Max. SP +50,,,99,Store [Gravell]
+,,Protective Bracelet,Def. +50,Def. +50,,,,99,Store [Merry Hills]
+,,Unerring Bracelet,,,Accuracy +50,,,99,"Store [Wellgrove: Department Store], [Stormhail]"
+,,Enlightening Bracelet,,,Evasion +50,,,99,Store [Nameless Village]
+,,Sprightly Bracelet,,,Speed +50,,,99,Store [Ku]
+,,Critical Bracelet,,,Critical +50,,,99,Store [Roque Island]
+,,Empowering Ring,,,Max. HP +200,,,99,"Store [Cropdale (*)], [Black Market], [Sai]"
+,,Stimulating Ring,,,Max. SP +30,,,99,"Store [Cropdale (*)], [Montwise]"
+,,Protective Ring,Def. +20,Def. +20,,,,99,"Store [Flamechurch (*)], [Crackridge]"
+,,Unerring Ring,,,Accuracy +20,,,99,"Store [Black Market], [Clockbank]"
+,,Enlightening Ring,,,Evasion +20,,,99,Store [Winterbloom]
+,,Sprightly Ring,,,Speed +20,,,99,Store [Tropu'hopu]
+,,Critical Ring,,,Critical +20,,,99,"Store [Black Market], [Conning Creek]"
+,,Falcon Ring,,,Speed +10,Evasion +10,,99,Store [Black Market]
+,,Empowering Earring,,,Max. HP +50,,,99,Store [Beasting Village]
+,,Stimulating Earring,,,Max. SP +10,,,99,Store [Oresrush]
+,,Protective Earring,Def. +10,Def. +10,,,,99,Store [Flamechuch]
+,,Unerring Earring,,,Accuracy +10,,,99,Store [New Delsta]
+,,Enlightening Earring,,,Evasion +10,,,99,Store [Cape Cold]
+,,Sprightly Earring,,,Speed +10,,,99,Store [Ryu]
+,,Critical Earring,,,Critical +10,,,99,Store [Canalbrine]
+,,Ancient Necklace,,,Max. HP +30,Max. SP +10,,1,Chest [Prison: Underground Passage]
+,,Wargod's Talisman,Atk. +10,,,,,99,"Store [Ryu], [Black Market]"
+,,Silver Locket,,Atk. +10,,,,99,"Store [Oresrush], [Black Market]"
+,,Angel's Ring,,Def. +20,Max. SP +30,,,99,Store [Black Market]
+,,Traveler's Charm,Def. +5,,Max. HP +30,,,99,"Store [Beasting Village], [Canalbrine]"
+,,Tattered Shoes,Def. +2,Def. +2,,,,1,Chest [Sai: East District] (Guarded by Caretaker (6*))
+,,Inferno Amulet,,,,,Equip effect: Greatly reduces fire damage.,2,"Chest [Old Clock Tower]
+NPC<Item> [Villager in Gravell]"
+,,Blizzard Amulet,,,,,Equip effect: Greatly reduces ice damage.,2,"Chest [Infernal Castle]
+NPC<Item> [Sanctum Knight in Stormhail]"
+,,Tempest Amulet,,,,,Equip effect: Greatly reduces wind damage.,2,"Chest [Dragonridge]
+NPC<Item> [Woman in Merry Hills]"
+,,Thunderstorm Amulet,,,,,Equip effect: Greatly reduces lightning damage.,2,"Chest [Castle Mei: East Tower]
+NPC<Item> [Arms Merchant in Stormhail]"
+,,Void Amulet,,,,,Equip effect: Greatly reduces dark damage.,2,"Chest [Rifted Rock]
+NPC<Item> [Diviner in Wellgrove]"
+,,Gleaming Amulet,,,,,Equip effect: Greatly reduces light damage.,2,"Chest [Forbidden Shrine]
+NPC<Item> [Designer in Merry Hills: Shrine Entrance]"
+,,Fire Amulet,,,,,Equip effect: Reduces fire damage.,4,"Chest [Path to the Bed of the Titan]
+NPC<Item> [Pilgrim in Flamechurch: Cathedral], [Merchant in Wellgrove: Department Store],
+[Dancer in Crackridge]"
+,,Ice Amulet,,,,,Equip effect: Reduces ice damage.,2,"Chest [Sacred Peak Altahe]
+NPC<Item> [Woman in Canalbrine]"
+,,Wind Amulet,,,,,Equip effect: Reduces wind damage.,3,"Chest [Southern Cropdale Trail]
+NPC<Item> [Griff in Sandflow Pass (Castti's story completed)], [Official in Castle Ku: Entrance]"
+,,Lightning Amulet,,,,,Equip effect: Reduces lightning damage.,4,"Chest [Theater: Backstage]
+NPC<Item> [Greg in Winterbloom (Castti's story completed)], [Librarian in Montwise: Library]
+NPC<Hidden Item> [Sanctum Knight in Stormhail: Sacred Guard Headquarters]"
+,,Dark Amulet,,,,,Equip effect: Reduces dark damage.,4,"Chest [Sacred Guard Ship]
+NPC<Item> [Cleric in Flamechurch: Cathedral], [Sanctum Knight in Borderfall],
+[Elderly Guard in Wellgrove or Mother's Garden: Orphanage (Throné's story completed)]"
+,,Light Amulet,,,,,Equip effect: Reduces light damage.,3,"Chest [Secret Forest]
+NPC<Item> [Traveler in Merry Hills: Shrine Entrance], [Stage Director in Tropu'hopu: Floating Theater]"
+,,Antidote Stone,,,,,Equip effect: Prevents poison.,2,"Chest [Abandoned Waterway]
+NPC<Item> [Townsperson in Clockbank]"
+,,Wakeful Stone,,,,,Equip effect: Prevents sleep.,3,"Chest [Starfall Spring]
+NPC<Item> [Guard in Clockbank: Industrial District]
+NPC<Hidden Item> [Thief in Winterbloom: Thieves' Quarter]"
+,,Articulate Stone,,,,,Equip effect: Prevents silence.,3,"Chest [Sinking Ruins]
+NPC<Item> [Scholar in Montwise Library]
+NPC<Hidden Item> [Woman in Merry Hills]"
+,,Bright Stone,,,,,Equip effect: Prevents Blindness.,2,"Chest [Quicksand Gaol]
+NPC<Item> [Boy in Gravell]"
+,,Calming Stone,,,,,Equip effect: Prevents terror.,3,"Chest [Mother's Garden]
+NPC<Item> [Soldier in Sai]
+NPC<Hidden Item> [Factory Worker in Clockbank]"
+,,Clarity Stone,,,,,Equip effect: Prevents confusion.,2,"Chest [Unfinished Tunnel]
+NPC<Item> [Employee in Roque Island: Anchorage]"
+,,Conscious Stone,,,,,Equip effect: Prevents unconsciousness.,3,"Chest [Nameless Isle]
+NPC<Item> [Soldier in Sai]
+NPC<Hidden Item> [Soldier in Timberain]"
+,,Vivifying Stone,,,,,Equip effect: Prevents instant death.,2,"Chest [Forsaken Graveyard]
+NPC<Item> [Woman in Winterbloom: Thieves' Quarter]"
