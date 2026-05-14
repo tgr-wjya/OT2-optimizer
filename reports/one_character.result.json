@@ -1,0 +1,916 @@
+{
+  "character": "Osvald",
+  "level": 18,
+  "class": "Scholar",
+  "selected_locations": [
+    "New Delsta",
+    "Canalbrine",
+    "Beasting Village",
+    "Ryu",
+    "Flamechurch",
+    "Oresrush",
+    "Cropdale",
+    "Cape Cold"
+  ],
+  "total_cost": 24600,
+  "budget": 25000,
+  "base_stats": {
+    "hp": 850,
+    "sp": 95,
+    "phys_atk": 58,
+    "elem_atk": 145,
+    "phys_def": 70,
+    "elem_def": 110,
+    "speed": 64,
+    "accuracy": 78,
+    "evasion": 62,
+    "critical": 50
+  },
+  "current_stats": {
+    "hp": 850,
+    "sp": 95,
+    "phys_atk": 64,
+    "elem_atk": 156,
+    "phys_def": 104,
+    "elem_def": 137,
+    "speed": 64,
+    "accuracy": 78,
+    "evasion": 62,
+    "critical": 50
+  },
+  "recommended_stats": {
+    "hp": 850,
+    "sp": 125,
+    "phys_atk": 111,
+    "elem_atk": 250,
+    "phys_def": 134,
+    "elem_def": 177,
+    "speed": 64,
+    "accuracy": 78,
+    "evasion": 63,
+    "critical": 50
+  },
+  "recommendations": {
+    "weapon": {
+      "item": "Oak Staff",
+      "category": "Staves",
+      "score": 97.72,
+      "price": 19000,
+      "acquisition_cost": 19000,
+      "is_current_item": false,
+      "stat_delta": {
+        "phys_atk": 47,
+        "elem_atk": 94,
+        "evasion": 31
+      },
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [New Delsta (*)], [Winterbloom]",
+      "reasons": [
+        "elem_atk +94 x 1 (priority) = +94.0",
+        "evasion +31 x 0.12 (floor) = +3.7"
+      ]
+    },
+    "shield": {
+      "item": "Crested Greatshield",
+      "category": "Shields",
+      "score": 19.5,
+      "price": 3300,
+      "acquisition_cost": 3300,
+      "is_current_item": false,
+      "stat_delta": {
+        "phys_def": 20,
+        "elem_def": 22,
+        "evasion": -30
+      },
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Ryu], [Black Market], [Clockbank], [Sai]",
+      "reasons": [
+        "phys_def +20 x 0.55 (floor) = +11.0",
+        "elem_def +22 x 0.55 (floor) = +12.1",
+        "evasion -30 x 0.12 (floor) = -3.6"
+      ]
+    },
+    "headgear": {
+      "item": "Silver Hairpiece",
+      "category": "Headgear",
+      "score": 22.9,
+      "price": 2300,
+      "acquisition_cost": 2300,
+      "is_current_item": false,
+      "stat_delta": {
+        "sp": 30,
+        "phys_def": 10,
+        "elem_def": 18
+      },
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [New Delsta], [Winterbloom], [Clockbank]",
+      "reasons": [
+        "sp +30 x 0.25 (priority) = +7.5",
+        "phys_def +10 x 0.55 (floor) = +5.5",
+        "elem_def +18 x 0.55 (floor) = +9.9"
+      ]
+    },
+    "body_armor": {
+      "item": "Fur Armor",
+      "category": "Body Armor",
+      "score": 0.0,
+      "price": 400,
+      "acquisition_cost": 0,
+      "is_current_item": true,
+      "stat_delta": {},
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Cape Cold], [New Delsta], [Canalbrine], [Ryu], [Oresrush]",
+      "reasons": []
+    }
+  },
+  "top_candidates": {
+    "weapon": [
+      {
+        "item": "Oak Staff",
+        "category": "Staves",
+        "score": 97.72,
+        "price": 19000,
+        "acquisition_cost": 19000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 47,
+          "elem_atk": 94,
+          "evasion": 31
+        },
+        "effect_tags": [],
+        "availability": "Store [New Delsta (*)], [Winterbloom]"
+      },
+      {
+        "item": "Lapis Rod",
+        "category": "Staves",
+        "score": 55.7,
+        "price": 9000,
+        "acquisition_cost": 9000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 23,
+          "elem_atk": 48,
+          "elem_def": 14
+        },
+        "effect_tags": [],
+        "availability": "Store [Cropdale]"
+      },
+      {
+        "item": "Mage Wand",
+        "category": "Staves",
+        "score": 55.4,
+        "price": 10000,
+        "acquisition_cost": 10000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 26,
+          "elem_atk": 53,
+          "speed": 16
+        },
+        "effect_tags": [],
+        "availability": "Store [Flamechurch (*)], [Conning Creek]"
+      },
+      {
+        "item": "Light Wand",
+        "category": "Staves",
+        "score": 44.95,
+        "price": 8000,
+        "acquisition_cost": 8000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 21,
+          "elem_atk": 43,
+          "speed": 13
+        },
+        "effect_tags": [],
+        "availability": "Store [New Delsta], [Beasting Village], [Canalbrine]"
+      },
+      {
+        "item": "Stone Rod",
+        "category": "Staves",
+        "score": 16.3,
+        "price": 2600,
+        "acquisition_cost": 2600,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 5,
+          "elem_atk": 13,
+          "elem_def": 6
+        },
+        "effect_tags": [],
+        "availability": "Store [Flamechurch]"
+      },
+      {
+        "item": "Charm Rod",
+        "category": "Staves",
+        "score": 0.0,
+        "price": 800,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Cape Cold], [Flamechurch]"
+      }
+    ],
+    "shield": [
+      {
+        "item": "Crested Greatshield",
+        "category": "Shields",
+        "score": 19.5,
+        "price": 3300,
+        "acquisition_cost": 3300,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 20,
+          "elem_def": 22,
+          "evasion": -30
+        },
+        "effect_tags": [],
+        "availability": "Store [Ryu], [Black Market], [Clockbank], [Sai]"
+      },
+      {
+        "item": "Sturdy Shield",
+        "category": "Shields",
+        "score": 14.1,
+        "price": 2300,
+        "acquisition_cost": 2300,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 14,
+          "elem_def": 16,
+          "evasion": -20
+        },
+        "effect_tags": [],
+        "availability": "Store [Canalbrine]"
+      },
+      {
+        "item": "Kite Shield",
+        "category": "Shields",
+        "score": 9.9,
+        "price": 2300,
+        "acquisition_cost": 2300,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 9,
+          "elem_def": 9
+        },
+        "effect_tags": [],
+        "availability": "Store [Ryu]"
+      },
+      {
+        "item": "Round Shield",
+        "category": "Shields",
+        "score": 9.7,
+        "price": 2300,
+        "acquisition_cost": 2300,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 4,
+          "elem_def": 12,
+          "speed": 6
+        },
+        "effect_tags": [],
+        "availability": "Store [Cape Cold], [Beasting Village]"
+      },
+      {
+        "item": "Leather Buckler",
+        "category": "Shields",
+        "score": 9.64,
+        "price": 2300,
+        "acquisition_cost": 2300,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 5,
+          "elem_def": 11,
+          "evasion": 7
+        },
+        "effect_tags": [],
+        "availability": "Store [New Delsta]"
+      },
+      {
+        "item": "Buckler",
+        "category": "Shields",
+        "score": 0.0,
+        "price": 600,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Flamechurch], [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+      }
+    ],
+    "headgear": [
+      {
+        "item": "Pointed Hat",
+        "category": "Headgear",
+        "score": 23.3,
+        "price": 2100,
+        "acquisition_cost": 2100,
+        "is_current_item": false,
+        "stat_delta": {
+          "elem_atk": 9,
+          "phys_def": 8,
+          "elem_def": 18
+        },
+        "effect_tags": [],
+        "availability": "Store [Flamechurch], [Montwise]"
+      },
+      {
+        "item": "Silver Hairpiece",
+        "category": "Headgear",
+        "score": 22.9,
+        "price": 2300,
+        "acquisition_cost": 2300,
+        "is_current_item": false,
+        "stat_delta": {
+          "sp": 30,
+          "phys_def": 10,
+          "elem_def": 18
+        },
+        "effect_tags": [],
+        "availability": "Store [New Delsta], [Winterbloom], [Clockbank]"
+      },
+      {
+        "item": "Fur Cap",
+        "category": "Headgear",
+        "score": 16.4,
+        "price": 1900,
+        "acquisition_cost": 1900,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 40,
+          "phys_def": 11,
+          "elem_def": 13
+        },
+        "effect_tags": [],
+        "availability": "Store [Cape Cold (*)]"
+      },
+      {
+        "item": "Festival Garland",
+        "category": "Headgear",
+        "score": 15.85,
+        "price": 1600,
+        "acquisition_cost": 1600,
+        "is_current_item": false,
+        "stat_delta": {
+          "sp": 15,
+          "phys_def": 8,
+          "elem_def": 14
+        },
+        "effect_tags": [],
+        "availability": "Store [Cropdale]"
+      },
+      {
+        "item": "Headgear",
+        "category": "Headgear",
+        "score": 15.38,
+        "price": 2100,
+        "acquisition_cost": 2100,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 11,
+          "elem_def": 15,
+          "evasion": 9
+        },
+        "effect_tags": [],
+        "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+      },
+      {
+        "item": "Cloth Hood",
+        "category": "Headgear",
+        "score": 0.0,
+        "price": 200,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "NPC<Item> [Carpenter in Oresrush] (Partitio ch.1 exclusive)\nStore [Prison: Underground Passage] (Osvald ch.1 exclusive)"
+      }
+    ],
+    "body_armor": [
+      {
+        "item": "Fur Robe",
+        "category": "Body Armor",
+        "score": 24.95,
+        "price": 3500,
+        "acquisition_cost": 3500,
+        "is_current_item": false,
+        "stat_delta": {
+          "elem_atk": 9,
+          "phys_def": 9,
+          "elem_def": 20
+        },
+        "effect_tags": [],
+        "availability": "Store [Cape Cold (*)]"
+      },
+      {
+        "item": "Beastling Battle Armor",
+        "category": "Body Armor",
+        "score": 20.35,
+        "price": null,
+        "acquisition_cost": 1000000000000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 18,
+          "elem_def": 19,
+          "critical": 11
+        },
+        "effect_tags": [],
+        "availability": "Store [Beasting Village (Jerky)]"
+      },
+      {
+        "item": "Sailor's Vest",
+        "category": "Body Armor",
+        "score": 19.35,
+        "price": 3900,
+        "acquisition_cost": 3900,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 17,
+          "elem_def": 16,
+          "evasion": 10
+        },
+        "effect_tags": [],
+        "availability": "Store [Canalbrine], [Tropu'hopu], [Conning Creek]"
+      },
+      {
+        "item": "Pilgrim's Robe",
+        "category": "Body Armor",
+        "score": 18.6,
+        "price": 3100,
+        "acquisition_cost": 3100,
+        "is_current_item": false,
+        "stat_delta": {
+          "sp": 15,
+          "phys_def": 8,
+          "elem_def": 19
+        },
+        "effect_tags": [],
+        "availability": "Store [Flamechurch]"
+      },
+      {
+        "item": "Traveler's Mantle",
+        "category": "Body Armor",
+        "score": 15.9,
+        "price": 3100,
+        "acquisition_cost": 3100,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 5,
+          "elem_def": 22,
+          "speed": 7
+        },
+        "effect_tags": [],
+        "availability": "Store [New Delsta], [Beasting Village], [Canalbrine], [Cropdale], [Oresrush]"
+      },
+      {
+        "item": "Fur Armor",
+        "category": "Body Armor",
+        "score": 0.0,
+        "price": 400,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Cape Cold], [New Delsta], [Canalbrine], [Ryu], [Oresrush]"
+      }
+    ]
+  },
+  "accessory_review": {
+    "generic_good": [
+      {
+        "name": "Critical Earring",
+        "tags": [
+          "damage"
+        ],
+        "effect": null,
+        "availability": "Store [Canalbrine]",
+        "stats": {
+          "critical": 10
+        }
+      },
+      {
+        "name": "Empowering Earring",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Beasting Village]",
+        "stats": {
+          "hp": 50
+        }
+      },
+      {
+        "name": "Empowering Ring",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Cropdale (*)], [Black Market], [Sai]",
+        "stats": {
+          "hp": 200
+        }
+      },
+      {
+        "name": "Enlightening Earring",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Cape Cold]",
+        "stats": {
+          "evasion": 10
+        }
+      },
+      {
+        "name": "Sprightly Earring",
+        "tags": [
+          "speed_turn_order"
+        ],
+        "effect": null,
+        "availability": "Store [Ryu]",
+        "stats": {
+          "speed": 10
+        }
+      },
+      {
+        "name": "Stimulating Earring",
+        "tags": [
+          "sustain"
+        ],
+        "effect": null,
+        "availability": "Store [Oresrush]",
+        "stats": {
+          "sp": 10
+        }
+      },
+      {
+        "name": "Stimulating Ring",
+        "tags": [
+          "sustain"
+        ],
+        "effect": null,
+        "availability": "Store [Cropdale (*)], [Montwise]",
+        "stats": {
+          "sp": 30
+        }
+      },
+      {
+        "name": "Traveler's Charm",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Beasting Village], [Canalbrine]",
+        "stats": {
+          "hp": 30
+        }
+      },
+      {
+        "name": "Unerring Earring",
+        "tags": [
+          "speed_turn_order"
+        ],
+        "effect": null,
+        "availability": "Store [New Delsta]",
+        "stats": {
+          "accuracy": 10
+        }
+      }
+    ]
+  },
+  "survivability_notes": [
+    "phys_def target 150, final 134: -16.0",
+    "elem_def target 170, final 177: +0.7"
+  ],
+  "excluded_examples": [
+    "Spiritlord's Staff (weapon: Quest [In Search of the Divine Weapons] (Rusty Staff in Chest in Seat of the Water Sprite))",
+    "Battle-Tested Staff (weapon: NPC<Item> [Roque in Oresrush] (Partitio's story completed)\nNPC<Drop 2%> [Cleric (10*) in Canalbrine])",
+    "Lost Tribe's Staff (weapon: Chest [Infernal Castle])",
+    "Forbidden Staff (weapon: NPC<Item> [Young Man in Crackridge])",
+    "Sunshadow Staff (weapon: NPC<Hidden Item> [Boy in Western Gravell Wilds])",
+    "Staff of Carnage (weapon: Quest [The Treasures of Ku] (Hikari's story completed))",
+    "Diamond Rod (weapon: Store [Gravell (*)])",
+    "Great Sage's Staff (weapon: Chest [The Lost Isle])",
+    "Bellowing Baton (weapon: NPC<Item> [La'mani in New Delsta: Theater] (Agnea's story completed))",
+    "Sacred Flame Staff (weapon: Store [Stormhail (*)])",
+    "Rough-Hewn Rod (weapon: Store [Gravell])",
+    "Abyssal Rod (weapon: Chest [Duskruin Shrine: Depths])",
+    "Hallowed Rod (weapon: Chest [Rifted Rock] (Temenos chapter 4))",
+    "Ancient Staff (weapon: Store [Nameless Village])",
+    "Yggdrasil Staff (weapon: Store [Wellgrove: Department Store])",
+    "Psychic Staff (weapon: Quest [Cathedral Window Repair])",
+    "Wisdom Wand (weapon: Store [Montwise (*)])",
+    "Chef's Ladle (weapon: Quest [A Devilishily Delicious Dish])",
+    "Quartz Rod (weapon: Store [Stormhail])",
+    "Fortune Wand (weapon: Store [Tropu'hopu (*)], [Wellgrove: Department Store])"
+  ],
+  "damage_simulation": {
+    "enemy_elem_def": 100,
+    "level": 18,
+    "level_mult": 0.715,
+    "current_elem_atk": 156,
+    "recommended_elem_atk": 250,
+    "scenarios": [
+      {
+        "label": "Fireball (basic)",
+        "skill": "Fireball",
+        "bp": 0,
+        "intensity": 0,
+        "current": {
+          "skill_name": "Fireball",
+          "display_name": "Fireball",
+          "bp": 0,
+          "intensity": 0,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 116.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "1",
+          "per_hit_nominal": 83,
+          "total_nominal": 83,
+          "total_min": 81,
+          "total_max": 85,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Fireball",
+          "display_name": "Fireball",
+          "bp": 0,
+          "intensity": 0,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 210.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "1",
+          "per_hit_nominal": 150,
+          "total_nominal": 150,
+          "total_min": 147,
+          "total_max": 153,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 67,
+        "delta_pct": 80.7
+      },
+      {
+        "label": "Fireball (BP+3)",
+        "skill": "Fireball",
+        "bp": 3,
+        "intensity": 0,
+        "current": {
+          "skill_name": "Fireball",
+          "display_name": "Fireball",
+          "bp": 3,
+          "intensity": 0,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 116.0,
+          "skill_ratio": 2.0,
+          "level_mult": 0.715,
+          "hits": "1",
+          "per_hit_nominal": 166,
+          "total_nominal": 166,
+          "total_min": 163,
+          "total_max": 169,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Fireball",
+          "display_name": "Fireball",
+          "bp": 3,
+          "intensity": 0,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 210.0,
+          "skill_ratio": 2.0,
+          "level_mult": 0.715,
+          "hits": "1",
+          "per_hit_nominal": 300,
+          "total_nominal": 300,
+          "total_min": 294,
+          "total_max": 306,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 134,
+        "delta_pct": 80.7
+      },
+      {
+        "label": "Fire Storm (1-int)",
+        "skill": "Fireball",
+        "bp": 0,
+        "intensity": 1,
+        "current": {
+          "skill_name": "Fireball",
+          "display_name": "Fire Storm",
+          "bp": 0,
+          "intensity": 1,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 116.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "2",
+          "per_hit_nominal": 83,
+          "total_nominal": 166,
+          "total_min": 163,
+          "total_max": 169,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Fireball",
+          "display_name": "Fire Storm",
+          "bp": 0,
+          "intensity": 1,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 210.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "2",
+          "per_hit_nominal": 150,
+          "total_nominal": 300,
+          "total_min": 294,
+          "total_max": 306,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 134,
+        "delta_pct": 80.7
+      },
+      {
+        "label": "Ignis Ardere (2-int)",
+        "skill": "Fireball",
+        "bp": 0,
+        "intensity": 2,
+        "current": {
+          "skill_name": "Fireball",
+          "display_name": "Ignis Ardere",
+          "bp": 0,
+          "intensity": 2,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 116.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "3",
+          "per_hit_nominal": 83,
+          "total_nominal": 249,
+          "total_min": 244,
+          "total_max": 254,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Fireball",
+          "display_name": "Ignis Ardere",
+          "bp": 0,
+          "intensity": 2,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 210.0,
+          "skill_ratio": 1.0,
+          "level_mult": 0.715,
+          "hits": "3",
+          "per_hit_nominal": 150,
+          "total_nominal": 450,
+          "total_min": 441,
+          "total_max": 459,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 201,
+        "delta_pct": 80.7
+      },
+      {
+        "label": "Ignis Ardere (BP+3, 2-int)",
+        "skill": "Fireball",
+        "bp": 3,
+        "intensity": 2,
+        "current": {
+          "skill_name": "Fireball",
+          "display_name": "Ignis Ardere",
+          "bp": 3,
+          "intensity": 2,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 116.0,
+          "skill_ratio": 2.0,
+          "level_mult": 0.715,
+          "hits": "3",
+          "per_hit_nominal": 166,
+          "total_nominal": 498,
+          "total_min": 488,
+          "total_max": 508,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Fireball",
+          "display_name": "Ignis Ardere",
+          "bp": 3,
+          "intensity": 2,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 210.0,
+          "skill_ratio": 2.0,
+          "level_mult": 0.715,
+          "hits": "3",
+          "per_hit_nominal": 300,
+          "total_nominal": 901,
+          "total_min": 883,
+          "total_max": 919,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 403,
+        "delta_pct": 80.9
+      },
+      {
+        "label": "Elem. Barrage (basic, 3-5 hits)",
+        "skill": "Elemental Barrage",
+        "bp": 0,
+        "intensity": 0,
+        "current": {
+          "skill_name": "Elemental Barrage",
+          "display_name": "Elemental Barrage",
+          "bp": 0,
+          "intensity": 0,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 106.0,
+          "skill_ratio": 0.75,
+          "level_mult": 0.715,
+          "hits": "3\u20135",
+          "per_hit_nominal": 57,
+          "total_nominal": 227,
+          "total_min": 167,
+          "total_max": 290,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Elemental Barrage",
+          "display_name": "Elemental Barrage",
+          "bp": 0,
+          "intensity": 0,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 200.0,
+          "skill_ratio": 0.75,
+          "level_mult": 0.715,
+          "hits": "3\u20135",
+          "per_hit_nominal": 107,
+          "total_nominal": 429,
+          "total_min": 315,
+          "total_max": 547,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 202,
+        "delta_pct": 89.0
+      },
+      {
+        "label": "Elem. Barrage (BP+3, 6-8 hits)",
+        "skill": "Elemental Barrage",
+        "bp": 3,
+        "intensity": 0,
+        "current": {
+          "skill_name": "Elemental Barrage",
+          "display_name": "Elemental Barrage",
+          "bp": 3,
+          "intensity": 0,
+          "elem_atk": 156,
+          "enemy_elem_def": 100,
+          "base_damage": 106.0,
+          "skill_ratio": 0.75,
+          "level_mult": 0.715,
+          "hits": "6\u20138",
+          "per_hit_nominal": 57,
+          "total_nominal": 398,
+          "total_min": 334,
+          "total_max": 464,
+          "confidence": "MEDIUM"
+        },
+        "recommended": {
+          "skill_name": "Elemental Barrage",
+          "display_name": "Elemental Barrage",
+          "bp": 3,
+          "intensity": 0,
+          "elem_atk": 250,
+          "enemy_elem_def": 100,
+          "base_damage": 200.0,
+          "skill_ratio": 0.75,
+          "level_mult": 0.715,
+          "hits": "6\u20138",
+          "per_hit_nominal": 107,
+          "total_nominal": 751,
+          "total_min": 631,
+          "total_max": 875,
+          "confidence": "MEDIUM"
+        },
+        "delta_nominal": 353,
+        "delta_pct": 88.7
+      }
+    ],
+    "confidence_note": "\u2139 Skill_Ratio and Def_Mod values are MEDIUM confidence (community datamine; may differ \u2248\u00b110%)."
+  }
+}

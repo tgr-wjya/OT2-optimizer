@@ -1,0 +1,562 @@
+{
+  "character": "Hikari",
+  "level": 20,
+  "class": "Warrior",
+  "selected_locations": [
+    "New Delsta",
+    "Oresrush",
+    "Ryu",
+    "Sai",
+    "Wellgrove",
+    "Timberain"
+  ],
+  "total_cost": 19800,
+  "budget": 20000,
+  "base_stats": {
+    "hp": 1697,
+    "sp": 64,
+    "phys_atk": 148,
+    "elem_atk": 111,
+    "phys_def": 136,
+    "elem_def": 99,
+    "accuracy": 136,
+    "speed": 124,
+    "critical": 124,
+    "evasion": 99
+  },
+  "current_stats": {
+    "hp": 1697,
+    "sp": 64,
+    "phys_atk": 207,
+    "elem_atk": 111,
+    "phys_def": 187,
+    "elem_def": 138,
+    "speed": 137,
+    "accuracy": 136,
+    "evasion": 108,
+    "critical": 124
+  },
+  "recommended_stats": {
+    "hp": 1847,
+    "sp": 64,
+    "phys_atk": 207,
+    "elem_atk": 111,
+    "phys_def": 280,
+    "elem_def": 233,
+    "speed": 137,
+    "accuracy": 136,
+    "evasion": 53,
+    "critical": 124
+  },
+  "recommendations": {
+    "weapon": {
+      "item": "Silver Sword",
+      "category": "Swords",
+      "score": 0.0,
+      "price": 9000,
+      "acquisition_cost": 0,
+      "is_current_item": true,
+      "stat_delta": {},
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Oresrush]",
+      "reasons": []
+    },
+    "shield": {
+      "item": "Heavy Greatshield",
+      "category": "Shields",
+      "score": 45.55,
+      "price": 11500,
+      "acquisition_cost": 11500,
+      "is_current_item": false,
+      "stat_delta": {
+        "phys_def": 56,
+        "elem_def": 58,
+        "evasion": -55
+      },
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Wellgrove: Department Store], [Stormhail]",
+      "reasons": [
+        "phys_def +56 x 0.5 (floor) = +28.0",
+        "elem_def +58 x 0.35 (floor) = +20.3",
+        "evasion -55 x 0.05 (priority) = -2.8"
+      ]
+    },
+    "headgear": {
+      "item": "Fighter's Headband",
+      "category": "Headgear",
+      "score": 46.45,
+      "price": 8300,
+      "acquisition_cost": 8300,
+      "is_current_item": false,
+      "stat_delta": {
+        "hp": 150,
+        "phys_def": 37,
+        "elem_def": 37
+      },
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Sai]",
+      "reasons": [
+        "hp +150 x 0.1 (priority) = +15.0",
+        "phys_def +37 x 0.5 (floor) = +18.5",
+        "elem_def +37 x 0.35 (floor) = +12.9"
+      ]
+    },
+    "body_armor": {
+      "item": "Copper Breastplate",
+      "category": "Body Armor",
+      "score": 0.0,
+      "price": 3100,
+      "acquisition_cost": 0,
+      "is_current_item": true,
+      "stat_delta": {},
+      "effect_points": {},
+      "effect_tags": [],
+      "availability": "Store [Ryu]",
+      "reasons": []
+    }
+  },
+  "top_candidates": {
+    "weapon": [
+      {
+        "item": "Giant's Blade",
+        "category": "Swords",
+        "score": 255.55,
+        "price": 56000,
+        "acquisition_cost": 56000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 264,
+          "speed": -13,
+          "accuracy": -65
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      {
+        "item": "Monster Bone Spear",
+        "category": "Polearms",
+        "score": 247.55,
+        "price": 55000,
+        "acquisition_cost": 55000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 256,
+          "speed": -13,
+          "accuracy": -65
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      {
+        "item": "Great Blade",
+        "category": "Swords",
+        "score": 138.05,
+        "price": 36000,
+        "acquisition_cost": 36000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 146,
+          "speed": -13,
+          "accuracy": -60
+        },
+        "effect_tags": [],
+        "availability": "Store [Sai (*)]"
+      },
+      {
+        "item": "Stonesplitter",
+        "category": "Swords",
+        "score": 128.65,
+        "price": 32000,
+        "acquisition_cost": 32000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 125,
+          "speed": -13,
+          "critical": 56
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store] (Partitio's Ch.3 completed)"
+      },
+      {
+        "item": "Lightning Glaive",
+        "category": "Polearms",
+        "score": 123.85,
+        "price": 35000,
+        "acquisition_cost": 35000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_atk": 123,
+          "speed": -13,
+          "evasion": 56
+        },
+        "effect_tags": [],
+        "availability": "Store [Sai (*)], [Wellgrove: Department Store]"
+      },
+      {
+        "item": "Silver Sword",
+        "category": "Swords",
+        "score": 0.0,
+        "price": 9000,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Oresrush]"
+      }
+    ],
+    "shield": [
+      {
+        "item": "Platinum Shield",
+        "category": "Shields",
+        "score": 74.75,
+        "price": 16000,
+        "acquisition_cost": 16000,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 400,
+          "phys_def": 45,
+          "elem_def": 35
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      {
+        "item": "Aegis Shield",
+        "category": "Shields",
+        "score": 57.05,
+        "price": 18000,
+        "acquisition_cost": 18000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 84,
+          "elem_def": 43
+        },
+        "effect_tags": [],
+        "availability": "Store [Stormhail], [Nameless Village], [Timberain]"
+      },
+      {
+        "item": "Heavy Greatshield",
+        "category": "Shields",
+        "score": 45.55,
+        "price": 11500,
+        "acquisition_cost": 11500,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 56,
+          "elem_def": 58,
+          "evasion": -55
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store], [Stormhail]"
+      },
+      {
+        "item": "Spiked Shield",
+        "category": "Shields",
+        "score": 18.6,
+        "price": 6500,
+        "acquisition_cost": 6500,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 24,
+          "elem_def": 14,
+          "critical": 17
+        },
+        "effect_tags": [],
+        "availability": "Store [Clockbank], [Sai]"
+      },
+      {
+        "item": "Plate Buckler",
+        "category": "Shields",
+        "score": 18.4,
+        "price": 7200,
+        "acquisition_cost": 7200,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 23,
+          "elem_def": 17,
+          "evasion": 19
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove], [Wellgrove: Department Store], [Crackridge]"
+      },
+      {
+        "item": "Kite Shield",
+        "category": "Shields",
+        "score": 0.0,
+        "price": 2300,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Ryu]"
+      }
+    ],
+    "headgear": [
+      {
+        "item": "Platinum Helm",
+        "category": "Headgear",
+        "score": 63.75,
+        "price": 12000,
+        "acquisition_cost": 12000,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 300,
+          "phys_def": 43,
+          "elem_def": 35
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store (*)]"
+      },
+      {
+        "item": "Royal Guard's Helm",
+        "category": "Headgear",
+        "score": 60.2,
+        "price": 15500,
+        "acquisition_cost": 15500,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 64,
+          "elem_def": 64,
+          "critical": 58
+        },
+        "effect_tags": [],
+        "availability": "Store [Timberain (*)]"
+      },
+      {
+        "item": "Imperial Helm",
+        "category": "Headgear",
+        "score": 56.15,
+        "price": 13000,
+        "acquisition_cost": 13000,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 71,
+          "elem_def": 59
+        },
+        "effect_tags": [],
+        "availability": "Store [Timberain]"
+      },
+      {
+        "item": "Fighter's Headband",
+        "category": "Headgear",
+        "score": 46.45,
+        "price": 8300,
+        "acquisition_cost": 8300,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 150,
+          "phys_def": 37,
+          "elem_def": 37
+        },
+        "effect_tags": [],
+        "availability": "Store [Sai]"
+      },
+      {
+        "item": "Horned Helm",
+        "category": "Headgear",
+        "score": 34.25,
+        "price": 5000,
+        "acquisition_cost": 5000,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 100,
+          "phys_def": 31,
+          "elem_def": 25
+        },
+        "effect_tags": [],
+        "availability": "Store [Black Market], [Winterbloom], [Wellgrove], [Wellgrove: Department Store]"
+      }
+    ],
+    "body_armor": [
+      {
+        "item": "Royal Guard's Mail",
+        "category": "Body Armor",
+        "score": 187.7,
+        "price": 26500,
+        "acquisition_cost": 26500,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 750,
+          "phys_def": 129,
+          "elem_def": 139,
+          "evasion": -9
+        },
+        "effect_tags": [],
+        "availability": "Store [Timberain (*)]"
+      },
+      {
+        "item": "Imperial Armor",
+        "category": "Body Armor",
+        "score": 163.9,
+        "price": 24000,
+        "acquisition_cost": 24000,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 600,
+          "phys_def": 131,
+          "elem_def": 111,
+          "evasion": -9
+        },
+        "effect_tags": [],
+        "availability": "Store [Timberain]"
+      },
+      {
+        "item": "Platinum Mail",
+        "category": "Body Armor",
+        "score": 102.35,
+        "price": 22000,
+        "acquisition_cost": 22000,
+        "is_current_item": false,
+        "stat_delta": {
+          "hp": 400,
+          "phys_def": 78,
+          "elem_def": 68,
+          "evasion": -9
+        },
+        "effect_tags": [],
+        "availability": "Store [Wellgrove: Department Store]"
+      },
+      {
+        "item": "Acrobat's Mantle",
+        "category": "Body Armor",
+        "score": 57.2,
+        "price": 15200,
+        "acquisition_cost": 15200,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 34,
+          "elem_def": 99,
+          "speed": 40,
+          "evasion": -9
+        },
+        "effect_tags": [],
+        "availability": "Store [Winterbloom (*)], [Wellgrove: Department Store]"
+      },
+      {
+        "item": "Dojo Hakama",
+        "category": "Body Armor",
+        "score": 28.0,
+        "price": 8700,
+        "acquisition_cost": 8700,
+        "is_current_item": false,
+        "stat_delta": {
+          "phys_def": 28,
+          "elem_def": 38,
+          "evasion": 14
+        },
+        "effect_tags": [],
+        "availability": "Store [Sai]"
+      },
+      {
+        "item": "Copper Breastplate",
+        "category": "Body Armor",
+        "score": 0.0,
+        "price": 3100,
+        "acquisition_cost": 0,
+        "is_current_item": true,
+        "stat_delta": {},
+        "effect_tags": [],
+        "availability": "Store [Ryu]"
+      }
+    ]
+  },
+  "accessory_review": {
+    "generic_good": [
+      {
+        "name": "Empowering Bracelet",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Wellgrove: Department Store], [Timberain]",
+        "stats": {
+          "hp": 500
+        }
+      },
+      {
+        "name": "Empowering Ring",
+        "tags": [
+          "survival"
+        ],
+        "effect": null,
+        "availability": "Store [Cropdale (*)], [Black Market], [Sai]",
+        "stats": {
+          "hp": 200
+        }
+      },
+      {
+        "name": "Sprightly Earring",
+        "tags": [
+          "speed_turn_order"
+        ],
+        "effect": null,
+        "availability": "Store [Ryu]",
+        "stats": {
+          "speed": 10
+        }
+      },
+      {
+        "name": "Stimulating Earring",
+        "tags": [
+          "sustain"
+        ],
+        "effect": null,
+        "availability": "Store [Oresrush]",
+        "stats": {
+          "sp": 10
+        }
+      },
+      {
+        "name": "Unerring Bracelet",
+        "tags": [
+          "speed_turn_order"
+        ],
+        "effect": null,
+        "availability": "Store [Wellgrove: Department Store], [Stormhail]",
+        "stats": {
+          "accuracy": 50
+        }
+      },
+      {
+        "name": "Unerring Earring",
+        "tags": [
+          "speed_turn_order"
+        ],
+        "effect": null,
+        "availability": "Store [New Delsta]",
+        "stats": {
+          "accuracy": 10
+        }
+      }
+    ]
+  },
+  "survivability_notes": [
+    "phys_def target 180, final 280: +2.5",
+    "elem_def target 120, final 233: +2.0"
+  ],
+  "excluded_examples": [
+    "Conqueror's Sword (weapon: Quest [In Search of the Divine Weapons] (Rusty Sword from sidequest The Sword in the Stone))",
+    "Serpent Slayer (weapon: Chest [Infernal Castle])",
+    "Battle-Tested Blade (weapon: NPC<Item> [Bandelam the Reaper in Crackridge Harbor] (Hikari's story completed)\nNPC<Drop 2%> [Young Man (10*) in Tropu'hopu])",
+    "Lost Tribe's Blade (weapon: Mini-Boss<Drop> [Battle-Worn Shark in On the Water])",
+    "Eclipse Edge (weapon: Boss<Drop> [Captain Kaldena in Rifted Rock] (Temenos chapter 4))",
+    "Sword of Oaths (weapon: Quest [Ort's Next Chapter] (Temenos' story completed))",
+    "Divine Splendor (weapon: NPC<Item> [Ku Officer in Castle Ku])",
+    "Expert's Obsidian Edge (weapon: NPC<Item> [Arrogant Warrior in Southern Ku Sands], [Tough Warrior in Southern Ku Sands])",
+    "Forbidden Blade (weapon: Chest [Forsaken Graveyard] (Guarded by Devourer of Dreams mini-boss))",
+    "Skypiercer (weapon: Store [Ku (*)])",
+    "Sanctum Sword (weapon: Store [Stormhail (*)])",
+    "Keepsake Sword (weapon: NPC<Item> [Young Warrior in Sai] (Sidequest: Sword Hunter in the Decaying Temple))",
+    "Hypno Sword (weapon: Chest [Southern Timberain Trail])",
+    "Evil Slayer (weapon: NPC<Item> [Gladiator in Montwise: Underground Arena])",
+    "Starsplitter (weapon: Chest [Western Gravell Wilds])",
+    "Ogre's Bane (weapon: Store [Ku])",
+    "Bastard Sword (weapon: Store [Lostseed (*)])",
+    "Guardian's Iceblade (weapon: Boss<Drop> [Glacis in Sacred Peak Altahe] (Ochette chapter 2: Glacis's Route))",
+    "Bloodsucker (weapon: NPC<Item> [Merchant in Wellgrove: Department Store])",
+    "Soulsucker (weapon: NPC<Item> [Merchant in Wellgrove: Department Store])"
+  ]
+}
